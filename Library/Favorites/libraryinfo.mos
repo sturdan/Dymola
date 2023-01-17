@@ -1,0 +1,13 @@
+LibraryInfoMenuSeparator(
+  category="libraries",
+  pos=100)
+
+LibraryInfoMenuCommand(
+  category="libraries",
+  text="Favorites",
+  reference="Favorites",
+  isModel=true,
+  description="Favorites",
+  pos=002)
+
+LibraryInfoPreload("Favorites", "Favorites");
