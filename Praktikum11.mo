@@ -7885,8 +7885,9 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={72,-26})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(n(displayUnit="1")
-           = {1,0,0}, phi(start=0)) annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(n(displayUnit="1")=
+             {1,0,0}, phi(start=3.1415926535898))
+                                    annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={50,-8})));
@@ -7906,8 +7907,8 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={48,-78})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute4(n(displayUnit="1")
-           = {1,0,0}, phi(start=4.7123889803847, fixed=false)) annotation (
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute4(n(displayUnit="1")=
+             {1,0,0}, phi(start=4.7123889803847, fixed=false)) annotation (
           Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
@@ -7917,8 +7918,8 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={-50,-62})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute6(n(displayUnit="1")
-           = {1,0,0}, phi(start=-2.3561944901923)) annotation (Placement(
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute6(n(displayUnit="1")=
+             {1,0,0}, phi(start=-2.3561944901923)) annotation (Placement(
             transformation(
             extent={{-10,-10},{10,10}},
             rotation=270,
@@ -8070,8 +8071,9 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={72,-26})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(n(displayUnit="1")
-           = {1,0,0}, phi(start=0)) annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(n(displayUnit="1")=
+             {1,0,0}, phi(start=3.1415926535898))
+                                    annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={50,-8})));
@@ -8086,13 +8088,13 @@ y_sat&nbsp;=&nbsp;1.2.
             rotation=180,
             origin={12,-8})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute1(n(displayUnit="1")=
-             {1,0,0}, phi(start=0, fixed=true))   annotation (Placement(
+             {1,0,0}, phi(start=0))               annotation (Placement(
             transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={48,-78})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute4(n(displayUnit="1")
-           = {1,0,0}, phi(start=4.7123889803847, fixed=false)) annotation (
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute4(n(displayUnit="1")=
+             {1,0,0}, phi(start=1.5707963267949))              annotation (
           Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
@@ -8102,26 +8104,28 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={-50,-62})));
-      Modelica.Mechanics.MultiBody.Joints.Revolute revolute6(n(displayUnit="1")
-           = {1,0,0}, phi(start=-2.3561944901923)) annotation (Placement(
+      Modelica.Mechanics.MultiBody.Joints.Revolute revolute6(n(displayUnit="1")=
+             {1,0,0}, phi(start=-2.3561944901923)) annotation (Placement(
             transformation(
             extent={{-10,-10},{10,10}},
             rotation=270,
             origin={-50,8})));
       Modelica.Mechanics.MultiBody.Joints.Prismatic prismatic(
         n(displayUnit="1") = {0,1,0},
-        s(start=0.494974747),
+        s(start=0.494974747, fixed=true),
         v(start=0),
         a(start=0)) annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={8,42})));
-      Modelica.Mechanics.MultiBody.Forces.Spring spring(c=1)   annotation (
+      Modelica.Mechanics.MultiBody.Forces.Spring spring(c=10000)
+                                                               annotation (
           Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={8,64})));
-      Modelica.Mechanics.MultiBody.Forces.Damper damper(d=1)   annotation (
+      Modelica.Mechanics.MultiBody.Forces.Damper damper(d=1000)
+                                                               annotation (
           Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
@@ -8267,8 +8271,8 @@ y_sat&nbsp;=&nbsp;1.2.
         points={{-40,-14},{-24,-14},{-24,-16},{-6,-16}},
         color={95,95,95},
         thickness=0.5));
-    connect(wheelSuspensionRight.frame1, world.frame_b) annotation (Line(points
-          ={{13.8,-19.8},{39.9,-19.8},{39.9,-14},{66,-14}}, color={0,0,0}));
+    connect(wheelSuspensionRight.frame1, world.frame_b) annotation (Line(points=
+           {{13.8,-19.8},{39.9,-19.8},{39.9,-14},{66,-14}}, color={0,0,0}));
     annotation (Icon(coordinateSystem(preserveAspectRatio=false)), Diagram(
           coordinateSystem(preserveAspectRatio=false)));
   end WheelSuspensionTestRight;
