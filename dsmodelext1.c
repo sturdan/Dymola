@@ -2193,10 +2193,10 @@ DeclareAlias2("driver.gain1.y", "Output signal connector", "driver.steering_angl
  5, 978, 0)
 DeclareVariable("driver.feedback1.u1", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("driver.feedback1.u2", "", "body3D.absoluteAngles.angles[3]", 1, 5,\
- 1743, 0)
+ 1746, 0)
 DeclareAlias2("driver.feedback1.y", "", "driver.gain1.u", 1, 5, 976, 0)
 DeclareAlias2("driver.driving_angle_deg", "", "body3D.absoluteAngles.angles[3]", 1,\
- 5, 1743, 0)
+ 5, 1746, 0)
 DeclareParameter("driver.deg_to_rad.k", "Gain value multiplied with input signal [1]",\
  22, 0.017444444444444446, 0.0,0.0,0.0,0,560)
 DeclareAlias2("driver.deg_to_rad.u", "Input signal connector", "driver.combiTimeTable.y[2]", 1,\
@@ -2433,7 +2433,7 @@ DeclareAlias2("driveTrain2D.HL.phi", "Absolute rotation angle of flange [rad|deg
 DeclareVariable("driveTrain2D.HL.tau", "Cut torque in the flange [N.m]", 0.0, \
 0.0,0.0,0.0,0,777)
 DeclareAlias2("driveTrain2D.HR.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2992, 4)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2995, 4)
 DeclareVariable("driveTrain2D.HR.tau", "Cut torque in the flange [N.m]", 0.0, \
 0.0,0.0,0.0,0,777)
 DeclareState("driveTrain2D.differential.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
@@ -2447,13 +2447,13 @@ DeclareAlias2("driveTrain2D.differential.flange_a.tau", "Cut torque in the flang
 DeclareAlias2("driveTrain2D.differential.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D.revolute.phi", 1, 1, 4, 4)
 DeclareAlias2("driveTrain2D.differential.flange_b.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.w", 1, 5, 2698, 4)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.w", 1, 5, 2701, 4)
 DeclareAlias2("driveTrain2D.differential.flange_b.tau", "Cut torque in the flange [N.m]",\
  "driveTrain2D.VR.tau", 1, 5, 1022, 132)
 DeclareAlias2("driveTrain2D.differential.flange_b1.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D3.revolute.phi", 1, 1, 6, 4)
 DeclareAlias2("driveTrain2D.differential.flange_b1.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.w", 1, 5, 3641, 4)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.w", 1, 5, 3644, 4)
 DeclareAlias2("driveTrain2D.differential.flange_b1.tau", "Cut torque in the flange [N.m]",\
  "driveTrain2D.VR.tau", 1, 5, 1022, 132)
 DeclareState("driveTrain2D.differential1.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
@@ -2463,21 +2463,21 @@ DeclareDerivative("driveTrain2D.differential1.flange_a.der(phi)", \
 DeclareVariable("driveTrain2D.differential1.flange_a.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("driveTrain2D.differential1.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2992, 4)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2995, 4)
 DeclareAlias2("driveTrain2D.differential1.flange_b.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.w", 1, 5, 2993, 4)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.w", 1, 5, 2996, 4)
 DeclareVariable("driveTrain2D.differential1.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("driveTrain2D.differential1.flange_b1.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D1.revolute.phi", 1, 1, 5, 4)
 DeclareAlias2("driveTrain2D.differential1.flange_b1.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.w", 1, 5, 2834, 4)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.w", 1, 5, 2837, 4)
 DeclareVariable("driveTrain2D.differential1.flange_b1.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("torque.useSupport", "= true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("torque.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 4)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 4)
 DeclareAlias2("torque.flange.tau", "Cut torque in the flange [N.m]", \
 "driver.steering_angle", -1, 5, 978, 132)
 DeclareVariable("torque.phi_support", "Absolute angle of support flange [rad|deg]",\
@@ -2493,18 +2493,18 @@ DeclareParameter("steeringLimiter.maxAngle", "[rad|deg]", 40, 0.785, 0.0,0.0,0.0
 DeclareVariable("steeringLimiter.spring_tau", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("steeringLimiter.damper_tau", "", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("steeringLimiter.flange_a.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 4)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 4)
 DeclareAlias2("steeringLimiter.flange_a.der(phi)", "der(Absolute rotation angle of flange) [rad/s]",\
- "chassis3D.revolute2.w", 1, 5, 2463, 4)
+ "chassis3D.revolute2.w", 1, 5, 2466, 4)
 DeclareAlias2("steeringLimiter.flange_a.tau", "Cut torque in the flange [N.m]", \
 "driver.steering_angle", 1, 5, 978, 132)
 DeclareAlias2("steeringLimiter.flange_b.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 4)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 4)
 DeclareVariable("steeringLimiter.flange_b.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareParameter("body3D.wheelRadius", "[m]", 41, 0.31, 0.0,0.0,0.0,0,560)
 DeclareAlias2("body3D.speed", "", "driver.car_speed", 1, 5, 952, 0)
-DeclareAlias2("body3D.angle_Deg", "", "body3D.absoluteAngles.angles[3]", 1, 5, 1743,\
+DeclareAlias2("body3D.angle_Deg", "", "body3D.absoluteAngles.angles[3]", 1, 5, 1746,\
  0)
 DeclareVariable("body3D.quadraticSpeedDependentForce.resolveInFrame", \
 "[:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]", 1, 1.0,3.0,0.0,\
@@ -2533,40 +2533,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.r_0[
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.f[2]",\
@@ -2581,13 +2581,13 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.frame_a.t[
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.v[1]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"body3D.body1.v_0[1]", 1, 5, 1381, 0)
+"body3D.body1.v_0[1]", 1, 5, 1384, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.v[2]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"body3D.body1.v_0[2]", 1, 5, 1382, 0)
+"body3D.body1.v_0[2]", 1, 5, 1385, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.v[3]", \
 "Absolute velocity vector resolved in frame defined by resolveInFrame [m/s]", \
-"body3D.body1.v_0[3]", 1, 5, 1383, 0)
+"body3D.body1.v_0[3]", 1, 5, 1386, 0)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.resolveInFrame",\
  "Frame in which output vector v shall be resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,517)
@@ -2602,40 +2602,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.fra
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1028)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.frame_a.f[2]",\
@@ -2711,21 +2711,21 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.position.r
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[1].u", \
 "Connector of Real input signal", "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[1].der(u)",\
- "der(Connector of Real input signal)", "body3D.body1.v_0[1]", 1, 5, 1381, 1024)
+ "der(Connector of Real input signal)", "body3D.body1.v_0[1]", 1, 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[1].y", \
-"Connector of Real output signal", "body3D.body1.v_0[1]", 1, 5, 1381, 1024)
+"Connector of Real output signal", "body3D.body1.v_0[1]", 1, 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[2].u", \
 "Connector of Real input signal", "body3D.body1.frame_a.r_0[2]", 1, 5, 1363, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[2].der(u)",\
- "der(Connector of Real input signal)", "body3D.body1.v_0[2]", 1, 5, 1382, 1024)
+ "der(Connector of Real input signal)", "body3D.body1.v_0[2]", 1, 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[2].y", \
-"Connector of Real output signal", "body3D.body1.v_0[2]", 1, 5, 1382, 1024)
+"Connector of Real output signal", "body3D.body1.v_0[2]", 1, 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[3].u", \
 "Connector of Real input signal", "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[3].der(u)",\
- "der(Connector of Real input signal)", "body3D.body1.v_0[3]", 1, 5, 1383, 1024)
+ "der(Connector of Real input signal)", "body3D.body1.v_0[3]", 1, 5, 1386, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.der1[3].y", \
-"Connector of Real output signal", "body3D.body1.v_0[3]", 1, 5, 1383, 1024)
+"Connector of Real output signal", "body3D.body1.v_0[3]", 1, 5, 1386, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1028)
@@ -2737,40 +2737,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbso
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1028)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_a.f[2]",\
@@ -2785,22 +2785,22 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAb
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_in[1]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[1]", 1,\
- 5, 1381, 1024)
+ 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_in[2]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[2]", 1,\
- 5, 1382, 1024)
+ 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_in[3]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[3]", 1,\
- 5, 1383, 1024)
+ 5, 1386, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_out[1]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[1]", 1,\
- 5, 1381, 1024)
+ 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[2]", 1,\
- 5, 1382, 1024)
+ 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[3]", 1,\
- 5, 1383, 1024)
+ 5, 1386, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.frame_r_in",\
  "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -2824,40 +2824,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbso
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1028)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.frame_a.f[2]",\
@@ -2920,22 +2920,22 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAb
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[1]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[1]", 1,\
- 5, 1381, 1024)
+ 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[2]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[2]", 1,\
- 5, 1382, 1024)
+ 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_in[3]",\
  "Input vector resolved in frame defined by frame_r_in", "body3D.body1.v_0[3]", 1,\
- 5, 1383, 1024)
+ 5, 1386, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[1]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[1]", 1,\
- 5, 1381, 1024)
+ 5, 1384, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[2]", 1,\
- 5, 1382, 1024)
+ 5, 1385, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.body1.v_0[3]", 1,\
- 5, 1383, 1024)
+ 5, 1386, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("body3D.quadraticSpeedDependentForce.absoluteVelocity.tansformAbsoluteVector.basicTransformVector.R1.T[1, 2]",\
@@ -3118,40 +3118,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.r_0[3]", \
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "body3D.quadraticSpeedDependentForce.frame.f[1]", 1,\
  5, 1325, 132)
@@ -3202,40 +3202,40 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.force1.f_in_m[3]", \
 "Force mapped from N to m for animation [m]", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.r[1]", \
 "Position vector from origin of world frame to origin of arrow frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
@@ -3301,40 +3301,40 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLength", 
 "[m]", 0.0, 0.0,0.0,0.0,0,1536)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.r[1]",\
  "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
@@ -3452,40 +3452,40 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.force1.arrow.arrowLine.Extr
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.quadraticSpeedDependentForce.force1.arrow.arrowHead.r[1]",\
  "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,2560)
@@ -3611,40 +3611,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.force1.basicWorldForce.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", "body3D.quadraticSpeedDependentForce.frame.f[1]", 1,\
  5, 1325, 132)
@@ -3779,40 +3779,40 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.r_0[3]", \
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.frame.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("body3D.quadraticSpeedDependentForce.frame.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("body3D.quadraticSpeedDependentForce.frame.f[2]", \
@@ -3848,11 +3848,11 @@ DeclareVariable("body3D.quadraticSpeedDependentForce.normalizeSpeeds.nin", \
 DeclareVariable("body3D.quadraticSpeedDependentForce.normalizeSpeeds.nout", \
 "Number of outputs [:#(type=Integer)]", 3, 0.0,0.0,0.0,0,517)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.normalizeSpeeds.u[1]", \
-"Connector of Real input signals", "body3D.body1.v_0[1]", 1, 5, 1381, 0)
+"Connector of Real input signals", "body3D.body1.v_0[1]", 1, 5, 1384, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.normalizeSpeeds.u[2]", \
-"Connector of Real input signals", "body3D.body1.v_0[2]", 1, 5, 1382, 0)
+"Connector of Real input signals", "body3D.body1.v_0[2]", 1, 5, 1385, 0)
 DeclareAlias2("body3D.quadraticSpeedDependentForce.normalizeSpeeds.u[3]", \
-"Connector of Real input signals", "body3D.body1.v_0[3]", 1, 5, 1383, 0)
+"Connector of Real input signals", "body3D.body1.v_0[3]", 1, 5, 1386, 0)
 DeclareVariable("body3D.quadraticSpeedDependentForce.normalizeSpeeds.y[1]", \
 "Connector of Real output signals", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("body3D.quadraticSpeedDependentForce.normalizeSpeeds.y[2]", \
@@ -3921,17 +3921,17 @@ DeclareAlias2("body3D.quadraticSpeedDependentForce.squaretimesSign.y[3]", \
 "Connector of Real output signals", "body3D.quadraticSpeedDependentForce.scaleForces.u[3]", 1,\
  5, 1358, 0)
 DeclareVariable("body3D.body1.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,584)
+ 0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("body3D.body1.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.0, 0.0,0.0,0.0,0,584)
+ 0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("body3D.body1.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- 0.7, 0.0,0.0,0.0,0,584)
+ 0.3, 0.0,0.0,0.0,0,520)
 DeclareAlias2("body3D.body1.frame_a.der(r_0[1])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "body3D.body1.v_0[1]", 1, 5, 1381, 4)
+ "body3D.body1.v_0[1]", 1, 5, 1384, 4)
 DeclareAlias2("body3D.body1.frame_a.der(r_0[2])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "body3D.body1.v_0[2]", 1, 5, 1382, 4)
+ "body3D.body1.v_0[2]", 1, 5, 1385, 4)
 DeclareAlias2("body3D.body1.frame_a.der(r_0[3])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "body3D.body1.v_0[3]", 1, 5, 1383, 4)
+ "body3D.body1.v_0[3]", 1, 5, 1386, 4)
 DeclareVariable("body3D.body1.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("body3D.body1.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
@@ -3963,11 +3963,11 @@ DeclareVariable("body3D.body1.frame_a.f[2]", "Cut-force resolved in connector fr
 DeclareVariable("body3D.body1.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("body3D.body1.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[1]", 1, 5, 1556, 132)
+ "body3D.frame.t[1]", 1, 5, 1559, 132)
 DeclareAlias2("body3D.body1.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[2]", 1, 5, 1557, 132)
+ "body3D.frame.t[2]", 1, 5, 1560, 132)
 DeclareAlias2("body3D.body1.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[3]", 1, 5, 1558, 132)
+ "body3D.frame.t[3]", 1, 5, 1561, 132)
 DeclareVariable("body3D.body1.animation", "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareParameter("body3D.body1.r_CM[1]", "Vector from frame_a to center of mass, resolved in frame_a [m]",\
@@ -3990,24 +3990,24 @@ DeclareParameter("body3D.body1.I_31", "(3,1) element of inertia tensor [kg.m2]",
  54, 0, -1E+60,1E+100,0.0,0,560)
 DeclareParameter("body3D.body1.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  55, 0, -1E+60,1E+100,0.0,0,560)
-DeclareAlias2("body3D.body1.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 0)
-DeclareAlias2("body3D.body1.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "body3D.body1.frame_a.r_0[2]", 1, 5, 1363, 0)
-DeclareAlias2("body3D.body1.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 0)
+DeclareVariable("body3D.body1.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
+ 0.0, 0.0,0.0,0.0,0,528)
+DeclareVariable("body3D.body1.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
+ 0.0, 0.0,0.0,0.0,0,528)
+DeclareVariable("body3D.body1.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
+ 0.3, 0.0,0.0,0.0,0,528)
 DeclareVariable("body3D.body1.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("body3D.body1.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- 0, 0.0,0.0,0.0,0,576)
+ 0, 0.0,0.0,0.0,0,528)
 DeclareVariable("body3D.body1.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("body3D.body1.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "body3D.body1.a_0[1]", 1, 5, 1384, 0)
+ "body3D.body1.a_0[1]", 1, 5, 1387, 0)
 DeclareAlias2("body3D.body1.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "body3D.body1.a_0[2]", 1, 5, 1385, 0)
+ "body3D.body1.a_0[2]", 1, 5, 1388, 0)
 DeclareAlias2("body3D.body1.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "body3D.body1.a_0[3]", 1, 5, 1386, 0)
+ "body3D.body1.a_0[3]", 1, 5, 1389, 0)
 DeclareVariable("body3D.body1.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("body3D.body1.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -4015,7 +4015,7 @@ DeclareVariable("body3D.body1.a_0[2]", "Absolute acceleration of frame_a resolve
 DeclareVariable("body3D.body1.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("body3D.body1.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
- true, 0.0,0.0,0.0,0,515)
+ false, 0.0,0.0,0.0,0,515)
 DeclareParameter("body3D.body1.angles_start[1]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
  56, 0, 0.0,0.0,0.0,0,560)
 DeclareParameter("body3D.body1.angles_start[2]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
@@ -4136,11 +4136,11 @@ DeclareVariable("body3D.body1.der(w_a[2])", "der(Absolute angular velocity of fr
 DeclareVariable("body3D.body1.der(w_a[3])", "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("body3D.body1.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "body3D.body1.der(w_a[1])", 1, 5, 1433, 0)
+ "body3D.body1.der(w_a[1])", 1, 5, 1436, 0)
 DeclareAlias2("body3D.body1.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "body3D.body1.der(w_a[2])", 1, 5, 1434, 0)
+ "body3D.body1.der(w_a[2])", 1, 5, 1437, 0)
 DeclareAlias2("body3D.body1.z_a[3]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "body3D.body1.der(w_a[3])", 1, 5, 1435, 0)
+ "body3D.body1.der(w_a[3])", 1, 5, 1438, 0)
 DeclareVariable("body3D.body1.g_0[1]", "Gravity acceleration resolved in world frame [m/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("body3D.body1.g_0[2]", "Gravity acceleration resolved in world frame [m/s2]",\
@@ -4188,29 +4188,29 @@ DeclareVariable("body3D.body1.phi_dd[2]", "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,
 DeclareVariable("body3D.body1.phi_dd[3]", "= der(phi_d) [rad/s2]", 0.0, 0.0,0.0,\
 0.0,0,2561)
 DeclareAlias2("body3D.body1.cylinder.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.body1.cylinder.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("body3D.body1.cylinder.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("body3D.body1.cylinder.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
@@ -4258,11 +4258,11 @@ DeclareVariable("body3D.body1.cylinder.n_z_aux[1]", "[1]", 0.0, 0.0,0.0,0.0,0,15
 DeclareVariable("body3D.body1.cylinder.n_z_aux[2]", "[1]", 0.0, 0.0,0.0,0.0,0,1537)
 DeclareVariable("body3D.body1.cylinder.n_z_aux[3]", "[1]", 1.0, 0.0,0.0,0.0,0,1537)
 DeclareAlias2("body3D.body1.cylinder.e_x[1]", "Unit vector in lengthDirection, resolved in object frame [1]",\
- "body3D.body1.cylinder.n_z_aux[3]", 1, 5, 1476, 512)
+ "body3D.body1.cylinder.n_z_aux[3]", 1, 5, 1479, 512)
 DeclareVariable("body3D.body1.cylinder.e_x[2]", "Unit vector in lengthDirection, resolved in object frame [1]",\
  0, 0.0,0.0,0.0,0,1537)
 DeclareAlias2("body3D.body1.cylinder.e_x[3]", "Unit vector in lengthDirection, resolved in object frame [1]",\
- "body3D.body1.cylinder.n_z_aux[1]", -1, 5, 1474, 512)
+ "body3D.body1.cylinder.n_z_aux[1]", -1, 5, 1477, 512)
 DeclareVariable("body3D.body1.cylinder.e_y[1]", "Unit vector orthogonal to lengthDirection in the plane of lengthDirection and widthDirection, resolved in object frame [1]",\
  0, 0.0,0.0,0.0,0,1537)
 DeclareVariable("body3D.body1.cylinder.e_y[2]", "Unit vector orthogonal to lengthDirection in the plane of lengthDirection and widthDirection, resolved in object frame [1]",\
@@ -4289,7 +4289,7 @@ DeclareAlias2("body3D.body1.cylinder.rvisobj[2]", "position vector from world fr
 DeclareAlias2("body3D.body1.cylinder.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1536)
 DeclareAlias2("body3D.body1.cylinder.size[1]", "{length,width,height} of shape [m]",\
- "body3D.body1.cylinder.length", 1, 5, 1465, 1536)
+ "body3D.body1.cylinder.length", 1, 5, 1468, 1536)
 DeclareVariable("body3D.body1.cylinder.size[2]", "{length,width,height} of shape [m]",\
  0.037037037037037035, 0.0,0.0,0.0,0,3585)
 DeclareVariable("body3D.body1.cylinder.size[3]", "{length,width,height} of shape [m]",\
@@ -4297,29 +4297,29 @@ DeclareVariable("body3D.body1.cylinder.size[3]", "{length,width,height} of shape
 DeclareVariable("body3D.body1.cylinder.Material", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareVariable("body3D.body1.cylinder.Extra", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("body3D.body1.sphere.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("body3D.body1.sphere.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("body3D.body1.sphere.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.body1.sphere.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.body1.sphere.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("body3D.body1.sphere.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("body3D.body1.sphere.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
@@ -4380,17 +4380,17 @@ DeclareVariable("body3D.body1.sphere.e_y[3]", "Unit vector orthogonal to lengthD
  0.0, 0.0,0.0,0.0,0,1537)
 DeclareVariable("body3D.body1.sphere.Form", "", 9.87102E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("body3D.body1.sphere.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("body3D.body1.sphere.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("body3D.body1.sphere.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("body3D.body1.sphere.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("body3D.body1.sphere.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("body3D.body1.sphere.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareVariable("body3D.body1.sphere.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
 DeclareVariable("body3D.body1.sphere.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
@@ -4466,11 +4466,11 @@ DeclareVariable("body3D.frame.R.der(T[3, 2], 2)", "der(Transformation matrix fro
 DeclareVariable("body3D.frame.R.der(T[3, 3], 2)", "der(Transformation matrix from world frame to local frame2)",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("body3D.frame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.frame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.frame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("body3D.frame.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("body3D.frame.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -4490,29 +4490,29 @@ DeclareAlias2("body3D.absoluteVelocity1.frame_a.r_0[2]", "Position vector from w
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("body3D.absoluteVelocity1.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("body3D.absoluteVelocity1.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("body3D.absoluteVelocity1.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -4544,40 +4544,40 @@ DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.r_0[3]", \
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1028)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.position.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.absoluteVelocity1.position.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("body3D.absoluteVelocity1.position.frame_a.f[2]", \
@@ -4650,24 +4650,24 @@ DeclareVariable("body3D.absoluteVelocity1.position.resolveInFrame", \
 DeclareAlias2("body3D.absoluteVelocity1.der1[1].u", "Connector of Real input signal",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[1].der(u)", "der(Connector of Real input signal)",\
- "body3D.body1.v_0[1]", 1, 5, 1381, 1024)
+ "body3D.body1.v_0[1]", 1, 5, 1384, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[1].y", "Connector of Real output signal",\
  "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[1]", 1,\
- 5, 1645, 1024)
+ 5, 1648, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[2].u", "Connector of Real input signal",\
  "body3D.body1.frame_a.r_0[2]", 1, 5, 1363, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[2].der(u)", "der(Connector of Real input signal)",\
- "body3D.body1.v_0[2]", 1, 5, 1382, 1024)
+ "body3D.body1.v_0[2]", 1, 5, 1385, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[2].y", "Connector of Real output signal",\
  "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[2]", 1,\
- 5, 1646, 1024)
+ 5, 1649, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[3].u", "Connector of Real input signal",\
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[3].der(u)", "der(Connector of Real input signal)",\
- "body3D.body1.v_0[3]", 1, 5, 1383, 1024)
+ "body3D.body1.v_0[3]", 1, 5, 1386, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.der1[3].y", "Connector of Real output signal",\
  "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[3]", 1,\
- 5, 1647, 1024)
+ 5, 1650, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1028)
@@ -4679,40 +4679,40 @@ DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.r_0[3]", 
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 1028)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.f[2]", \
@@ -4727,22 +4727,22 @@ DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_in[1]", \
 "Input vector resolved in frame defined by frame_r_in", "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[1]", 1,\
- 5, 1645, 1024)
+ 5, 1648, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_in[2]", \
 "Input vector resolved in frame defined by frame_r_in", "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[2]", 1,\
- 5, 1646, 1024)
+ 5, 1649, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_in[3]", \
 "Input vector resolved in frame defined by frame_r_in", "body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_in[3]", 1,\
- 5, 1647, 1024)
+ 5, 1650, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_out[1]", \
 "Input vector r_in resolved in frame defined by frame_r_out", "driver.car_speed", 1,\
  5, 952, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_out[2]", \
 "Input vector r_in resolved in frame defined by frame_r_out", "body3D.absoluteVelocity1.v[2]", 1,\
- 5, 1565, 1024)
+ 5, 1568, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.r_out[3]", \
 "Input vector r_in resolved in frame defined by frame_r_out", "body3D.absoluteVelocity1.v[3]", 1,\
- 5, 1566, 1024)
+ 5, 1569, 1024)
 DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.frame_r_in", \
 "Frame in which vector r_in is resolved (world, frame_a, or frame_resolve) [:#(type=Modelica.Mechanics.MultiBody.Types.ResolveInFrameA)]",\
  1, 1.0,3.0,0.0,0,2565)
@@ -4862,10 +4862,10 @@ DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVec
  5, 952, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_out[2]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.absoluteVelocity1.v[2]", 1,\
- 5, 1565, 1024)
+ 5, 1568, 1024)
 DeclareAlias2("body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.r_out[3]",\
  "Input vector r_in resolved in frame defined by frame_r_out", "body3D.absoluteVelocity1.v[3]", 1,\
- 5, 1566, 1024)
+ 5, 1569, 1024)
 DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.R1.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("body3D.absoluteVelocity1.tansformAbsoluteVector.basicTransformVector.R1.T[1, 2]",\
@@ -5098,7 +5098,7 @@ DeclareVariable("chassis3D.trackWidth", "[m]", 1.549, 0.0,0.0,0.0,0,513)
 DeclareParameter("chassis3D.wheelRadius", "[m]", 66, 0.31, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.carMass", "[kg]", 67, 1376, 0.0,1E+100,0.0,0,560)
 DeclareAlias2("chassis3D.HR.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2992, 4)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2995, 4)
 DeclareVariable("chassis3D.HR.tau", "Cut torque in the flange [N.m]", 0.0, \
 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.VL.phi", "Absolute rotation angle of flange [rad|deg]",\
@@ -5114,7 +5114,7 @@ DeclareAlias2("chassis3D.HL.phi", "Absolute rotation angle of flange [rad|deg]",
 DeclareVariable("chassis3D.HL.tau", "Cut torque in the flange [N.m]", 0.0, \
 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.Steering.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 4)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 4)
 DeclareAlias2("chassis3D.Steering.tau", "Cut torque in the flange [N.m]", \
 "steeringLimiter.flange_b.tau", -1, 5, 1033, 132)
 DeclareAlias2("chassis3D.frame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -5124,41 +5124,41 @@ DeclareAlias2("chassis3D.frame.r_0[2]", "Position vector from world frame to the
 DeclareAlias2("chassis3D.frame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[3]", 1, 5, 1364, 4)
 DeclareAlias2("chassis3D.frame.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.frame.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.frame.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.frame.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.frame.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.frame.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.frame.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.frame.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.frame.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.frame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.frame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.frame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.frame.f[1]", "Cut-force resolved in connector frame [N]",\
- "body3D.frame.f[1]", -1, 5, 1553, 132)
+ "body3D.frame.f[1]", -1, 5, 1556, 132)
 DeclareAlias2("chassis3D.frame.f[2]", "Cut-force resolved in connector frame [N]",\
- "body3D.frame.f[2]", -1, 5, 1554, 132)
+ "body3D.frame.f[2]", -1, 5, 1557, 132)
 DeclareAlias2("chassis3D.frame.f[3]", "Cut-force resolved in connector frame [N]",\
- "body3D.frame.f[3]", -1, 5, 1555, 132)
+ "body3D.frame.f[3]", -1, 5, 1558, 132)
 DeclareAlias2("chassis3D.frame.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[1]", -1, 5, 1556, 132)
+ "body3D.frame.t[1]", -1, 5, 1559, 132)
 DeclareAlias2("chassis3D.frame.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[2]", -1, 5, 1557, 132)
+ "body3D.frame.t[2]", -1, 5, 1560, 132)
 DeclareAlias2("chassis3D.frame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "body3D.frame.t[3]", -1, 5, 1558, 132)
+ "body3D.frame.t[3]", -1, 5, 1561, 132)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 4)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -5226,37 +5226,37 @@ DeclareVariable("chassis3D.fixedTranslation6.frame_b.der(r_0[3], 2)", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation6.frame_a.f[1]", -1, 5, 1763, 132)
+ "chassis3D.fixedTranslation6.frame_a.f[1]", -1, 5, 1766, 132)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation6.frame_a.f[2]", -1, 5, 1764, 132)
+ "chassis3D.fixedTranslation6.frame_a.f[2]", -1, 5, 1767, 132)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation6.frame_a.f[3]", -1, 5, 1765, 132)
+ "chassis3D.fixedTranslation6.frame_a.f[3]", -1, 5, 1768, 132)
 DeclareAlias2("chassis3D.fixedTranslation6.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation6.frame_a.t[1]", -1, 5, 1766, 132)
+ "chassis3D.fixedTranslation6.frame_a.t[1]", -1, 5, 1769, 132)
 DeclareVariable("chassis3D.fixedTranslation6.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation6.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
@@ -5308,29 +5308,29 @@ DeclareAlias2("chassis3D.fixedTranslation6.specularCoefficient", \
 "Reflection of ambient light (= 0: light is completely absorbed)", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
@@ -5359,9 +5359,9 @@ DeclareVariable("chassis3D.fixedTranslation6.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation6.shape.length", "Length of visual object [m]",\
  1.289, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation6.width", 1, 5, 1794, 1024)
+ "chassis3D.fixedTranslation6.width", 1, 5, 1797, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation6.height", 1, 5, 1795, 1024)
+ "chassis3D.fixedTranslation6.height", 1, 5, 1798, 1024)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation6.extra", 1, 7, 68, 1024)
 DeclareVariable("chassis3D.fixedTranslation6.shape.color[1]", "Color of shape", 155,\
@@ -5398,17 +5398,17 @@ DeclareVariable("chassis3D.fixedTranslation6.shape.e_y[3]", "Unit vector orthogo
 DeclareVariable("chassis3D.fixedTranslation6.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", -1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", -1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", -1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", -1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", -1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", -1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
@@ -5418,19 +5418,19 @@ DeclareAlias2("chassis3D.fixedTranslation6.shape.rvisobj[3]", "position vector f
 DeclareVariable("chassis3D.fixedTranslation6.shape.size[1]", "{length,width,height} of shape [m]",\
  1.289, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation6.width", 1, 5, 1794, 1536)
+ "chassis3D.fixedTranslation6.width", 1, 5, 1797, 1536)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation6.height", 1, 5, 1795, 1536)
+ "chassis3D.fixedTranslation6.height", 1, 5, 1798, 1536)
 DeclareVariable("chassis3D.fixedTranslation6.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation6.shape.Extra", "", "chassis3D.fixedTranslation6.extra", 1,\
  7, 68, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 4)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 4)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 4)
 DeclareVariable("chassis3D.fixedTranslation4.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.fixedTranslation4.frame_a.R.T[1, 2]", \
@@ -5492,39 +5492,39 @@ DeclareVariable("chassis3D.fixedTranslation4.frame_b.der(r_0[3], 2)", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[1]", -1, 5, 1838, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[1]", -1, 5, 1841, 132)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[2]", -1, 5, 1839, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[2]", -1, 5, 1842, 132)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[3]", -1, 5, 1840, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[3]", -1, 5, 1843, 132)
 DeclareVariable("chassis3D.fixedTranslation4.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation4.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation4.frame_a.t[2]", -1, 5, 1842, 132)
+ "chassis3D.fixedTranslation4.frame_a.t[2]", -1, 5, 1845, 132)
 DeclareVariable("chassis3D.fixedTranslation4.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation4.animation", "= true, if animation shall be enabled [:#(type=Boolean)]",\
@@ -5574,35 +5574,35 @@ DeclareAlias2("chassis3D.fixedTranslation4.specularCoefficient", \
 "Reflection of ambient light (= 0: light is completely absorbed)", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 1024)
 DeclareVariable("chassis3D.fixedTranslation4.shape.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.fixedTranslation4.shape.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -5625,9 +5625,9 @@ DeclareVariable("chassis3D.fixedTranslation4.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation4.shape.length", "Length of visual object [m]",\
  0.7745, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation4.width", 1, 5, 1869, 1024)
+ "chassis3D.fixedTranslation4.width", 1, 5, 1872, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation4.height", 1, 5, 1870, 1024)
+ "chassis3D.fixedTranslation4.height", 1, 5, 1873, 1024)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation4.extra", 1, 7, 69, 1024)
 DeclareVariable("chassis3D.fixedTranslation4.shape.color[1]", "Color of shape", 155,\
@@ -5664,39 +5664,39 @@ DeclareVariable("chassis3D.fixedTranslation4.shape.e_y[3]", "Unit vector orthogo
 DeclareVariable("chassis3D.fixedTranslation4.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 1536)
 DeclareVariable("chassis3D.fixedTranslation4.shape.size[1]", "{length,width,height} of shape [m]",\
  0.7745, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation4.width", 1, 5, 1869, 1536)
+ "chassis3D.fixedTranslation4.width", 1, 5, 1872, 1536)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation4.height", 1, 5, 1870, 1536)
+ "chassis3D.fixedTranslation4.height", 1, 5, 1873, 1536)
 DeclareVariable("chassis3D.fixedTranslation4.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation4.shape.Extra", "", "chassis3D.fixedTranslation4.extra", 1,\
  7, 69, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 4)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 4)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 4)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 4)
 DeclareVariable("chassis3D.fixedTranslation2.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.fixedTranslation2.frame_a.R.T[1, 2]", \
@@ -5758,39 +5758,39 @@ DeclareVariable("chassis3D.fixedTranslation2.frame_b.der(r_0[3], 2)", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation2.frame_a.f[1]", -1, 5, 1913, 132)
+ "chassis3D.fixedTranslation2.frame_a.f[1]", -1, 5, 1916, 132)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation2.frame_a.f[2]", -1, 5, 1914, 132)
+ "chassis3D.fixedTranslation2.frame_a.f[2]", -1, 5, 1917, 132)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation2.frame_a.f[3]", -1, 5, 1915, 132)
+ "chassis3D.fixedTranslation2.frame_a.f[3]", -1, 5, 1918, 132)
 DeclareVariable("chassis3D.fixedTranslation2.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation2.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation2.frame_a.t[2]", -1, 5, 1917, 132)
+ "chassis3D.fixedTranslation2.frame_a.t[2]", -1, 5, 1920, 132)
 DeclareVariable("chassis3D.fixedTranslation2.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation2.animation", "= true, if animation shall be enabled [:#(type=Boolean)]",\
@@ -5840,35 +5840,35 @@ DeclareAlias2("chassis3D.fixedTranslation2.specularCoefficient", \
 "Reflection of ambient light (= 0: light is completely absorbed)", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 1024)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 1024)
 DeclareVariable("chassis3D.fixedTranslation2.shape.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.fixedTranslation2.shape.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -5891,9 +5891,9 @@ DeclareVariable("chassis3D.fixedTranslation2.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation2.shape.length", "Length of visual object [m]",\
  0.7745, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation2.width", 1, 5, 1944, 1024)
+ "chassis3D.fixedTranslation2.width", 1, 5, 1947, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation2.height", 1, 5, 1945, 1024)
+ "chassis3D.fixedTranslation2.height", 1, 5, 1948, 1024)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation2.extra", 1, 7, 70, 1024)
 DeclareVariable("chassis3D.fixedTranslation2.shape.color[1]", "Color of shape", 155,\
@@ -5930,29 +5930,29 @@ DeclareVariable("chassis3D.fixedTranslation2.shape.e_y[3]", "Unit vector orthogo
 DeclareVariable("chassis3D.fixedTranslation2.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", -1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", -1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", -1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", -1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", -1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", -1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1769, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[1]", 1, 5, 1772, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1770, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[2]", 1, 5, 1773, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1771, 1536)
+ "chassis3D.fixedTranslation6.frame_b.r_0[3]", 1, 5, 1774, 1536)
 DeclareVariable("chassis3D.fixedTranslation2.shape.size[1]", "{length,width,height} of shape [m]",\
  0.7745, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation2.width", 1, 5, 1944, 1536)
+ "chassis3D.fixedTranslation2.width", 1, 5, 1947, 1536)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation2.height", 1, 5, 1945, 1536)
+ "chassis3D.fixedTranslation2.height", 1, 5, 1948, 1536)
 DeclareVariable("chassis3D.fixedTranslation2.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation2.shape.Extra", "", "chassis3D.fixedTranslation2.extra", 1,\
@@ -6010,7 +6010,7 @@ DeclareVariable("chassis3D.fixedTranslation3.frame_a.f[1]", "Cut-force resolved 
 DeclareVariable("chassis3D.fixedTranslation3.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute2.frame_b.f[3]", -1, 5, 2446, 132)
+ "chassis3D.revolute2.frame_b.f[3]", -1, 5, 2449, 132)
 DeclareVariable("chassis3D.fixedTranslation3.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation3.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
@@ -6042,41 +6042,41 @@ DeclareVariable("chassis3D.fixedTranslation3.frame_b.der(r_0[3], 2)", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation3.frame_a.f[1]", -1, 5, 1997, 132)
+ "chassis3D.fixedTranslation3.frame_a.f[1]", -1, 5, 2000, 132)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation3.frame_a.f[2]", -1, 5, 1998, 132)
+ "chassis3D.fixedTranslation3.frame_a.f[2]", -1, 5, 2001, 132)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute2.frame_b.f[3]", 1, 5, 2446, 132)
+ "chassis3D.revolute2.frame_b.f[3]", 1, 5, 2449, 132)
 DeclareVariable("chassis3D.fixedTranslation3.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation3.frame_a.t[2]", -1, 5, 2000, 132)
+ "chassis3D.fixedTranslation3.frame_a.t[2]", -1, 5, 2003, 132)
 DeclareAlias2("chassis3D.fixedTranslation3.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute2.frame_b.t[3]", 1, 5, 2449, 132)
+ "chassis3D.revolute2.frame_b.t[3]", 1, 5, 2452, 132)
 DeclareVariable("chassis3D.fixedTranslation3.animation", "= true, if animation shall be enabled [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.fixedTranslation3.r[1]", "Vector from frame_a to frame_b resolved in frame_a [m]",\
@@ -6124,35 +6124,35 @@ DeclareAlias2("chassis3D.fixedTranslation3.specularCoefficient", \
 "Reflection of ambient light (= 0: light is completely absorbed)", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 1024)
 DeclareVariable("chassis3D.fixedTranslation3.shape.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.fixedTranslation3.shape.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -6175,9 +6175,9 @@ DeclareVariable("chassis3D.fixedTranslation3.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation3.shape.length", "Length of visual object [m]",\
  0.7745, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation3.width", 1, 5, 2026, 1024)
+ "chassis3D.fixedTranslation3.width", 1, 5, 2029, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation3.height", 1, 5, 2027, 1024)
+ "chassis3D.fixedTranslation3.height", 1, 5, 2030, 1024)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation3.extra", 1, 7, 71, 1024)
 DeclareVariable("chassis3D.fixedTranslation3.shape.color[1]", "Color of shape", 155,\
@@ -6214,39 +6214,39 @@ DeclareVariable("chassis3D.fixedTranslation3.shape.e_y[3]", "Unit vector orthogo
 DeclareVariable("chassis3D.fixedTranslation3.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", -1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", -1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", -1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", -1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", -1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", -1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 1536)
 DeclareVariable("chassis3D.fixedTranslation3.shape.size[1]", "{length,width,height} of shape [m]",\
  0.7745, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation3.width", 1, 5, 2026, 1536)
+ "chassis3D.fixedTranslation3.width", 1, 5, 2029, 1536)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation3.height", 1, 5, 2027, 1536)
+ "chassis3D.fixedTranslation3.height", 1, 5, 2030, 1536)
 DeclareVariable("chassis3D.fixedTranslation3.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation3.shape.Extra", "", "chassis3D.fixedTranslation3.extra", 1,\
  7, 71, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 4)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 4)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 4)
 DeclareVariable("chassis3D.fixedTranslation7.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.fixedTranslation7.frame_a.R.T[1, 2]", \
@@ -6276,7 +6276,7 @@ DeclareVariable("chassis3D.fixedTranslation7.frame_a.f[1]", "Cut-force resolved 
 DeclareVariable("chassis3D.fixedTranslation7.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2548, 132)
+ "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2551, 132)
 DeclareVariable("chassis3D.fixedTranslation7.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation7.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
@@ -6308,41 +6308,41 @@ DeclareVariable("chassis3D.fixedTranslation7.frame_b.der(r_0[3], 2)", \
 "der(Position vector from world frame to the connector frame origin, resolved in world frame2) [m/s2]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation7.frame_a.f[1]", -1, 5, 2070, 132)
+ "chassis3D.fixedTranslation7.frame_a.f[1]", -1, 5, 2073, 132)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation7.frame_a.f[2]", -1, 5, 2071, 132)
+ "chassis3D.fixedTranslation7.frame_a.f[2]", -1, 5, 2074, 132)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[3]", 1, 5, 2548, 132)
+ "chassis3D.revolute3.frame_b.f[3]", 1, 5, 2551, 132)
 DeclareVariable("chassis3D.fixedTranslation7.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation7.frame_a.t[2]", -1, 5, 2073, 132)
+ "chassis3D.fixedTranslation7.frame_a.t[2]", -1, 5, 2076, 132)
 DeclareAlias2("chassis3D.fixedTranslation7.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", 1, 5, 2551, 132)
+ "chassis3D.revolute3.frame_b.t[3]", 1, 5, 2554, 132)
 DeclareVariable("chassis3D.fixedTranslation7.animation", "= true, if animation shall be enabled [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.fixedTranslation7.r[1]", "Vector from frame_a to frame_b resolved in frame_a [m]",\
@@ -6390,35 +6390,35 @@ DeclareAlias2("chassis3D.fixedTranslation7.specularCoefficient", \
 "Reflection of ambient light (= 0: light is completely absorbed)", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 1024)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 1024)
 DeclareVariable("chassis3D.fixedTranslation7.shape.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.fixedTranslation7.shape.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -6441,9 +6441,9 @@ DeclareVariable("chassis3D.fixedTranslation7.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation7.shape.length", "Length of visual object [m]",\
  0.7745, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation7.width", 1, 5, 2099, 1024)
+ "chassis3D.fixedTranslation7.width", 1, 5, 2102, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation7.height", 1, 5, 2100, 1024)
+ "chassis3D.fixedTranslation7.height", 1, 5, 2103, 1024)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation7.extra", 1, 7, 72, 1024)
 DeclareVariable("chassis3D.fixedTranslation7.shape.color[1]", "Color of shape", 155,\
@@ -6480,29 +6480,29 @@ DeclareVariable("chassis3D.fixedTranslation7.shape.e_y[3]", "Unit vector orthogo
 DeclareVariable("chassis3D.fixedTranslation7.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 1536)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 1536)
 DeclareVariable("chassis3D.fixedTranslation7.shape.size[1]", "{length,width,height} of shape [m]",\
  0.7745, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation7.width", 1, 5, 2099, 1536)
+ "chassis3D.fixedTranslation7.width", 1, 5, 2102, 1536)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation7.height", 1, 5, 2100, 1536)
+ "chassis3D.fixedTranslation7.height", 1, 5, 2103, 1536)
 DeclareVariable("chassis3D.fixedTranslation7.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation7.shape.Extra", "", "chassis3D.fixedTranslation7.extra", 1,\
@@ -6550,43 +6550,43 @@ DeclareVariable("chassis3D.fixedTranslation.frame_a.t[2]", "Cut-torque resolved 
 DeclareVariable("chassis3D.fixedTranslation.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1976, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[1]", 1, 5, 1979, 4)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1977, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[2]", 1, 5, 1980, 4)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1978, 4)
+ "chassis3D.fixedTranslation3.frame_a.r_0[3]", 1, 5, 1981, 4)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation.frame_a.f[1]", -1, 5, 2143, 132)
+ "chassis3D.fixedTranslation.frame_a.f[1]", -1, 5, 2146, 132)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation.frame_a.f[2]", -1, 5, 2144, 132)
+ "chassis3D.fixedTranslation.frame_a.f[2]", -1, 5, 2147, 132)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation.frame_a.f[3]", -1, 5, 2145, 132)
+ "chassis3D.fixedTranslation.frame_a.f[3]", -1, 5, 2148, 132)
 DeclareAlias2("chassis3D.fixedTranslation.frame_b.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation.frame_a.t[1]", -1, 5, 2146, 132)
+ "chassis3D.fixedTranslation.frame_a.t[1]", -1, 5, 2149, 132)
 DeclareVariable("chassis3D.fixedTranslation.frame_b.t[2]", "Cut-torque resolved in connector frame [N.m]",\
  0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.fixedTranslation.frame_b.t[3]", "Cut-torque resolved in connector frame [N.m]",\
@@ -6637,29 +6637,29 @@ DeclareVariable("chassis3D.fixedTranslation.color[3]", "Color of shape [:#(type=
 DeclareAlias2("chassis3D.fixedTranslation.specularCoefficient", "Reflection of ambient light (= 0: light is completely absorbed)",\
  "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
@@ -6687,9 +6687,9 @@ DeclareVariable("chassis3D.fixedTranslation.shape.widthDirection[3]", \
 DeclareVariable("chassis3D.fixedTranslation.shape.length", "Length of visual object [m]",\
  1.289, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.fixedTranslation.shape.width", "Width of visual object [m]",\
- "chassis3D.fixedTranslation.width", 1, 5, 2165, 1024)
+ "chassis3D.fixedTranslation.width", 1, 5, 2168, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.height", "Height of visual object [m]",\
- "chassis3D.fixedTranslation.height", 1, 5, 2166, 1024)
+ "chassis3D.fixedTranslation.height", 1, 5, 2169, 1024)
 DeclareAlias2("chassis3D.fixedTranslation.shape.extra", "Additional size data for some of the shape types",\
  "chassis3D.fixedTranslation.extra", 1, 7, 73, 1024)
 DeclareVariable("chassis3D.fixedTranslation.shape.color[1]", "Color of shape", 155,\
@@ -6726,17 +6726,17 @@ DeclareVariable("chassis3D.fixedTranslation.shape.e_y[3]", "Unit vector orthogon
 DeclareVariable("chassis3D.fixedTranslation.shape.Form", "", 9.87103E+25, \
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation.shape.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1536)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1536)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1536)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  "body3D.body1.frame_a.r_0[1]", 1, 5, 1362, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
@@ -6746,55 +6746,55 @@ DeclareAlias2("chassis3D.fixedTranslation.shape.rvisobj[3]", "position vector fr
 DeclareVariable("chassis3D.fixedTranslation.shape.size[1]", "{length,width,height} of shape [m]",\
  1.289, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation.shape.size[2]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation.width", 1, 5, 2165, 1536)
+ "chassis3D.fixedTranslation.width", 1, 5, 2168, 1536)
 DeclareAlias2("chassis3D.fixedTranslation.shape.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.fixedTranslation.height", 1, 5, 2166, 1536)
+ "chassis3D.fixedTranslation.height", 1, 5, 2169, 1536)
 DeclareVariable("chassis3D.fixedTranslation.shape.Material", "", 0.0, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.fixedTranslation.shape.Extra", "", "chassis3D.fixedTranslation.extra", 1,\
  7, 73, 1536)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2243, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2246, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2244, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2247, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2245, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2248, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2246, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2249, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2247, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2250, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2248, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2251, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2249, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2252, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2250, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2253, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2251, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2254, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 0)
+ "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 0)
+ "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 0)
+ "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", -1, 5, 2680, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", -1, 5, 2683, 132)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", -1, 5, 2681, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", -1, 5, 2684, 132)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[3]", -1, 5, 2682, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[3]", -1, 5, 2685, 132)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[1]", -1, 5, 2683, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[1]", -1, 5, 2686, 132)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2684, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2687, 132)
 DeclareAlias2("chassis3D.bodyShape2.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[3]", -1, 5, 2685, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[3]", -1, 5, 2688, 132)
 DeclareVariable("chassis3D.bodyShape2.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("chassis3D.bodyShape2.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -6802,29 +6802,29 @@ DeclareVariable("chassis3D.bodyShape2.frame_b.r_0[2]", "Position vector from wor
 DeclareVariable("chassis3D.bodyShape2.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2243, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2246, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2244, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2247, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2245, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2248, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2246, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2249, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2247, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2250, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2248, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2251, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2249, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2252, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2250, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2253, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2251, 0)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2254, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 0)
+ "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 0)
+ "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 0)
 DeclareAlias2("chassis3D.bodyShape2.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 0)
+ "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 0)
 DeclareVariable("chassis3D.bodyShape2.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape2.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -6868,17 +6868,17 @@ DeclareParameter("chassis3D.bodyShape2.I_31", "(3,1) element of inertia tensor [
 DeclareParameter("chassis3D.bodyShape2.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  83, 0, -1E+60,1E+100,0.0,0,560)
 DeclareAlias2("chassis3D.bodyShape2.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 0)
 DeclareAlias2("chassis3D.bodyShape2.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 0)
 DeclareAlias2("chassis3D.bodyShape2.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 0)
 DeclareAlias2("chassis3D.bodyShape2.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape2.v_0[1]", 1, 5, 2211, 0)
+ "chassis3D.bodyShape2.v_0[1]", 1, 5, 2214, 0)
 DeclareAlias2("chassis3D.bodyShape2.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape2.v_0[2]", 1, 5, 2212, 0)
+ "chassis3D.bodyShape2.v_0[2]", 1, 5, 2215, 0)
 DeclareAlias2("chassis3D.bodyShape2.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape2.v_0[3]", 1, 5, 2213, 0)
+ "chassis3D.bodyShape2.v_0[3]", 1, 5, 2216, 0)
 DeclareVariable("chassis3D.bodyShape2.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape2.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
@@ -6886,17 +6886,17 @@ DeclareVariable("chassis3D.bodyShape2.v_0[2]", "Absolute velocity of frame_a, re
 DeclareVariable("chassis3D.bodyShape2.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape2.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2312, 0)
+ "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2315, 0)
 DeclareAlias2("chassis3D.bodyShape2.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2313, 0)
+ "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2316, 0)
 DeclareAlias2("chassis3D.bodyShape2.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2314, 0)
+ "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2317, 0)
 DeclareAlias2("chassis3D.bodyShape2.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2312, 0)
+ "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2315, 0)
 DeclareAlias2("chassis3D.bodyShape2.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2313, 0)
+ "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2316, 0)
 DeclareAlias2("chassis3D.bodyShape2.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2314, 0)
+ "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2317, 0)
 DeclareVariable("chassis3D.bodyShape2.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareParameter("chassis3D.bodyShape2.angles_start[1]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
@@ -6981,13 +6981,13 @@ DeclareVariable("chassis3D.bodyShape2.sequence_angleStates[3]", "Sequence of rot
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareVariable("chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", \
@@ -7029,49 +7029,49 @@ DeclareVariable("chassis3D.bodyShape2.frameTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.frame_b.r_0[1]", 1, 5, 2197, 4)
+ "chassis3D.bodyShape2.frame_b.r_0[1]", 1, 5, 2200, 4)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.frame_b.r_0[2]", 1, 5, 2198, 4)
+ "chassis3D.bodyShape2.frame_b.r_0[2]", 1, 5, 2201, 4)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.frame_b.r_0[3]", 1, 5, 2199, 4)
+ "chassis3D.bodyShape2.frame_b.r_0[3]", 1, 5, 2202, 4)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 2243, 0)
+ 5, 2246, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 2244, 0)
+ 5, 2247, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 2245, 0)
+ 5, 2248, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 0)
+ 5, 2249, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 0)
+ 5, 2250, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 0)
+ 5, 2251, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 2249, 0)
+ 5, 2252, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 2250, 0)
+ 5, 2253, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 2251, 0)
+ 5, 2254, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 0)
+"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 0)
+"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 0)
 DeclareAlias2("chassis3D.bodyShape2.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 0)
+"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 0)
 DeclareVariable("chassis3D.bodyShape2.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape2.frameTranslation.frame_b.f[2]", \
@@ -7140,11 +7140,11 @@ DeclareVariable("chassis3D.bodyShape2.body.frame_a.r_0[2]", "Position vector fro
 DeclareVariable("chassis3D.bodyShape2.body.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.der(r_0[1])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape2.v_0[1]", 1, 5, 2211, 4)
+ "chassis3D.bodyShape2.v_0[1]", 1, 5, 2214, 4)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.der(r_0[2])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape2.v_0[2]", 1, 5, 2212, 4)
+ "chassis3D.bodyShape2.v_0[2]", 1, 5, 2215, 4)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.der(r_0[3])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape2.v_0[3]", 1, 5, 2213, 4)
+ "chassis3D.bodyShape2.v_0[3]", 1, 5, 2216, 4)
 DeclareVariable("chassis3D.bodyShape2.body.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape2.body.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
@@ -7170,17 +7170,17 @@ DeclareVariable("chassis3D.bodyShape2.body.frame_a.R.w[2]", "Absolute angular ve
 DeclareVariable("chassis3D.bodyShape2.body.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", -1, 5, 2680, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", -1, 5, 2683, 132)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", -1, 5, 2681, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", -1, 5, 2684, 132)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[3]", -1, 5, 2682, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[3]", -1, 5, 2685, 132)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[1]", -1, 5, 2683, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[1]", -1, 5, 2686, 132)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2684, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2687, 132)
 DeclareAlias2("chassis3D.bodyShape2.body.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[3]", -1, 5, 2685, 132)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[3]", -1, 5, 2688, 132)
 DeclareVariable("chassis3D.bodyShape2.body.animation", "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.bodyShape2.body.r_CM[1]", "Vector from frame_a to center of mass, resolved in frame_a [m]",\
@@ -7204,23 +7204,23 @@ DeclareVariable("chassis3D.bodyShape2.body.I_31", "(3,1) element of inertia tens
 DeclareVariable("chassis3D.bodyShape2.body.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  0.0, -1E+60,1E+100,0.0,0,513)
 DeclareAlias2("chassis3D.bodyShape2.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 0)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape2.v_0[1]", 1, 5, 2211, 0)
+ "chassis3D.bodyShape2.v_0[1]", 1, 5, 2214, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape2.v_0[2]", 1, 5, 2212, 0)
+ "chassis3D.bodyShape2.v_0[2]", 1, 5, 2215, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape2.v_0[3]", 1, 5, 2213, 0)
+ "chassis3D.bodyShape2.v_0[3]", 1, 5, 2216, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2312, 0)
+ "chassis3D.bodyShape2.body.a_0[1]", 1, 5, 2315, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2313, 0)
+ "chassis3D.bodyShape2.body.a_0[2]", 1, 5, 2316, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2314, 0)
+ "chassis3D.bodyShape2.body.a_0[3]", 1, 5, 2317, 0)
 DeclareVariable("chassis3D.bodyShape2.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape2.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -7349,11 +7349,11 @@ DeclareVariable("chassis3D.bodyShape2.body.der(w_a[2])", "der(Absolute angular v
 DeclareVariable("chassis3D.bodyShape2.body.der(w_a[3])", "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape2.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape2.body.der(w_a[1])", 1, 5, 2370, 0)
+ "chassis3D.bodyShape2.body.der(w_a[1])", 1, 5, 2373, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape2.body.der(w_a[2])", 1, 5, 2371, 0)
+ "chassis3D.bodyShape2.body.der(w_a[2])", 1, 5, 2374, 0)
 DeclareAlias2("chassis3D.bodyShape2.body.z_a[3]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape2.body.der(w_a[3])", 1, 5, 2372, 0)
+ "chassis3D.bodyShape2.body.der(w_a[3])", 1, 5, 2375, 0)
 DeclareVariable("chassis3D.bodyShape2.body.g_0[1]", "Gravity acceleration resolved in world frame [m/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("chassis3D.bodyShape2.body.g_0[2]", "Gravity acceleration resolved in world frame [m/s2]",\
@@ -7401,35 +7401,35 @@ DeclareVariable("chassis3D.bodyShape2.body.phi_dd[2]", "= der(phi_d) [rad/s2]", 
 DeclareVariable("chassis3D.bodyShape2.body.phi_dd[3]", "= der(phi_d) [rad/s2]", \
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2243, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2246, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2244, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2247, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2245, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2248, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2246, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2249, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2247, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2250, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2248, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2251, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2249, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 2252, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2250, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 2253, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2251, 1024)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 2254, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 1024)
+ "chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 1024)
+ "chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 1024)
+ "chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 1024)
 DeclareVariable("chassis3D.bodyShape2.shape1.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.bodyShape2.shape1.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -7453,7 +7453,7 @@ DeclareVariable("chassis3D.bodyShape2.shape1.length", "Length of visual object [
 DeclareAlias2("chassis3D.bodyShape2.shape1.width", "Width of visual object [m]",\
  "chassis3D.bodyShape2.width", 1, 7, 93, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.height", "Height of visual object [m]",\
- "chassis3D.bodyShape2.height", 1, 5, 2230, 1024)
+ "chassis3D.bodyShape2.height", 1, 5, 2233, 1024)
 DeclareAlias2("chassis3D.bodyShape2.shape1.extra", "Additional size data for some of the shape types",\
  "chassis3D.bodyShape2.extra", 1, 7, 94, 1024)
 DeclareVariable("chassis3D.bodyShape2.shape1.color[1]", "Color of shape", 255, \
@@ -7489,88 +7489,88 @@ DeclareVariable("chassis3D.bodyShape2.shape1.e_y[3]", "Unit vector orthogonal to
 DeclareVariable("chassis3D.bodyShape2.shape1.Form", "", 9.87103E+25, 0.0,0.0,0.0,\
 0,3585)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2246, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1, 5, 2249, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2247, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1, 5, 2250, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2248, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1, 5, 2251, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2243, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 2246, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2244, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 2247, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2245, 1536)
+ "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 2248, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 1536)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 1536)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 1536)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 1536)
 DeclareVariable("chassis3D.bodyShape2.shape1.size[1]", "{length,width,height} of shape [m]",\
  0.1, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape2.shape1.size[2]", "{length,width,height} of shape [m]",\
  "chassis3D.bodyShape2.width", 1, 7, 93, 1536)
 DeclareAlias2("chassis3D.bodyShape2.shape1.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.bodyShape2.height", 1, 5, 2230, 1536)
+ "chassis3D.bodyShape2.height", 1, 5, 2233, 1536)
 DeclareVariable("chassis3D.bodyShape2.shape1.Material", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape2.shape1.Extra", "", "chassis3D.bodyShape2.extra", 1,\
  7, 94, 1536)
 DeclareAlias2("chassis3D.revolute2.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2002, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2005, 4)
 DeclareAlias2("chassis3D.revolute2.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2003, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2006, 4)
 DeclareAlias2("chassis3D.revolute2.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2004, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2007, 4)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.revolute2.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation3.frame_a.f[1]", 1, 5, 1997, 132)
+ "chassis3D.fixedTranslation3.frame_a.f[1]", 1, 5, 2000, 132)
 DeclareAlias2("chassis3D.revolute2.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation3.frame_a.f[2]", 1, 5, 1998, 132)
+ "chassis3D.fixedTranslation3.frame_a.f[2]", 1, 5, 2001, 132)
 DeclareAlias2("chassis3D.revolute2.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute2.frame_b.f[3]", -1, 5, 2446, 132)
+ "chassis3D.revolute2.frame_b.f[3]", -1, 5, 2449, 132)
 DeclareAlias2("chassis3D.revolute2.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation3.frame_b.t[1]", -1, 5, 2011, 132)
+ "chassis3D.fixedTranslation3.frame_b.t[1]", -1, 5, 2014, 132)
 DeclareAlias2("chassis3D.revolute2.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation3.frame_a.t[2]", 1, 5, 2000, 132)
+ "chassis3D.fixedTranslation3.frame_a.t[2]", 1, 5, 2003, 132)
 DeclareAlias2("chassis3D.revolute2.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2449, 132)
+ "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2452, 132)
 DeclareAlias2("chassis3D.revolute2.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2002, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2005, 4)
 DeclareAlias2("chassis3D.revolute2.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2003, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2006, 4)
 DeclareAlias2("chassis3D.revolute2.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2004, 4)
+ "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2007, 4)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 1]", 1, 5, 6764,\
+ "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 1]", 1, 5, 6767,\
  0)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 2]", 1, 5, 6765,\
+ "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 2]", 1, 5, 6768,\
  0)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 3]", 1, 5, 6766,\
+ "chassis3D.wheelSuspensionRight.fixedTranslation.frame_a.R.T[1, 3]", 1, 5, 6769,\
  0)
 DeclareVariable("chassis3D.revolute2.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
@@ -7579,11 +7579,11 @@ DeclareVariable("chassis3D.revolute2.frame_b.R.T[2, 2]", "Transformation matrix 
 DeclareVariable("chassis3D.revolute2.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.revolute2.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareVariable("chassis3D.revolute2.frame_b.R.der(T[1, 1])", "der(Transformation matrix from world frame to local frame)",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.revolute2.frame_b.R.der(T[1, 2])", "der(Transformation matrix from world frame to local frame)",\
@@ -7667,17 +7667,17 @@ DeclareVariable("chassis3D.revolute2.stateSelect", "Priority to use joint angle 
 DeclareVariable("chassis3D.revolute2.phi", "Relative rotation angle from frame_a to frame_b [rad|deg]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.revolute2.der(phi)", "der(Relative rotation angle from frame_a to frame_b) [rad/s]",\
- "chassis3D.revolute2.w", 1, 5, 2463, 0)
+ "chassis3D.revolute2.w", 1, 5, 2466, 0)
 DeclareVariable("chassis3D.revolute2.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.revolute2.der(w)", "der(First derivative of angle phi (relative angular velocity)) [rad/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.revolute2.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.revolute2.der(w)", 1, 5, 2464, 0)
+ "chassis3D.revolute2.der(w)", 1, 5, 2467, 0)
 DeclareAlias2("chassis3D.revolute2.tau", "Driving torque in direction of axis of rotation [N.m]",\
- "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2449, 0)
+ "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2452, 0)
 DeclareAlias2("chassis3D.revolute2.angle", "= phi_offset + phi [rad|deg]", \
-"chassis3D.revolute2.phi", 1, 5, 2462, 0)
+"chassis3D.revolute2.phi", 1, 5, 2465, 0)
 DeclareVariable("chassis3D.revolute2.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.revolute2.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -7725,35 +7725,35 @@ DeclareVariable("chassis3D.revolute2.R_rel.w[2]", "Absolute angular velocity of 
 DeclareVariable("chassis3D.revolute2.R_rel.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2002, 1024)
+ "chassis3D.fixedTranslation3.frame_b.r_0[1]", 1, 5, 2005, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2003, 1024)
+ "chassis3D.fixedTranslation3.frame_b.r_0[2]", 1, 5, 2006, 1024)
 DeclareAlias2("chassis3D.revolute2.cylinder.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2004, 1024)
+ "chassis3D.fixedTranslation3.frame_b.r_0[3]", 1, 5, 2007, 1024)
 DeclareVariable("chassis3D.revolute2.cylinder.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.revolute2.cylinder.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -7814,17 +7814,17 @@ DeclareVariable("chassis3D.revolute2.cylinder.e_y[3]", "Unit vector orthogonal t
 DeclareVariable("chassis3D.revolute2.cylinder.Form", "", 9.87103E+25, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.revolute2.cylinder.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1536)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1536)
 DeclareAlias2("chassis3D.revolute2.cylinder.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1536)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1536)
 DeclareAlias2("chassis3D.revolute2.cylinder.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1536)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1536)
 DeclareAlias2("chassis3D.revolute2.cylinder.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.revolute2.cylinder.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.revolute2.cylinder.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareVariable("chassis3D.revolute2.cylinder.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
 DeclareVariable("chassis3D.revolute2.cylinder.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
@@ -7846,70 +7846,70 @@ DeclareAlias2("chassis3D.revolute2.fixed.flange.phi", "Absolute rotation angle o
 DeclareVariable("chassis3D.revolute2.fixed.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.revolute2.internalAxis.tau", "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2449, 1024)
+ "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2452, 1024)
 DeclareAlias2("chassis3D.revolute2.internalAxis.phi", "External support angle (= flange.phi) [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 1024)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 1024)
 DeclareAlias2("chassis3D.revolute2.internalAxis.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 1028)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 1028)
 DeclareAlias2("chassis3D.revolute2.internalAxis.flange.tau", "Cut torque in the flange [N.m]",\
- "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2449, 1156)
+ "chassis3D.revolute2.frame_b.t[3]", -1, 5, 2452, 1156)
 DeclareAlias2("chassis3D.revolute3.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.revolute3.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.revolute3.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 0)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 0)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 0)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.revolute3.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation7.frame_a.f[1]", 1, 5, 2070, 132)
+ "chassis3D.fixedTranslation7.frame_a.f[1]", 1, 5, 2073, 132)
 DeclareAlias2("chassis3D.revolute3.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation7.frame_a.f[2]", 1, 5, 2071, 132)
+ "chassis3D.fixedTranslation7.frame_a.f[2]", 1, 5, 2074, 132)
 DeclareAlias2("chassis3D.revolute3.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2548, 132)
+ "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2551, 132)
 DeclareAlias2("chassis3D.revolute3.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation7.frame_b.t[1]", -1, 5, 2084, 132)
+ "chassis3D.fixedTranslation7.frame_b.t[1]", -1, 5, 2087, 132)
 DeclareAlias2("chassis3D.revolute3.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation7.frame_a.t[2]", 1, 5, 2073, 132)
+ "chassis3D.fixedTranslation7.frame_a.t[2]", 1, 5, 2076, 132)
 DeclareAlias2("chassis3D.revolute3.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2551, 132)
+ "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2554, 132)
 DeclareAlias2("chassis3D.revolute3.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.revolute3.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.revolute3.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareVariable("chassis3D.revolute3.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.revolute3.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
@@ -7917,11 +7917,11 @@ DeclareVariable("chassis3D.revolute3.frame_b.R.T[2, 2]", "Transformation matrix 
 DeclareVariable("chassis3D.revolute3.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.revolute3.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareVariable("chassis3D.revolute3.frame_b.R.der(T[1, 1])", "der(Transformation matrix from world frame to local frame)",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.revolute3.frame_b.R.der(T[1, 2])", "der(Transformation matrix from world frame to local frame)",\
@@ -8005,17 +8005,17 @@ DeclareVariable("chassis3D.revolute3.stateSelect", "Priority to use joint angle 
 DeclareVariable("chassis3D.revolute3.phi", "Relative rotation angle from frame_a to frame_b [rad|deg]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.revolute3.der(phi)", "der(Relative rotation angle from frame_a to frame_b) [rad/s]",\
- "chassis3D.revolute2.w", 1, 5, 2463, 0)
+ "chassis3D.revolute2.w", 1, 5, 2466, 0)
 DeclareAlias2("chassis3D.revolute3.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
- "chassis3D.revolute2.w", 1, 5, 2463, 0)
+ "chassis3D.revolute2.w", 1, 5, 2466, 0)
 DeclareAlias2("chassis3D.revolute3.der(w)", "der(First derivative of angle phi (relative angular velocity)) [rad/s2]",\
- "chassis3D.revolute2.der(w)", 1, 5, 2464, 0)
+ "chassis3D.revolute2.der(w)", 1, 5, 2467, 0)
 DeclareAlias2("chassis3D.revolute3.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.revolute2.der(w)", 1, 5, 2464, 0)
+ "chassis3D.revolute2.der(w)", 1, 5, 2467, 0)
 DeclareAlias2("chassis3D.revolute3.tau", "Driving torque in direction of axis of rotation [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2551, 0)
+ "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2554, 0)
 DeclareAlias2("chassis3D.revolute3.angle", "= phi_offset + phi [rad|deg]", \
-"chassis3D.revolute2.phi", 1, 5, 2462, 0)
+"chassis3D.revolute2.phi", 1, 5, 2465, 0)
 DeclareVariable("chassis3D.revolute3.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.revolute3.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -8063,35 +8063,35 @@ DeclareVariable("chassis3D.revolute3.R_rel.w[2]", "Absolute angular velocity of 
 DeclareVariable("chassis3D.revolute3.R_rel.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 1024)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 1024)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 1024)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1024)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1024)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1024)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1024)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1024)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1024)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1024)
 DeclareAlias2("chassis3D.revolute3.cylinder.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1024)
 DeclareVariable("chassis3D.revolute3.cylinder.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.revolute3.cylinder.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -8152,17 +8152,17 @@ DeclareVariable("chassis3D.revolute3.cylinder.e_y[3]", "Unit vector orthogonal t
 DeclareVariable("chassis3D.revolute3.cylinder.Form", "", 9.87103E+25, 0.0,0.0,\
 0.0,0,3585)
 DeclareAlias2("chassis3D.revolute3.cylinder.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 1536)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 1536)
 DeclareAlias2("chassis3D.revolute3.cylinder.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 1536)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 1536)
 DeclareAlias2("chassis3D.revolute3.cylinder.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 1536)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 1536)
 DeclareAlias2("chassis3D.revolute3.cylinder.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 1]", 1, 5, 1529, 1536)
+ "body3D.frame.R.T[2, 1]", 1, 5, 1532, 1536)
 DeclareAlias2("chassis3D.revolute3.cylinder.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 2]", 1, 5, 1530, 1536)
+ "body3D.frame.R.T[2, 2]", 1, 5, 1533, 1536)
 DeclareAlias2("chassis3D.revolute3.cylinder.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "body3D.frame.R.T[2, 3]", 1, 5, 1531, 1536)
+ "body3D.frame.R.T[2, 3]", 1, 5, 1534, 1536)
 DeclareVariable("chassis3D.revolute3.cylinder.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
 DeclareVariable("chassis3D.revolute3.cylinder.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
@@ -8184,13 +8184,13 @@ DeclareAlias2("chassis3D.revolute3.fixed.flange.phi", "Absolute rotation angle o
 DeclareVariable("chassis3D.revolute3.fixed.flange.tau", "Cut torque in the flange [N.m]",\
  0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.revolute3.internalAxis.tau", "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2551, 1024)
+ "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2554, 1024)
 DeclareAlias2("chassis3D.revolute3.internalAxis.phi", "External support angle (= flange.phi) [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 1024)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 1024)
 DeclareAlias2("chassis3D.revolute3.internalAxis.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.revolute2.phi", 1, 5, 2462, 1028)
+ "chassis3D.revolute2.phi", 1, 5, 2465, 1028)
 DeclareAlias2("chassis3D.revolute3.internalAxis.flange.tau", "Cut torque in the flange [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2551, 1156)
+ "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2554, 1156)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D.radius", "Radius of the wheel [m]",\
  98, 0.31, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D.vAdhesion", "Adhesion velocity [m/s]",\
@@ -8204,7 +8204,7 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D.mu_S", "Friction coefficient
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.penetration", "[m]", 0.0, 0.0,\
 1E+100,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.der(penetration)", "[m/s]", \
-"chassis3D.bodyShape2.v_0[3]", 1, 5, 2213, 0)
+"chassis3D.bodyShape2.v_0[3]", 1, 5, 2216, 0)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D.c", "collision spring constant",\
  103, 100000.0, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D.d", "collision damping", 104,\
@@ -8226,22 +8226,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.worldForce[2]",\
  "[N]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.worldForce[3]",\
- "[N]", "chassis3D.dryFrictionWheelJoint3D.N", 1, 5, 2626, 0)
+ "[N]", "chassis3D.dryFrictionWheelJoint3D.N", 1, 5, 2629, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.der(r_0[1])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape2.v_0[1]", 1, 5, 2211, 4)
+ "chassis3D.bodyShape2.v_0[1]", 1, 5, 2214, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.der(r_0[2])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape2.v_0[2]", 1, 5, 2212, 4)
+ "chassis3D.bodyShape2.v_0[2]", 1, 5, 2215, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]",\
@@ -8373,14 +8373,14 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.
  1, 4, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.der(phi_roll)",\
  "der(Roll angle of the wheel) [rad/s]", "chassis3D.dryFrictionWheelJoint3D.revolute.w", 1,\
- 5, 2698, 0)
+ 5, 2701, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.w_roll",\
  "Roll velocity of wheel [rad/s]", "chassis3D.dryFrictionWheelJoint3D.revolute.w", 1,\
- 5, 2698, 0)
+ 5, 2701, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.v[1]",\
- "Velocity [m/s]", "chassis3D.bodyShape2.v_0[1]", 1, 5, 2211, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape2.v_0[1]", 1, 5, 2214, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.v[2]",\
- "Velocity [m/s]", "chassis3D.bodyShape2.v_0[2]", 1, 5, 2212, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape2.v_0[2]", 1, 5, 2215, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.v_lat",\
  "Driving in lateral direction [m/s]", 0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.v_long",\
@@ -8405,113 +8405,113 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.width",\
  "Width of the wheel [m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.N",\
- "", "chassis3D.dryFrictionWheelJoint3D.N", -1, 5, 2626, 0)
+ "", "chassis3D.dryFrictionWheelJoint3D.N", -1, 5, 2629, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 2633, 0)
+ 5, 2636, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 2634, 0)
+ 5, 2637, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 2635, 0)
+ 5, 2638, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 0)
+ 5, 2249, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 0)
+ 5, 2250, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 0)
+ 5, 2251, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 1]", 1,\
- 5, 2639, 0)
+ 5, 2642, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 2]", 1,\
- 5, 2640, 0)
+ 5, 2643, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 3]", 1,\
- 5, 2641, 0)
+ 5, 2644, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[1]", 1, 5, 2756, 0)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[1]", 1, 5, 2759, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[2]", 1, 5, 2757, 0)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[2]", 1, 5, 2760, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[3]", 1, 5, 2758, 0)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[3]", 1, 5, 2761, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", -1,\
- 5, 2681, 132)
+ 5, 2684, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[1]", -1,\
- 5, 8211, 132)
+ 5, 8214, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[2]", -1,\
- 5, 8212, 132)
+ 5, 8215, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[3]", -1,\
- 5, 8213, 132)
+ 5, 8216, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 2243, 0)
+ 5, 2246, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 2244, 0)
+ 5, 2247, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 2245, 0)
+ 5, 2248, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 0)
+ 5, 2249, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 0)
+ 5, 2250, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 0)
+ 5, 2251, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 2249, 0)
+ 5, 2252, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 2250, 0)
+ 5, 2253, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 2251, 0)
+ 5, 2254, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 0)
+"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 0)
+"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 0)
+"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", \
@@ -8570,9 +8570,9 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.der(w)", 1, 5, 2699, 0)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.der(w)", 1, 5, 2702, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.tau", "Driving torque in direction of axis of rotation [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2684, 0)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2687, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.angle", \
 "= phi_offset + phi [rad|deg]", "chassis3D.dryFrictionWheelJoint3D.revolute.phi", 1,\
  1, 4, 0)
@@ -8626,49 +8626,49 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 2633, 1024)
+ 5, 2636, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 2634, 1024)
+ 5, 2637, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 2635, 1024)
+ 5, 2638, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 1024)
+ 5, 2249, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 1024)
+ 5, 2250, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 1024)
+ 5, 2251, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 1]", 1,\
- 5, 2639, 1024)
+ 5, 2642, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 2]", 1,\
- 5, 2640, 1024)
+ 5, 2643, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 3]", 1,\
- 5, 2641, 1024)
+ 5, 2644, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[1]", 1, 5, 2756, 1024)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[1]", 1, 5, 2759, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[2]", 1, 5, 2757, 1024)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[2]", 1, 5, 2760, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[3]", 1, 5, 2758, 1024)
+"chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[3]", 1, 5, 2761, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 1024)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 1024)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -8739,22 +8739,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.Form", "", 
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 1536)
+ 5, 2249, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 1536)
+ 5, 2250, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 1536)
+ 5, 2251, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 2633, 1536)
+ 5, 2636, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 2634, 1536)
+ 5, 2637, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 2635, 1536)
+ 5, 2638, 1536)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.cylinder.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -8783,7 +8783,7 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.revolute.fixed.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.internalAxis.tau", \
 "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2684, 1024)
+ "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1, 5, 2687, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.dryFrictionWheelJoint3D.revolute.phi", 1,\
  1, 4, 1024)
@@ -8792,43 +8792,43 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.internalAxis.flange.ph
  1, 4, 1028)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.revolute.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", -1,\
- 5, 2684, 1156)
+ 5, 2687, 1156)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 2633, 0)
+ 5, 2636, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 2634, 0)
+ 5, 2637, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 2635, 0)
+ 5, 2638, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 0)
+ 5, 2249, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 0)
+ 5, 2250, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 0)
+ 5, 2251, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 1]", 1,\
- 5, 2639, 0)
+ 5, 2642, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 2]", 1,\
- 5, 2640, 0)
+ 5, 2643, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D.partialDryFrictionWheelJoint3D.frame_a.R.T[3, 3]", 1,\
- 5, 2641, 0)
+ 5, 2644, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", 0.0,\
  0.0,0.0,0.0,0,512)
@@ -8849,85 +8849,85 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D.frame_chassis.R.der(w[3])", \
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.f[1]", -1,\
- 5, 8208, 132)
+ 5, 8211, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.f[2]", -1,\
- 5, 8209, 132)
+ 5, 8212, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.f[3]", -1,\
- 5, 8210, 132)
+ 5, 8213, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[1]", -1,\
- 5, 8211, 132)
+ 5, 8214, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[2]", -1,\
- 5, 8212, 132)
+ 5, 8215, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_chassis.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight.fixedRotation.frame_b.t[3]", -1,\
- 5, 8213, 132)
+ 5, 8216, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2286, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[1]", 1, 5, 2289, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2287, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[2]", 1, 5, 2290, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2288, 4)
+ "chassis3D.bodyShape2.body.frame_a.r_0[3]", 1, 5, 2291, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 2243, 0)
+ 5, 2246, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 2244, 0)
+ 5, 2247, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 2245, 0)
+ 5, 2248, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 2246, 0)
+ 5, 2249, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 2247, 0)
+ 5, 2250, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 2248, 0)
+ 5, 2251, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 2249, 0)
+ 5, 2252, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 2250, 0)
+ 5, 2253, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape2.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 2251, 0)
+ 5, 2254, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2367, 0)
+"chassis3D.bodyShape2.body.w_a[1]", 1, 5, 2370, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2368, 0)
+"chassis3D.bodyShape2.body.w_a[2]", 1, 5, 2371, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2369, 0)
+"chassis3D.bodyShape2.body.w_a[3]", 1, 5, 2372, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[1]", 1,\
- 5, 2680, 132)
+ 5, 2683, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[2]", 1,\
- 5, 2681, 132)
+ 5, 2684, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.f[3]", 1,\
- 5, 2682, 132)
+ 5, 2685, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[1]", 1,\
- 5, 2683, 132)
+ 5, 2686, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[2]", 1,\
- 5, 2684, 132)
+ 5, 2687, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.frame_wheel.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D.revolute.frame_b.t[3]", 1,\
- 5, 2685, 132)
+ 5, 2688, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D.revolute.phi", 1, 1, 4, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D.flange.tau", "Cut torque in the flange [N.m]",\
@@ -8945,7 +8945,7 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D1.mu_S", "Friction coefficien
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.penetration", "[m]", 0.0, \
 0.0,1E+100,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.der(penetration)", "[m/s]", \
-"chassis3D.bodyShape1.v_0[3]", 1, 5, 3124, 0)
+"chassis3D.bodyShape1.v_0[3]", 1, 5, 3127, 0)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D1.c", "collision spring constant",\
  129, 100000.0, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D1.d", "collision damping", 130,\
@@ -8967,22 +8967,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.worldForce[2]",\
  "[N]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.worldForce[3]",\
- "[N]", "chassis3D.dryFrictionWheelJoint3D1.N", 1, 5, 2763, 0)
+ "[N]", "chassis3D.dryFrictionWheelJoint3D1.N", 1, 5, 2766, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.der(r_0[1])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape1.v_0[1]", 1, 5, 3122, 4)
+ "chassis3D.bodyShape1.v_0[1]", 1, 5, 3125, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.der(r_0[2])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape1.v_0[2]", 1, 5, 3123, 4)
+ "chassis3D.bodyShape1.v_0[2]", 1, 5, 3126, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]",\
@@ -9071,7 +9071,7 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D
  1, 5, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.flange_a.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", 1,\
- 5, 2820, 132)
+ 5, 2823, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.stateSelect",\
  "Priority to use acceleration as states [:#(type=StateSelect)]", 3, 1.0,5.0,0.0,\
 0,1541)
@@ -9112,14 +9112,14 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D
  1, 5, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.der(phi_roll)",\
  "der(Roll angle of the wheel) [rad/s]", "chassis3D.dryFrictionWheelJoint3D1.revolute.w", 1,\
- 5, 2834, 0)
+ 5, 2837, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.w_roll",\
  "Roll velocity of wheel [rad/s]", "chassis3D.dryFrictionWheelJoint3D1.revolute.w", 1,\
- 5, 2834, 0)
+ 5, 2837, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.v[1]",\
- "Velocity [m/s]", "chassis3D.bodyShape1.v_0[1]", 1, 5, 3122, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape1.v_0[1]", 1, 5, 3125, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.v[2]",\
- "Velocity [m/s]", "chassis3D.bodyShape1.v_0[2]", 1, 5, 3123, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape1.v_0[2]", 1, 5, 3126, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.v_lat",\
  "Driving in lateral direction [m/s]", 0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.v_long",\
@@ -9144,113 +9144,113 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoin
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.width",\
  "Width of the wheel [m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.partialDryFrictionWheelJoint3D.N",\
- "", "chassis3D.dryFrictionWheelJoint3D1.N", -1, 5, 2763, 0)
+ "", "chassis3D.dryFrictionWheelJoint3D1.N", -1, 5, 2766, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", -1,\
- 5, 2817, 132)
+ 5, 2820, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[1]", 1,\
- 5, 2919, 132)
+ 5, 2922, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1,\
- 5, 2820, 132)
+ 5, 2823, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", 1,\
- 5, 2920, 132)
+ 5, 2923, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3154, 0)
+ 5, 3157, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3155, 0)
+ 5, 3158, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3156, 0)
+ 5, 3159, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3160, 0)
+ 5, 3163, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3161, 0)
+ 5, 3164, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3162, 0)
+ 5, 3165, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 0)
+"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 0)
+"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 0)
+"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", \
@@ -9310,10 +9310,10 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.der(w)", 1, 5, 2835, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.der(w)", 1, 5, 2838, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.tau", \
 "Driving torque in direction of axis of rotation [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1,\
- 5, 2820, 0)
+ 5, 2823, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.angle", \
 "= phi_offset + phi [rad|deg]", "chassis3D.dryFrictionWheelJoint3D1.revolute.phi", 1,\
  1, 5, 0)
@@ -9367,49 +9367,49 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1024)
+ 5, 2895, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1024)
+ 5, 2896, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1024)
+ 5, 2897, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 1024)
+ 5, 2898, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 1024)
+ 5, 2899, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 1024)
+ 5, 2900, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 1024)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -9480,22 +9480,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.Form", "",
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1536)
+ 5, 2895, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1536)
+ 5, 2896, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1536)
+ 5, 2897, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.cylinder.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -9524,7 +9524,7 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.revolute.fixed.flange.tau", 
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.internalAxis.tau", \
 "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2820, 1024)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2823, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.dryFrictionWheelJoint3D1.revolute.phi", 1,\
  1, 5, 1024)
@@ -9533,25 +9533,25 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.internalAxis.flange.p
  1, 5, 1028)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.revolute.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1,\
- 5, 2820, 1156)
+ 5, 2823, 1156)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", \
@@ -9628,72 +9628,72 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1,\
- 5, 2820, 132)
+ 5, 2823, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3154, 0)
+ 5, 3157, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3155, 0)
+ 5, 3158, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3156, 0)
+ 5, 3159, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3160, 0)
+ 5, 3163, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3161, 0)
+ 5, 3164, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3162, 0)
+ 5, 3165, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 0)
+"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 0)
+"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 0)
+"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", 1,\
- 5, 2816, 132)
+ 5, 2819, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", 1,\
- 5, 2817, 132)
+ 5, 2820, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[3]", 1,\
- 5, 2818, 132)
+ 5, 2821, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[1]", 1,\
- 5, 2819, 132)
+ 5, 2822, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", 1,\
- 5, 2820, 132)
+ 5, 2823, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.frame_wheel.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[3]", 1,\
- 5, 2821, 132)
+ 5, 2824, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D1.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D1.revolute.phi", 1, 1, 5, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D1.flange.tau", \
@@ -9711,7 +9711,7 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D2.mu_S", "Friction coefficien
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.penetration", "[m]", 0.0, \
 0.0,1E+100,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.der(penetration)", "[m/s]", \
-"chassis3D.bodyShape3.v_0[3]", 1, 5, 3350, 0)
+"chassis3D.bodyShape3.v_0[3]", 1, 5, 3353, 0)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D2.c", "collision spring constant",\
  155, 100000.0, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D2.d", "collision damping", 156,\
@@ -9733,22 +9733,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.worldForce[2]",\
  "[N]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.worldForce[3]",\
- "[N]", "chassis3D.dryFrictionWheelJoint3D2.N", 1, 5, 2923, 0)
+ "[N]", "chassis3D.dryFrictionWheelJoint3D2.N", 1, 5, 2926, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.der(r_0[1])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape3.v_0[1]", 1, 5, 3348, 4)
+ "chassis3D.bodyShape3.v_0[1]", 1, 5, 3351, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.der(r_0[2])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape3.v_0[2]", 1, 5, 3349, 4)
+ "chassis3D.bodyShape3.v_0[2]", 1, 5, 3352, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]",\
@@ -9834,10 +9834,10 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint
  "[rad|deg]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.flange_a.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1,\
- 5, 2992, 4)
+ 5, 2995, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.flange_a.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", -1,\
- 5, 2978, 132)
+ 5, 2981, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.stateSelect",\
  "Priority to use acceleration as states [:#(type=StateSelect)]", 3, 1.0,5.0,0.0,\
 0,1541)
@@ -9875,17 +9875,17 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint
  "Rotation Matrix", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.phi_roll",\
  "Roll angle of the wheel [rad|deg]", "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1,\
- 5, 2992, 0)
+ 5, 2995, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.der(phi_roll)",\
  "der(Roll angle of the wheel) [rad/s]", "chassis3D.dryFrictionWheelJoint3D2.revolute.w", 1,\
- 5, 2993, 0)
+ 5, 2996, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.w_roll",\
  "Roll velocity of wheel [rad/s]", "chassis3D.dryFrictionWheelJoint3D2.revolute.w", 1,\
- 5, 2993, 0)
+ 5, 2996, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.v[1]",\
- "Velocity [m/s]", "chassis3D.bodyShape3.v_0[1]", 1, 5, 3348, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape3.v_0[1]", 1, 5, 3351, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.v[2]",\
- "Velocity [m/s]", "chassis3D.bodyShape3.v_0[2]", 1, 5, 3349, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape3.v_0[2]", 1, 5, 3352, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.v_lat",\
  "Driving in lateral direction [m/s]", 0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.v_long",\
@@ -9910,52 +9910,52 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoin
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.width",\
  "Width of the wheel [m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.N",\
- "", "chassis3D.dryFrictionWheelJoint3D2.N", -1, 5, 2923, 0)
+ "", "chassis3D.dryFrictionWheelJoint3D2.N", -1, 5, 2926, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 1]", 1,\
- 5, 3055, 0)
+ 5, 3058, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 2]", 1,\
- 5, 3056, 0)
+ 5, 3059, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 3]", 1,\
- 5, 3057, 0)
+ 5, 3060, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 1]", 1,\
- 5, 3058, 0)
+ 5, 3061, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 2]", 1,\
- 5, 3059, 0)
+ 5, 3062, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 3]", 1,\
- 5, 3060, 0)
+ 5, 3063, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[1]", 1, 5, 3079, 0)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[1]", 1, 5, 3082, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[2]", 1, 5, 3080, 0)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[2]", 1, 5, 3083, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[3]", 1, 5, 3081, 0)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[3]", 1, 5, 3084, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", \
@@ -9970,67 +9970,67 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1,\
- 5, 3085, 0)
+ 5, 3088, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1,\
- 5, 3086, 0)
+ 5, 3089, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1,\
- 5, 3087, 0)
+ 5, 3090, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1,\
- 5, 3088, 0)
+ 5, 3091, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1,\
- 5, 3089, 0)
+ 5, 3092, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1,\
- 5, 3090, 0)
+ 5, 3093, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 0)
+"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 0)
+"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 0)
+"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", 1,\
- 5, 3103, 132)
+ 5, 3106, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", -1,\
- 5, 2975, 132)
+ 5, 2978, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", 1,\
- 5, 3104, 132)
+ 5, 3107, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", 1,\
- 5, 3105, 132)
+ 5, 3108, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", -1,\
- 5, 2978, 132)
+ 5, 2981, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", 1,\
- 5, 3106, 132)
+ 5, 3109, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.useAxisFlange", \
 "= true, if axis flange is enabled [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,1539)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.animation", \
@@ -10070,7 +10070,7 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.phi", \
 "Relative rotation angle from frame_a to frame_b [rad|deg]", 0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.dryFrictionWheelJoint3D2.revolute.w", 1,\
- 5, 2993, 0)
+ 5, 2996, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.w", \
 "First derivative of angle phi (relative angular velocity) [rad/s]", 0, 0.0,0.0,\
 0.0,0,528)
@@ -10078,13 +10078,13 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.der(w)", 1, 5, 2994, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.der(w)", 1, 5, 2997, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.tau", \
 "Driving torque in direction of axis of rotation [N.m]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1,\
- 5, 2978, 0)
+ 5, 2981, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.angle", \
 "= phi_offset + phi [rad|deg]", "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1,\
- 5, 2992, 0)
+ 5, 2995, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.e[1]", \
 "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -10147,49 +10147,49 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 1]", 1,\
- 5, 3055, 1024)
+ 5, 3058, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 2]", 1,\
- 5, 3056, 1024)
+ 5, 3059, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 3]", 1,\
- 5, 3057, 1024)
+ 5, 3060, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 1024)
+ 5, 2936, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 1024)
+ 5, 2937, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 1024)
+ 5, 2938, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 1]", 1,\
- 5, 3058, 1024)
+ 5, 3061, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 2]", 1,\
- 5, 3059, 1024)
+ 5, 3062, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 3]", 1,\
- 5, 3060, 1024)
+ 5, 3063, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[1]", 1, 5, 3079, 1024)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[1]", 1, 5, 3082, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[2]", 1, 5, 3080, 1024)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[2]", 1, 5, 3083, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[3]", 1, 5, 3081, 1024)
+"chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.w[3]", 1, 5, 3084, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 1024)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -10260,22 +10260,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.Form", "",
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 1536)
+ 5, 2936, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 1536)
+ 5, 2937, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 1536)
+ 5, 2938, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 1]", 1,\
- 5, 3055, 1536)
+ 5, 3058, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 2]", 1,\
- 5, 3056, 1536)
+ 5, 3059, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 3]", 1,\
- 5, 3057, 1536)
+ 5, 3060, 1536)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.cylinder.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -10304,25 +10304,25 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.revolute.fixed.flange.tau", 
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.internalAxis.tau", \
 "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2978, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2981, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1,\
- 5, 2992, 1024)
+ 5, 2995, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1,\
- 5, 2992, 1028)
+ 5, 2995, 1028)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.revolute.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1,\
- 5, 2978, 1156)
+ 5, 2981, 1156)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 2]", \
@@ -10331,13 +10331,13 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.T[3, 2]", \
@@ -10418,31 +10418,31 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.R.der(w[3])", 
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.f[1]", -1,\
- 5, 9745, 132)
+ 5, 9748, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.f[2]", -1,\
- 5, 9746, 132)
+ 5, 9749, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.f[3]", -1,\
- 5, 9747, 132)
+ 5, 9750, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.t[1]", -1,\
- 5, 9748, 132)
+ 5, 9751, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.t[2]", -1,\
- 5, 9749, 132)
+ 5, 9752, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_chassis.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionRight1.fixedRotation.frame_b.t[3]", -1,\
- 5, 9750, 132)
+ 5, 9753, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", \
@@ -10451,13 +10451,13 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", \
@@ -10502,73 +10502,73 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.der(T[3, 3], 2
 0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 0)
+"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 0)
+"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 0)
+"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", -1,\
- 5, 2975, 132)
+ 5, 2978, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", -1,\
- 5, 2978, 132)
+ 5, 2981, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D2.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2992, 4)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.phi", 1, 5, 2995, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D2.flange.tau", \
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3154, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3157, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3155, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3158, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3156, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3159, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2892, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2895, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2893, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2896, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2894, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2897, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3160, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3163, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3161, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3164, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3162, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3165, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 0)
+ "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 0)
+ "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 0)
+ "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", -1, 5, 2816, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", -1, 5, 2819, 132)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", -1, 5, 2817, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", -1, 5, 2820, 132)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[3]", -1, 5, 2818, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[3]", -1, 5, 2821, 132)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[1]", -1, 5, 2819, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[1]", -1, 5, 2822, 132)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2820, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2823, 132)
 DeclareAlias2("chassis3D.bodyShape1.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[3]", -1, 5, 2821, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[3]", -1, 5, 2824, 132)
 DeclareVariable("chassis3D.bodyShape1.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("chassis3D.bodyShape1.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -10576,29 +10576,29 @@ DeclareVariable("chassis3D.bodyShape1.frame_b.r_0[2]", "Position vector from wor
 DeclareVariable("chassis3D.bodyShape1.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3154, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3157, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3155, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3158, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3156, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3159, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2892, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2895, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2893, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2896, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2894, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2897, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3160, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3163, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3161, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3164, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3162, 0)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3165, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 0)
+ "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 0)
+ "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 0)
 DeclareAlias2("chassis3D.bodyShape1.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 0)
+ "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 0)
 DeclareVariable("chassis3D.bodyShape1.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape1.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -10642,17 +10642,17 @@ DeclareParameter("chassis3D.bodyShape1.I_31", "(3,1) element of inertia tensor [
 DeclareParameter("chassis3D.bodyShape1.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  185, 0, -1E+60,1E+100,0.0,0,560)
 DeclareAlias2("chassis3D.bodyShape1.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 0)
 DeclareAlias2("chassis3D.bodyShape1.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 0)
 DeclareAlias2("chassis3D.bodyShape1.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 0)
 DeclareAlias2("chassis3D.bodyShape1.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape1.v_0[1]", 1, 5, 3122, 0)
+ "chassis3D.bodyShape1.v_0[1]", 1, 5, 3125, 0)
 DeclareAlias2("chassis3D.bodyShape1.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape1.v_0[2]", 1, 5, 3123, 0)
+ "chassis3D.bodyShape1.v_0[2]", 1, 5, 3126, 0)
 DeclareAlias2("chassis3D.bodyShape1.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape1.v_0[3]", 1, 5, 3124, 0)
+ "chassis3D.bodyShape1.v_0[3]", 1, 5, 3127, 0)
 DeclareVariable("chassis3D.bodyShape1.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape1.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
@@ -10660,17 +10660,17 @@ DeclareVariable("chassis3D.bodyShape1.v_0[2]", "Absolute velocity of frame_a, re
 DeclareVariable("chassis3D.bodyShape1.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,528)
 DeclareAlias2("chassis3D.bodyShape1.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3223, 0)
+ "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3226, 0)
 DeclareAlias2("chassis3D.bodyShape1.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3224, 0)
+ "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3227, 0)
 DeclareAlias2("chassis3D.bodyShape1.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3225, 0)
+ "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3228, 0)
 DeclareAlias2("chassis3D.bodyShape1.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3223, 0)
+ "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3226, 0)
 DeclareAlias2("chassis3D.bodyShape1.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3224, 0)
+ "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3227, 0)
 DeclareAlias2("chassis3D.bodyShape1.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3225, 0)
+ "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3228, 0)
 DeclareVariable("chassis3D.bodyShape1.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareParameter("chassis3D.bodyShape1.angles_start[1]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
@@ -10755,13 +10755,13 @@ DeclareVariable("chassis3D.bodyShape1.sequence_angleStates[3]", "Sequence of rot
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareVariable("chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", \
@@ -10803,49 +10803,49 @@ DeclareVariable("chassis3D.bodyShape1.frameTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.frame_b.r_0[1]", 1, 5, 3108, 4)
+ "chassis3D.bodyShape1.frame_b.r_0[1]", 1, 5, 3111, 4)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.frame_b.r_0[2]", 1, 5, 3109, 4)
+ "chassis3D.bodyShape1.frame_b.r_0[2]", 1, 5, 3112, 4)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.frame_b.r_0[3]", 1, 5, 3110, 4)
+ "chassis3D.bodyShape1.frame_b.r_0[3]", 1, 5, 3113, 4)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3154, 0)
+ 5, 3157, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3155, 0)
+ 5, 3158, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3156, 0)
+ 5, 3159, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3160, 0)
+ 5, 3163, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3161, 0)
+ 5, 3164, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3162, 0)
+ 5, 3165, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 0)
+"chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 0)
+"chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 0)
 DeclareAlias2("chassis3D.bodyShape1.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 0)
+"chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 0)
 DeclareVariable("chassis3D.bodyShape1.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape1.frameTranslation.frame_b.f[2]", \
@@ -10914,11 +10914,11 @@ DeclareVariable("chassis3D.bodyShape1.body.frame_a.r_0[2]", "Position vector fro
 DeclareVariable("chassis3D.bodyShape1.body.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.der(r_0[1])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape1.v_0[1]", 1, 5, 3122, 4)
+ "chassis3D.bodyShape1.v_0[1]", 1, 5, 3125, 4)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.der(r_0[2])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape1.v_0[2]", 1, 5, 3123, 4)
+ "chassis3D.bodyShape1.v_0[2]", 1, 5, 3126, 4)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.der(r_0[3])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape1.v_0[3]", 1, 5, 3124, 4)
+ "chassis3D.bodyShape1.v_0[3]", 1, 5, 3127, 4)
 DeclareVariable("chassis3D.bodyShape1.body.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape1.body.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
@@ -10944,17 +10944,17 @@ DeclareVariable("chassis3D.bodyShape1.body.frame_a.R.w[2]", "Absolute angular ve
 DeclareVariable("chassis3D.bodyShape1.body.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", -1, 5, 2816, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[1]", -1, 5, 2819, 132)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", -1, 5, 2817, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[2]", -1, 5, 2820, 132)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[3]", -1, 5, 2818, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.f[3]", -1, 5, 2821, 132)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[1]", -1, 5, 2819, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[1]", -1, 5, 2822, 132)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2820, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", -1, 5, 2823, 132)
 DeclareAlias2("chassis3D.bodyShape1.body.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[3]", -1, 5, 2821, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[3]", -1, 5, 2824, 132)
 DeclareVariable("chassis3D.bodyShape1.body.animation", "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.bodyShape1.body.r_CM[1]", "Vector from frame_a to center of mass, resolved in frame_a [m]",\
@@ -10978,23 +10978,23 @@ DeclareVariable("chassis3D.bodyShape1.body.I_31", "(3,1) element of inertia tens
 DeclareVariable("chassis3D.bodyShape1.body.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  0.0, -1E+60,1E+100,0.0,0,513)
 DeclareAlias2("chassis3D.bodyShape1.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 0)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape1.v_0[1]", 1, 5, 3122, 0)
+ "chassis3D.bodyShape1.v_0[1]", 1, 5, 3125, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape1.v_0[2]", 1, 5, 3123, 0)
+ "chassis3D.bodyShape1.v_0[2]", 1, 5, 3126, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape1.v_0[3]", 1, 5, 3124, 0)
+ "chassis3D.bodyShape1.v_0[3]", 1, 5, 3127, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3223, 0)
+ "chassis3D.bodyShape1.body.a_0[1]", 1, 5, 3226, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3224, 0)
+ "chassis3D.bodyShape1.body.a_0[2]", 1, 5, 3227, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3225, 0)
+ "chassis3D.bodyShape1.body.a_0[3]", 1, 5, 3228, 0)
 DeclareVariable("chassis3D.bodyShape1.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape1.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -11123,11 +11123,11 @@ DeclareVariable("chassis3D.bodyShape1.body.der(w_a[2])", "der(Absolute angular v
 DeclareVariable("chassis3D.bodyShape1.body.der(w_a[3])", "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape1.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape1.body.der(w_a[1])", 1, 5, 3281, 0)
+ "chassis3D.bodyShape1.body.der(w_a[1])", 1, 5, 3284, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape1.body.der(w_a[2])", 1, 5, 3282, 0)
+ "chassis3D.bodyShape1.body.der(w_a[2])", 1, 5, 3285, 0)
 DeclareAlias2("chassis3D.bodyShape1.body.z_a[3]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape1.body.der(w_a[3])", 1, 5, 3283, 0)
+ "chassis3D.bodyShape1.body.der(w_a[3])", 1, 5, 3286, 0)
 DeclareVariable("chassis3D.bodyShape1.body.g_0[1]", "Gravity acceleration resolved in world frame [m/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("chassis3D.bodyShape1.body.g_0[2]", "Gravity acceleration resolved in world frame [m/s2]",\
@@ -11175,35 +11175,35 @@ DeclareVariable("chassis3D.bodyShape1.body.phi_dd[2]", "= der(phi_d) [rad/s2]", 
 DeclareVariable("chassis3D.bodyShape1.body.phi_dd[3]", "= der(phi_d) [rad/s2]", \
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3154, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3157, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3155, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3158, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3156, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3159, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2892, 1024)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2895, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2893, 1024)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2896, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2894, 1024)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2897, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3160, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3163, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3161, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3164, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3162, 1024)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3165, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3278, 1024)
+ "chassis3D.bodyShape1.body.w_a[1]", 1, 5, 3281, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3279, 1024)
+ "chassis3D.bodyShape1.body.w_a[2]", 1, 5, 3282, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3280, 1024)
+ "chassis3D.bodyShape1.body.w_a[3]", 1, 5, 3283, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 1024)
 DeclareVariable("chassis3D.bodyShape1.shape1.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.bodyShape1.shape1.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -11227,7 +11227,7 @@ DeclareVariable("chassis3D.bodyShape1.shape1.length", "Length of visual object [
 DeclareAlias2("chassis3D.bodyShape1.shape1.width", "Width of visual object [m]",\
  "chassis3D.bodyShape1.width", 1, 7, 195, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.height", "Height of visual object [m]",\
- "chassis3D.bodyShape1.height", 1, 5, 3141, 1024)
+ "chassis3D.bodyShape1.height", 1, 5, 3144, 1024)
 DeclareAlias2("chassis3D.bodyShape1.shape1.extra", "Additional size data for some of the shape types",\
  "chassis3D.bodyShape1.extra", 1, 7, 196, 1024)
 DeclareVariable("chassis3D.bodyShape1.shape1.color[1]", "Color of shape", 0, \
@@ -11263,77 +11263,77 @@ DeclareVariable("chassis3D.bodyShape1.shape1.e_y[3]", "Unit vector orthogonal to
 DeclareVariable("chassis3D.bodyShape1.shape1.Form", "", 9.87103E+25, 0.0,0.0,0.0,\
 0,3585)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2892, 1536)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2895, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2893, 1536)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2896, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2894, 1536)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2897, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3154, 1536)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3157, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3155, 1536)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3158, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3156, 1536)
+ "chassis3D.bodyShape1.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3159, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 1536)
 DeclareVariable("chassis3D.bodyShape1.shape1.size[1]", "{length,width,height} of shape [m]",\
  0.1, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape1.shape1.size[2]", "{length,width,height} of shape [m]",\
  "chassis3D.bodyShape1.width", 1, 7, 195, 1536)
 DeclareAlias2("chassis3D.bodyShape1.shape1.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.bodyShape1.height", 1, 5, 3141, 1536)
+ "chassis3D.bodyShape1.height", 1, 5, 3144, 1536)
 DeclareVariable("chassis3D.bodyShape1.shape1.Material", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape1.shape1.Extra", "", "chassis3D.bodyShape1.extra", 1,\
  7, 196, 1536)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3085, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3088, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3086, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3089, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3087, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3090, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3088, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3091, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3089, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3092, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3090, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3093, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 0)
+ "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 0)
+ "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 0)
+ "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", -1, 5, 3103, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", -1, 5, 3106, 132)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", 1, 5, 2975, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", 1, 5, 2978, 132)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", -1, 5, 3104, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", -1, 5, 3107, 132)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", -1, 5, 3105, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", -1, 5, 3108, 132)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2978, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2981, 132)
 DeclareAlias2("chassis3D.bodyShape3.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", -1, 5, 3106, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", -1, 5, 3109, 132)
 DeclareVariable("chassis3D.bodyShape3.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("chassis3D.bodyShape3.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -11341,32 +11341,32 @@ DeclareVariable("chassis3D.bodyShape3.frame_b.r_0[2]", "Position vector from wor
 DeclareVariable("chassis3D.bodyShape3.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3085, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3088, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3086, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3089, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3087, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3090, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3088, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3091, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3089, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3092, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3090, 0)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3093, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 0)
+ "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 0)
+ "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 0)
 DeclareAlias2("chassis3D.bodyShape3.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 0)
+ "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 0)
 DeclareVariable("chassis3D.bodyShape3.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape3.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -11410,17 +11410,17 @@ DeclareParameter("chassis3D.bodyShape3.I_31", "(3,1) element of inertia tensor [
 DeclareParameter("chassis3D.bodyShape3.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  207, 0, -1E+60,1E+100,0.0,0,560)
 DeclareAlias2("chassis3D.bodyShape3.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 0)
 DeclareAlias2("chassis3D.bodyShape3.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 0)
 DeclareAlias2("chassis3D.bodyShape3.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 0)
 DeclareAlias2("chassis3D.bodyShape3.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape3.v_0[1]", 1, 5, 3348, 0)
+ "chassis3D.bodyShape3.v_0[1]", 1, 5, 3351, 0)
 DeclareAlias2("chassis3D.bodyShape3.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape3.v_0[2]", 1, 5, 3349, 0)
+ "chassis3D.bodyShape3.v_0[2]", 1, 5, 3352, 0)
 DeclareAlias2("chassis3D.bodyShape3.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape3.v_0[3]", 1, 5, 3350, 0)
+ "chassis3D.bodyShape3.v_0[3]", 1, 5, 3353, 0)
 DeclareVariable("chassis3D.bodyShape3.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape3.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
@@ -11428,17 +11428,17 @@ DeclareVariable("chassis3D.bodyShape3.v_0[2]", "Absolute velocity of frame_a, re
 DeclareVariable("chassis3D.bodyShape3.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape3.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3449, 0)
+ "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3452, 0)
 DeclareAlias2("chassis3D.bodyShape3.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3450, 0)
+ "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3453, 0)
 DeclareAlias2("chassis3D.bodyShape3.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3451, 0)
+ "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3454, 0)
 DeclareAlias2("chassis3D.bodyShape3.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3449, 0)
+ "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3452, 0)
 DeclareAlias2("chassis3D.bodyShape3.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3450, 0)
+ "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3453, 0)
 DeclareAlias2("chassis3D.bodyShape3.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3451, 0)
+ "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3454, 0)
 DeclareVariable("chassis3D.bodyShape3.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareParameter("chassis3D.bodyShape3.angles_start[1]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
@@ -11523,13 +11523,13 @@ DeclareVariable("chassis3D.bodyShape3.sequence_angleStates[3]", "Sequence of rot
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 4)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 4)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 4)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 4)
 DeclareVariable("chassis3D.bodyShape3.frameTranslation.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape3.frameTranslation.frame_a.R.T[1, 2]", \
@@ -11571,49 +11571,49 @@ DeclareVariable("chassis3D.bodyShape3.frameTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.frame_b.r_0[1]", 1, 5, 3334, 4)
+ "chassis3D.bodyShape3.frame_b.r_0[1]", 1, 5, 3337, 4)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.frame_b.r_0[2]", 1, 5, 3335, 4)
+ "chassis3D.bodyShape3.frame_b.r_0[2]", 1, 5, 3338, 4)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape3.frame_b.r_0[3]", 1, 5, 3336, 4)
+ "chassis3D.bodyShape3.frame_b.r_0[3]", 1, 5, 3339, 4)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1,\
- 5, 3085, 0)
+ 5, 3088, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1,\
- 5, 3086, 0)
+ 5, 3089, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1,\
- 5, 3087, 0)
+ 5, 3090, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 0)
+ 5, 2936, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 0)
+ 5, 2937, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 0)
+ 5, 2938, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1,\
- 5, 3088, 0)
+ 5, 3091, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1,\
- 5, 3089, 0)
+ 5, 3092, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1,\
- 5, 3090, 0)
+ 5, 3093, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 0)
+"chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 0)
+"chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 0)
 DeclareAlias2("chassis3D.bodyShape3.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 0)
+"chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 0)
 DeclareVariable("chassis3D.bodyShape3.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape3.frameTranslation.frame_b.f[2]", \
@@ -11682,11 +11682,11 @@ DeclareVariable("chassis3D.bodyShape3.body.frame_a.r_0[2]", "Position vector fro
 DeclareVariable("chassis3D.bodyShape3.body.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.der(r_0[1])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape3.v_0[1]", 1, 5, 3348, 4)
+ "chassis3D.bodyShape3.v_0[1]", 1, 5, 3351, 4)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.der(r_0[2])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape3.v_0[2]", 1, 5, 3349, 4)
+ "chassis3D.bodyShape3.v_0[2]", 1, 5, 3352, 4)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.der(r_0[3])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape3.v_0[3]", 1, 5, 3350, 4)
+ "chassis3D.bodyShape3.v_0[3]", 1, 5, 3353, 4)
 DeclareVariable("chassis3D.bodyShape3.body.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape3.body.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
@@ -11712,17 +11712,17 @@ DeclareVariable("chassis3D.bodyShape3.body.frame_a.R.w[2]", "Absolute angular ve
 DeclareVariable("chassis3D.bodyShape3.body.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", -1, 5, 3103, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[1]", -1, 5, 3106, 132)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", 1, 5, 2975, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.f[2]", 1, 5, 2978, 132)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", -1, 5, 3104, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.f[3]", -1, 5, 3107, 132)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", -1, 5, 3105, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[1]", -1, 5, 3108, 132)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2978, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.revolute.frame_a.t[2]", 1, 5, 2981, 132)
 DeclareAlias2("chassis3D.bodyShape3.body.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", -1, 5, 3106, 132)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.t[3]", -1, 5, 3109, 132)
 DeclareVariable("chassis3D.bodyShape3.body.animation", "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.bodyShape3.body.r_CM[1]", "Vector from frame_a to center of mass, resolved in frame_a [m]",\
@@ -11746,23 +11746,23 @@ DeclareVariable("chassis3D.bodyShape3.body.I_31", "(3,1) element of inertia tens
 DeclareVariable("chassis3D.bodyShape3.body.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  0.0, -1E+60,1E+100,0.0,0,513)
 DeclareAlias2("chassis3D.bodyShape3.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 0)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape3.v_0[1]", 1, 5, 3348, 0)
+ "chassis3D.bodyShape3.v_0[1]", 1, 5, 3351, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape3.v_0[2]", 1, 5, 3349, 0)
+ "chassis3D.bodyShape3.v_0[2]", 1, 5, 3352, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape3.v_0[3]", 1, 5, 3350, 0)
+ "chassis3D.bodyShape3.v_0[3]", 1, 5, 3353, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3449, 0)
+ "chassis3D.bodyShape3.body.a_0[1]", 1, 5, 3452, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3450, 0)
+ "chassis3D.bodyShape3.body.a_0[2]", 1, 5, 3453, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3451, 0)
+ "chassis3D.bodyShape3.body.a_0[3]", 1, 5, 3454, 0)
 DeclareVariable("chassis3D.bodyShape3.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape3.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -11891,11 +11891,11 @@ DeclareVariable("chassis3D.bodyShape3.body.der(w_a[2])", "der(Absolute angular v
 DeclareVariable("chassis3D.bodyShape3.body.der(w_a[3])", "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape3.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape3.body.der(w_a[1])", 1, 5, 3507, 0)
+ "chassis3D.bodyShape3.body.der(w_a[1])", 1, 5, 3510, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape3.body.der(w_a[2])", 1, 5, 3508, 0)
+ "chassis3D.bodyShape3.body.der(w_a[2])", 1, 5, 3511, 0)
 DeclareAlias2("chassis3D.bodyShape3.body.z_a[3]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape3.body.der(w_a[3])", 1, 5, 3509, 0)
+ "chassis3D.bodyShape3.body.der(w_a[3])", 1, 5, 3512, 0)
 DeclareVariable("chassis3D.bodyShape3.body.g_0[1]", "Gravity acceleration resolved in world frame [m/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("chassis3D.bodyShape3.body.g_0[2]", "Gravity acceleration resolved in world frame [m/s2]",\
@@ -11959,38 +11959,38 @@ DeclareVariable("chassis3D.bodyShape3.body.phi_dd[2]", "= der(phi_d) [rad/s2]", 
 DeclareVariable("chassis3D.bodyShape3.body.phi_dd[3]", "= der(phi_d) [rad/s2]", \
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3085, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3088, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3086, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3089, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3087, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3090, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 1024)
+ 5, 2936, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 1024)
+ 5, 2937, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 1024)
+ 5, 2938, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3088, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 1]", 1, 5, 3091, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3089, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 2]", 1, 5, 3092, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3090, 1024)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[3, 3]", 1, 5, 3093, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3504, 1024)
+ "chassis3D.bodyShape3.body.w_a[1]", 1, 5, 3507, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3505, 1024)
+ "chassis3D.bodyShape3.body.w_a[2]", 1, 5, 3508, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3506, 1024)
+ "chassis3D.bodyShape3.body.w_a[3]", 1, 5, 3509, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 1024)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 1024)
 DeclareVariable("chassis3D.bodyShape3.shape1.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.bodyShape3.shape1.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -12014,7 +12014,7 @@ DeclareVariable("chassis3D.bodyShape3.shape1.length", "Length of visual object [
 DeclareAlias2("chassis3D.bodyShape3.shape1.width", "Width of visual object [m]",\
  "chassis3D.bodyShape3.width", 1, 7, 217, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.height", "Height of visual object [m]",\
- "chassis3D.bodyShape3.height", 1, 5, 3367, 1024)
+ "chassis3D.bodyShape3.height", 1, 5, 3370, 1024)
 DeclareAlias2("chassis3D.bodyShape3.shape1.extra", "Additional size data for some of the shape types",\
  "chassis3D.bodyShape3.extra", 1, 7, 218, 1024)
 DeclareVariable("chassis3D.bodyShape3.shape1.color[1]", "Color of shape", 170, \
@@ -12051,31 +12051,31 @@ DeclareVariable("chassis3D.bodyShape3.shape1.Form", "", 9.87103E+25, 0.0,0.0,0.0
 0,3585)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 1]", 1,\
- 5, 2933, 1536)
+ 5, 2936, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 2]", 1,\
- 5, 2934, 1536)
+ 5, 2937, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
  "chassis3D.dryFrictionWheelJoint3D2.partialDryFrictionWheelJoint3D.frame_a.R.T[2, 3]", 1,\
- 5, 2935, 1536)
+ 5, 2938, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3085, 1536)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 1]", 1, 5, 3088, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3086, 1536)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 2]", 1, 5, 3089, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3087, 1536)
+ "chassis3D.dryFrictionWheelJoint3D2.frame_wheel.R.T[1, 3]", 1, 5, 3090, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3423, 1536)
+ "chassis3D.bodyShape3.body.frame_a.r_0[1]", 1, 5, 3426, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3424, 1536)
+ "chassis3D.bodyShape3.body.frame_a.r_0[2]", 1, 5, 3427, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3425, 1536)
+ "chassis3D.bodyShape3.body.frame_a.r_0[3]", 1, 5, 3428, 1536)
 DeclareVariable("chassis3D.bodyShape3.shape1.size[1]", "{length,width,height} of shape [m]",\
  0.1, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape3.shape1.size[2]", "{length,width,height} of shape [m]",\
  "chassis3D.bodyShape3.width", 1, 7, 217, 1536)
 DeclareAlias2("chassis3D.bodyShape3.shape1.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.bodyShape3.height", 1, 5, 3367, 1536)
+ "chassis3D.bodyShape3.height", 1, 5, 3370, 1536)
 DeclareVariable("chassis3D.bodyShape3.shape1.Material", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape3.shape1.Extra", "", "chassis3D.bodyShape3.extra", 1,\
  7, 218, 1536)
@@ -12092,7 +12092,7 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D3.mu_S", "Friction coefficien
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.penetration", "[m]", 0.0, \
 0.0,1E+100,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.der(penetration)", "[m/s]", \
-"chassis3D.bodyShape4.v_0[3]", 1, 5, 3744, 0)
+"chassis3D.bodyShape4.v_0[3]", 1, 5, 3747, 0)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D3.c", "collision spring constant",\
  225, 100000.0, 0.0,0.0,0.0,0,560)
 DeclareParameter("chassis3D.dryFrictionWheelJoint3D3.d", "collision damping", 226,\
@@ -12114,22 +12114,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.worldForce[2]",\
  "[N]", 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.worldForce[3]",\
- "[N]", "chassis3D.dryFrictionWheelJoint3D3.N", 1, 5, 3569, 0)
+ "[N]", "chassis3D.dryFrictionWheelJoint3D3.N", 1, 5, 3572, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.der(r_0[1])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape4.v_0[1]", 1, 5, 3742, 4)
+ "chassis3D.bodyShape4.v_0[1]", 1, 5, 3745, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.der(r_0[2])",\
  "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape4.v_0[2]", 1, 5, 3743, 4)
+ "chassis3D.bodyShape4.v_0[2]", 1, 5, 3746, 4)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]",\
@@ -12258,14 +12258,14 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D
  1, 6, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.der(phi_roll)",\
  "der(Roll angle of the wheel) [rad/s]", "chassis3D.dryFrictionWheelJoint3D3.revolute.w", 1,\
- 5, 3641, 0)
+ 5, 3644, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.w_roll",\
  "Roll velocity of wheel [rad/s]", "chassis3D.dryFrictionWheelJoint3D3.revolute.w", 1,\
- 5, 3641, 0)
+ 5, 3644, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.v[1]",\
- "Velocity [m/s]", "chassis3D.bodyShape4.v_0[1]", 1, 5, 3742, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape4.v_0[1]", 1, 5, 3745, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.v[2]",\
- "Velocity [m/s]", "chassis3D.bodyShape4.v_0[2]", 1, 5, 3743, 0)
+ "Velocity [m/s]", "chassis3D.bodyShape4.v_0[2]", 1, 5, 3746, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.v_lat",\
  "Driving in lateral direction [m/s]", 0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.v_long",\
@@ -12290,113 +12290,113 @@ DeclareParameter("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoin
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.width",\
  "Width of the wheel [m]", 0.0, 0.0,0.0,0.0,0,513)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.N",\
- "", "chassis3D.dryFrictionWheelJoint3D3.N", -1, 5, 3569, 0)
+ "", "chassis3D.dryFrictionWheelJoint3D3.N", -1, 5, 3572, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 0)
+ 5, 3705, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 0)
+ 5, 3706, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 0)
+ 5, 3707, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", -1,\
- 5, 3624, 132)
+ 5, 3627, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[1]", 1,\
- 5, 3726, 132)
+ 5, 3729, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1,\
- 5, 3627, 132)
+ 5, 3630, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[3]", 1,\
- 5, 3727, 132)
+ 5, 3730, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3774, 0)
+ 5, 3777, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3775, 0)
+ 5, 3778, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3776, 0)
+ 5, 3779, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3780, 0)
+ 5, 3783, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3781, 0)
+ 5, 3784, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3782, 0)
+ 5, 3785, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 0)
+"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 0)
+"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 0)
+"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", \
@@ -12456,10 +12456,10 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.der(w)", 1, 5, 3642, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.der(w)", 1, 5, 3645, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.tau", \
 "Driving torque in direction of axis of rotation [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1,\
- 5, 3627, 0)
+ 5, 3630, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.angle", \
 "= phi_offset + phi [rad|deg]", "chassis3D.dryFrictionWheelJoint3D3.revolute.phi", 1,\
  1, 6, 0)
@@ -12513,49 +12513,49 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 1024)
+ 5, 3702, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 1024)
+ 5, 3703, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 1024)
+ 5, 3704, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 1024)
+ 5, 3705, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 1024)
+ 5, 3706, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 1024)
+ 5, 3707, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 1024)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -12626,22 +12626,22 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.Form", "",
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 1536)
+ 5, 3702, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 1536)
+ 5, 3703, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 1536)
+ 5, 3704, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.cylinder.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,3584)
@@ -12670,7 +12670,7 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.revolute.fixed.flange.tau", 
 "Cut torque in the flange [N.m]", 0.0, 0.0,0.0,0.0,0,2825)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.internalAxis.tau", \
 "External support torque (must be computed via torque balance in model where InternalSupport is used; = flange.tau) [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3627, 1024)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3630, 1024)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.dryFrictionWheelJoint3D3.revolute.phi", 1,\
  1, 6, 1024)
@@ -12679,25 +12679,25 @@ DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.internalAxis.flange.p
  1, 6, 1028)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.revolute.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1,\
- 5, 3627, 1156)
+ 5, 3630, 1156)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", \
@@ -12774,118 +12774,118 @@ DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1,\
- 5, 3627, 132)
+ 5, 3630, 132)
 DeclareVariable("chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3774, 0)
+ 5, 3777, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3775, 0)
+ 5, 3778, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3776, 0)
+ 5, 3779, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3780, 0)
+ 5, 3783, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3781, 0)
+ 5, 3784, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3782, 0)
+ 5, 3785, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 0)
+"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 0)
+"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 0)
+"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 0)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", 1,\
- 5, 3623, 132)
+ 5, 3626, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", 1,\
- 5, 3624, 132)
+ 5, 3627, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[3]", 1,\
- 5, 3625, 132)
+ 5, 3628, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[1]", 1,\
- 5, 3626, 132)
+ 5, 3629, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", 1,\
- 5, 3627, 132)
+ 5, 3630, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.frame_wheel.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[3]", 1,\
- 5, 3628, 132)
+ 5, 3631, 132)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.flange.phi", "Absolute rotation angle of flange [rad|deg]",\
  "chassis3D.dryFrictionWheelJoint3D3.revolute.phi", 1, 1, 6, 4)
 DeclareAlias2("chassis3D.dryFrictionWheelJoint3D3.flange.tau", "Cut torque in the flange [N.m]",\
  "driveTrain2D.VR.tau", -1, 5, 1022, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3774, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3777, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3775, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3778, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3776, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3779, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3699, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3702, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3700, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3703, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3701, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3704, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3780, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3783, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3781, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3784, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3782, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3785, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 0)
+ "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 0)
+ "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 0)
+ "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", -1, 5, 3623, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", -1, 5, 3626, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", -1, 5, 3624, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", -1, 5, 3627, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[3]", -1, 5, 3625, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[3]", -1, 5, 3628, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[1]", -1, 5, 3626, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[1]", -1, 5, 3629, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3627, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3630, 132)
 DeclareAlias2("chassis3D.bodyShape4.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[3]", -1, 5, 3628, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[3]", -1, 5, 3631, 132)
 DeclareVariable("chassis3D.bodyShape4.frame_b.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareVariable("chassis3D.bodyShape4.frame_b.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
@@ -12893,29 +12893,29 @@ DeclareVariable("chassis3D.bodyShape4.frame_b.r_0[2]", "Position vector from wor
 DeclareVariable("chassis3D.bodyShape4.frame_b.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3774, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3777, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3775, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3778, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3776, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3779, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3699, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3702, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3700, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3703, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3701, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3704, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3780, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3783, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3781, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3784, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3782, 0)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3785, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 0)
+ "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 0)
+ "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 0)
 DeclareAlias2("chassis3D.bodyShape4.frame_b.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 0)
+ "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 0)
 DeclareVariable("chassis3D.bodyShape4.frame_b.f[1]", "Cut-force resolved in connector frame [N]",\
  0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape4.frame_b.f[2]", "Cut-force resolved in connector frame [N]",\
@@ -12959,17 +12959,17 @@ DeclareParameter("chassis3D.bodyShape4.I_31", "(3,1) element of inertia tensor [
 DeclareParameter("chassis3D.bodyShape4.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  255, 0, -1E+60,1E+100,0.0,0,560)
 DeclareAlias2("chassis3D.bodyShape4.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 0)
 DeclareAlias2("chassis3D.bodyShape4.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 0)
 DeclareAlias2("chassis3D.bodyShape4.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 0)
 DeclareAlias2("chassis3D.bodyShape4.der(r_0[1])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape4.v_0[1]", 1, 5, 3742, 0)
+ "chassis3D.bodyShape4.v_0[1]", 1, 5, 3745, 0)
 DeclareAlias2("chassis3D.bodyShape4.der(r_0[2])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape4.v_0[2]", 1, 5, 3743, 0)
+ "chassis3D.bodyShape4.v_0[2]", 1, 5, 3746, 0)
 DeclareAlias2("chassis3D.bodyShape4.der(r_0[3])", "der(Position vector from origin of world frame to origin of frame_a) [m/s]",\
- "chassis3D.bodyShape4.v_0[3]", 1, 5, 3744, 0)
+ "chassis3D.bodyShape4.v_0[3]", 1, 5, 3747, 0)
 DeclareVariable("chassis3D.bodyShape4.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape4.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
@@ -12977,17 +12977,17 @@ DeclareVariable("chassis3D.bodyShape4.v_0[2]", "Absolute velocity of frame_a, re
 DeclareVariable("chassis3D.bodyShape4.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape4.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3843, 0)
+ "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3846, 0)
 DeclareAlias2("chassis3D.bodyShape4.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3844, 0)
+ "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3847, 0)
 DeclareAlias2("chassis3D.bodyShape4.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3845, 0)
+ "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3848, 0)
 DeclareAlias2("chassis3D.bodyShape4.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3843, 0)
+ "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3846, 0)
 DeclareAlias2("chassis3D.bodyShape4.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3844, 0)
+ "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3847, 0)
 DeclareAlias2("chassis3D.bodyShape4.a_0[3]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3845, 0)
+ "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3848, 0)
 DeclareVariable("chassis3D.bodyShape4.angles_fixed", "= true, if angles_start are used as initial values, else as guess values [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareParameter("chassis3D.bodyShape4.angles_start[1]", "Initial values of angles to rotate frame_a around 'sequence_start' axes into frame_b [rad|deg]",\
@@ -13072,13 +13072,13 @@ DeclareVariable("chassis3D.bodyShape4.sequence_angleStates[3]", "Sequence of rot
  3, 1.0,3.0,0.0,0,517)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareVariable("chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", \
@@ -13123,49 +13123,49 @@ DeclareVariable("chassis3D.bodyShape4.frameTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.frame_b.r_0[1]", 1, 5, 3728, 4)
+ "chassis3D.bodyShape4.frame_b.r_0[1]", 1, 5, 3731, 4)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.frame_b.r_0[2]", 1, 5, 3729, 4)
+ "chassis3D.bodyShape4.frame_b.r_0[2]", 1, 5, 3732, 4)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.frame_b.r_0[3]", 1, 5, 3730, 4)
+ "chassis3D.bodyShape4.frame_b.r_0[3]", 1, 5, 3733, 4)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1,\
- 5, 3774, 0)
+ 5, 3777, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1,\
- 5, 3775, 0)
+ 5, 3778, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1,\
- 5, 3776, 0)
+ 5, 3779, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3780, 0)
+ 5, 3783, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3781, 0)
+ 5, 3784, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3782, 0)
+ 5, 3785, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 0)
+"chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 0)
+"chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 0)
 DeclareAlias2("chassis3D.bodyShape4.frameTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 0)
+"chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 0)
 DeclareVariable("chassis3D.bodyShape4.frameTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.bodyShape4.frameTranslation.frame_b.f[2]", \
@@ -13234,11 +13234,11 @@ DeclareVariable("chassis3D.bodyShape4.body.frame_a.r_0[2]", "Position vector fro
 DeclareVariable("chassis3D.bodyShape4.body.frame_a.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.der(r_0[1])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape4.v_0[1]", 1, 5, 3742, 4)
+ "chassis3D.bodyShape4.v_0[1]", 1, 5, 3745, 4)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.der(r_0[2])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape4.v_0[2]", 1, 5, 3743, 4)
+ "chassis3D.bodyShape4.v_0[2]", 1, 5, 3746, 4)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.der(r_0[3])", "der(Position vector from world frame to the connector frame origin, resolved in world frame) [m/s]",\
- "chassis3D.bodyShape4.v_0[3]", 1, 5, 3744, 4)
+ "chassis3D.bodyShape4.v_0[3]", 1, 5, 3747, 4)
 DeclareVariable("chassis3D.bodyShape4.body.frame_a.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape4.body.frame_a.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
@@ -13264,17 +13264,17 @@ DeclareVariable("chassis3D.bodyShape4.body.frame_a.R.w[2]", "Absolute angular ve
 DeclareVariable("chassis3D.bodyShape4.body.frame_a.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", -1, 5, 3623, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[1]", -1, 5, 3626, 132)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", -1, 5, 3624, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[2]", -1, 5, 3627, 132)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[3]", -1, 5, 3625, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.f[3]", -1, 5, 3628, 132)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[1]", -1, 5, 3626, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[1]", -1, 5, 3629, 132)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3627, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", -1, 5, 3630, 132)
 DeclareAlias2("chassis3D.bodyShape4.body.frame_a.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[3]", -1, 5, 3628, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[3]", -1, 5, 3631, 132)
 DeclareVariable("chassis3D.bodyShape4.body.animation", "= true, if animation shall be enabled (show cylinder and sphere) [:#(type=Boolean)]",\
  false, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.bodyShape4.body.r_CM[1]", "Vector from frame_a to center of mass, resolved in frame_a [m]",\
@@ -13298,23 +13298,23 @@ DeclareVariable("chassis3D.bodyShape4.body.I_31", "(3,1) element of inertia tens
 DeclareVariable("chassis3D.bodyShape4.body.I_32", "(3,2) element of inertia tensor [kg.m2]",\
  0.0, -1E+60,1E+100,0.0,0,513)
 DeclareAlias2("chassis3D.bodyShape4.body.r_0[1]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.r_0[2]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.r_0[3]", "Position vector from origin of world frame to origin of frame_a [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 0)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.v_0[1]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape4.v_0[1]", 1, 5, 3742, 0)
+ "chassis3D.bodyShape4.v_0[1]", 1, 5, 3745, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.v_0[2]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape4.v_0[2]", 1, 5, 3743, 0)
+ "chassis3D.bodyShape4.v_0[2]", 1, 5, 3746, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.v_0[3]", "Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]",\
- "chassis3D.bodyShape4.v_0[3]", 1, 5, 3744, 0)
+ "chassis3D.bodyShape4.v_0[3]", 1, 5, 3747, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.der(v_0[1])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3843, 0)
+ "chassis3D.bodyShape4.body.a_0[1]", 1, 5, 3846, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.der(v_0[2])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3844, 0)
+ "chassis3D.bodyShape4.body.a_0[2]", 1, 5, 3847, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.der(v_0[3])", "der(Absolute velocity of frame_a, resolved in world frame (= der(r_0))) [m/s2]",\
- "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3845, 0)
+ "chassis3D.bodyShape4.body.a_0[3]", 1, 5, 3848, 0)
 DeclareVariable("chassis3D.bodyShape4.body.a_0[1]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
  0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.bodyShape4.body.a_0[2]", "Absolute acceleration of frame_a resolved in world frame (= der(v_0)) [m/s2]",\
@@ -13443,11 +13443,11 @@ DeclareVariable("chassis3D.bodyShape4.body.der(w_a[2])", "der(Absolute angular v
 DeclareVariable("chassis3D.bodyShape4.body.der(w_a[3])", "der(Absolute angular velocity of frame_a resolved in frame_a) [rad/s2]",\
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.bodyShape4.body.z_a[1]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape4.body.der(w_a[1])", 1, 5, 3901, 0)
+ "chassis3D.bodyShape4.body.der(w_a[1])", 1, 5, 3904, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.z_a[2]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape4.body.der(w_a[2])", 1, 5, 3902, 0)
+ "chassis3D.bodyShape4.body.der(w_a[2])", 1, 5, 3905, 0)
 DeclareAlias2("chassis3D.bodyShape4.body.z_a[3]", "Absolute angular acceleration of frame_a resolved in frame_a [rad/s2]",\
- "chassis3D.bodyShape4.body.der(w_a[3])", 1, 5, 3903, 0)
+ "chassis3D.bodyShape4.body.der(w_a[3])", 1, 5, 3906, 0)
 DeclareVariable("chassis3D.bodyShape4.body.g_0[1]", "Gravity acceleration resolved in world frame [m/s2]",\
  0.0, 0.0,0.0,0.0,0,513)
 DeclareVariable("chassis3D.bodyShape4.body.g_0[2]", "Gravity acceleration resolved in world frame [m/s2]",\
@@ -13495,35 +13495,35 @@ DeclareVariable("chassis3D.bodyShape4.body.phi_dd[2]", "= der(phi_d) [rad/s2]", 
 DeclareVariable("chassis3D.bodyShape4.body.phi_dd[3]", "= der(phi_d) [rad/s2]", \
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3774, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3777, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3775, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3778, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3776, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3779, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3699, 1024)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3702, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3700, 1024)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3703, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3701, 1024)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3704, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3780, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 1]", 1, 5, 3783, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3781, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 2]", 1, 5, 3784, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3782, 1024)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[3, 3]", 1, 5, 3785, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3898, 1024)
+ "chassis3D.bodyShape4.body.w_a[1]", 1, 5, 3901, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3899, 1024)
+ "chassis3D.bodyShape4.body.w_a[2]", 1, 5, 3902, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3900, 1024)
+ "chassis3D.bodyShape4.body.w_a[3]", 1, 5, 3903, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.r[1]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.r[2]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.r[3]", "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 1024)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 1024)
 DeclareVariable("chassis3D.bodyShape4.shape1.r_shape[1]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.bodyShape4.shape1.r_shape[2]", "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
@@ -13547,7 +13547,7 @@ DeclareVariable("chassis3D.bodyShape4.shape1.length", "Length of visual object [
 DeclareAlias2("chassis3D.bodyShape4.shape1.width", "Width of visual object [m]",\
  "chassis3D.bodyShape4.width", 1, 7, 265, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.height", "Height of visual object [m]",\
- "chassis3D.bodyShape4.height", 1, 5, 3761, 1024)
+ "chassis3D.bodyShape4.height", 1, 5, 3764, 1024)
 DeclareAlias2("chassis3D.bodyShape4.shape1.extra", "Additional size data for some of the shape types",\
  "chassis3D.bodyShape4.extra", 1, 7, 266, 1024)
 DeclareVariable("chassis3D.bodyShape4.shape1.color[1]", "Color of shape", 255, \
@@ -13583,134 +13583,134 @@ DeclareVariable("chassis3D.bodyShape4.shape1.e_y[3]", "Unit vector orthogonal to
 DeclareVariable("chassis3D.bodyShape4.shape1.Form", "", 9.87103E+25, 0.0,0.0,0.0,\
 0,3585)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rxvisobj[1]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3699, 1536)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3702, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rxvisobj[2]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3700, 1536)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3703, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rxvisobj[3]", "x-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3701, 1536)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3704, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.ryvisobj[1]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3774, 1536)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 1]", 1, 5, 3777, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.ryvisobj[2]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3775, 1536)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 2]", 1, 5, 3778, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.ryvisobj[3]", "y-axis unit vector of shape, resolved in world frame [1]",\
- "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3776, 1536)
+ "chassis3D.bodyShape4.frameTranslation.frame_a.R.T[1, 3]", 1, 5, 3779, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rvisobj[1]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 1536)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rvisobj[2]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 1536)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.rvisobj[3]", "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 1536)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 1536)
 DeclareVariable("chassis3D.bodyShape4.shape1.size[1]", "{length,width,height} of shape [m]",\
  0.1, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape4.shape1.size[2]", "{length,width,height} of shape [m]",\
  "chassis3D.bodyShape4.width", 1, 7, 265, 1536)
 DeclareAlias2("chassis3D.bodyShape4.shape1.size[3]", "{length,width,height} of shape [m]",\
- "chassis3D.bodyShape4.height", 1, 5, 3761, 1536)
+ "chassis3D.bodyShape4.height", 1, 5, 3764, 1536)
 DeclareVariable("chassis3D.bodyShape4.shape1.Material", "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.bodyShape4.shape1.Extra", "", "chassis3D.bodyShape4.extra", 1,\
  7, 266, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 1]", 1, 5, 1526, 0)
+ "body3D.frame.R.T[1, 1]", 1, 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 2]", 1, 5, 1527, 0)
+ "body3D.frame.R.T[1, 2]", 1, 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[1, 3]", 1, 5, 1528, 0)
+ "body3D.frame.R.T[1, 3]", 1, 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2892, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1, 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2893, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1, 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2894, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1, 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1, 5, 2895, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1, 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1, 5, 2896, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1, 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1, 5, 2897, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1, 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[1]", -1, 5, 2916, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[1]", -1, 5, 2919, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[2]", -1, 5, 2917, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[2]", -1, 5, 2920, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[3]", -1, 5, 2918, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.f[3]", -1, 5, 2921, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[1]", -1, 5, 2919, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[1]", -1, 5, 2922, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", 1, 5, 2820, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.revolute.frame_b.t[2]", 1, 5, 2823, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", -1, 5, 2920, 132)
+ "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", -1, 5, 2923, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[1]", 1, 5, 1430, 0)
+ "body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[2]", 1, 5, 1431, 0)
+ "body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "body3D.body1.w_a[3]", 1, 5, 1432, 0)
+ "body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[1]", 1, 5, 1838, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[1]", 1, 5, 1841, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[2]", 1, 5, 1839, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[2]", 1, 5, 1842, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.fixedTranslation4.frame_a.f[3]", 1, 5, 1840, 132)
+ "chassis3D.fixedTranslation4.frame_a.f[3]", 1, 5, 1843, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation4.frame_b.t[1]", -1, 5, 1853, 132)
+ "chassis3D.fixedTranslation4.frame_b.t[1]", -1, 5, 1856, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation4.frame_a.t[2]", 1, 5, 1842, 132)
+ "chassis3D.fixedTranslation4.frame_a.t[2]", 1, 5, 1845, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.frame1.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.fixedTranslation4.frame_b.t[3]", -1, 5, 1854, 132)
+ "chassis3D.fixedTranslation4.frame_b.t[3]", -1, 5, 1857, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -13778,10 +13778,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.f[1]", 
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[2]", -1,\
- 5, 4354, 132)
+ 5, 4357, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[3]", -1,\
- 5, 4355, 132)
+ 5, 4358, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant", 1,\
  7, 275, 132)
@@ -13791,57 +13791,57 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[1]", 1, 5, 5177, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[1]", 1, 5, 5180, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[2]", 1, 5, 5178, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[2]", 1, 5, 5181, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[3]", 1, 5, 5179, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[3]", 1, 5, 5182, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 0)
+ 5, 3960, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 0)
+ 5, 3961, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 0)
+ 5, 3962, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3960, 0)
+ 5, 3963, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3961, 0)
+ 5, 3964, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3962, 0)
+ 5, 3965, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3975, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3978, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3976, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3979, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3977, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3980, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[2]", 1,\
- 5, 4354, 132)
+ 5, 4357, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[3]", 1,\
- 5, 4355, 132)
+ 5, 4358, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_b.t[2]", \
@@ -13900,49 +13900,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.specularCoefficie
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 1024)
+ 5, 3960, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 1024)
+ 5, 3961, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 1024)
+ 5, 3962, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3960, 1024)
+ 5, 3963, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3961, 1024)
+ 5, 3964, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3962, 1024)
+ 5, 3965, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3975, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3978, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3976, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3979, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3977, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3980, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -13968,10 +13968,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.length", 
 "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.width", 1,\
- 5, 3999, 1024)
+ 5, 4002, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.height", 1,\
- 5, 4000, 1024)
+ 5, 4003, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation.extra", 1,\
  7, 268, 1024)
@@ -14016,52 +14016,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.Form", ""
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 1536)
+ 5, 3960, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 1536)
+ 5, 3961, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 1536)
+ 5, 3962, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.width", 1,\
- 5, 3999, 1536)
+ 5, 4002, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.height", 1,\
- 5, 4000, 1536)
+ 5, 4003, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation.extra", 1, 7, 268, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.R.T[1, 2]",\
@@ -14091,7 +14091,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.R.w[3]
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", -1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.f[2]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.f[3]",\
@@ -14131,56 +14131,56 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.der(r_
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", 1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.f[2]", -1,\
- 5, 4043, 132)
+ 5, 4046, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.f[3]", -1,\
- 5, 4044, 132)
+ 5, 4047, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.t[3]", -1,\
- 5, 4047, 132)
+ 5, 4050, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.animation", \
 "= true, if animation shall be enabled [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.r[1]", \
@@ -14233,49 +14233,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.specularCoeffici
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -14301,10 +14301,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.length",
  "Length of visual object [m]", 0.3, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.width", 1,\
- 5, 4073, 1024)
+ 5, 4076, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.height", 1,\
- 5, 4074, 1024)
+ 5, 4077, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.extra", 1,\
  7, 269, 1024)
@@ -14349,122 +14349,122 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.Form", \
 "", 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1536)
+ 5, 1535, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1536)
+ 5, 1536, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1536)
+ 5, 1537, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1536)
+ 5, 1532, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1536)
+ 5, 1533, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1536)
+ 5, 1534, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 1536)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.3, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.width", 1,\
- 5, 4073, 1536)
+ 5, 4076, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.height", 1,\
- 5, 4074, 1536)
+ 5, 4077, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation1.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation1.extra", 1, 7, 269, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", -1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.t[1]", -1,\
- 5, 4134, 132)
+ 5, 4137, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.t[2]", -1,\
- 5, 4058, 132)
+ 5, 4061, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_a.t[3]", 1,\
- 5, 4047, 132)
+ 5, 4050, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", \
@@ -14582,19 +14582,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.phi", "Relative rotati
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft1.revolute3.w", 1,\
- 5, 4150, 0)
+ 5, 4153, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,528)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft1.revolute3.der(w)", 1, 5, 4151, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute3.der(w)", 1, 5, 4154, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant", 1, 7, 271,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1, 5, 4149, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1, 5, 4152, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.e[1]", \
 "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
@@ -14653,49 +14653,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -14766,22 +14766,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1536)
+ 5, 1532, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1536)
+ 5, 1533, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1536)
+ 5, 1534, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -14814,10 +14814,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1,\
- 5, 4149, 1024)
+ 5, 4152, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1,\
- 5, 4149, 1028)
+ 5, 4152, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant", 1,\
  7, 271, 1156)
@@ -14826,7 +14826,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.useSupp
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1,\
- 5, 4149, 1028)
+ 5, 4152, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant", -1,\
  7, 271, 1156)
@@ -14834,28 +14834,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.phi_sup
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1, 5, 4149, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute3.phi", 1, 5, 4152, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft1.revolute3.w", 1, 5, 4150, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute3.w", 1, 5, 4153, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  271, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.w", 1, 5, 4150, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.w", 1, 5, 4153, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant", 1,\
  7, 271, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.R.T[1, 2]",\
@@ -14887,10 +14887,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.f[1]",
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[2]", 1,\
- 5, 5079, 132)
+ 5, 5082, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[3]", 1,\
- 5, 5080, 132)
+ 5, 5083, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.t[2]",\
@@ -14899,57 +14899,57 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_a.t[3]",
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[1]", 1, 5, 5057, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[1]", 1, 5, 5060, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[2]", 1, 5, 5058, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[2]", 1, 5, 5061, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[3]", 1, 5, 5059, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[3]", 1, 5, 5062, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.f[1]",\
  "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[2]", -1,\
- 5, 5079, 132)
+ 5, 5082, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[3]", -1,\
- 5, 5080, 132)
+ 5, 5083, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.frame_b.t[2]",\
@@ -15008,49 +15008,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.specularCoeffici
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -15076,10 +15076,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.length",
  "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation2.width", 1,\
- 5, 4248, 1024)
+ 5, 4251, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation2.height", 1,\
- 5, 4249, 1024)
+ 5, 4252, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation2.extra", 1,\
  7, 272, 1024)
@@ -15124,52 +15124,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.Form", \
 "", 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1536)
+ 5, 1535, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1536)
+ 5, 1536, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1536)
+ 5, 1537, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1536)
+ 5, 1532, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1536)
+ 5, 1533, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1536)
+ 5, 1534, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation2.width", 1,\
- 5, 4248, 1536)
+ 5, 4251, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation2.height", 1,\
- 5, 4249, 1536)
+ 5, 4252, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation2.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation2.extra", 1, 7, 272, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.R.T[1, 2]",\
@@ -15199,22 +15199,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.R.w[3]
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", -1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[2]", -1,\
- 5, 4132, 132)
+ 5, 4135, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[3]", -1,\
- 5, 4133, 132)
+ 5, 4136, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.constantTorque.tau_constant", 1,\
  7, 271, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.t[2]", -1,\
- 5, 4135, 132)
+ 5, 4138, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.t[3]", -1,\
- 5, 4136, 132)
+ 5, 4139, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
@@ -15244,55 +15244,55 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.der(r_
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 0)
+ 5, 4110, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 0)
+ 5, 4111, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 0)
+ 5, 4112, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 4110, 0)
+ 5, 4113, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 4111, 0)
+ 5, 4114, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 4112, 0)
+ 5, 4115, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4125, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4128, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4126, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4129, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4127, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4130, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", 1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[2]", 1,\
- 5, 4132, 132)
+ 5, 4135, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[3]", 1,\
- 5, 4133, 132)
+ 5, 4136, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute4.frame_b.t[1]", 1,\
- 5, 4439, 132)
+ 5, 4442, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.t[2]", 1,\
- 5, 4135, 132)
+ 5, 4138, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.t[3]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.animation", \
@@ -15347,49 +15347,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.specularCoeffici
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 1024)
+ 5, 4110, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 1024)
+ 5, 4111, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 1024)
+ 5, 4112, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 4110, 1024)
+ 5, 4113, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 4111, 1024)
+ 5, 4114, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 4112, 1024)
+ 5, 4115, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4125, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4128, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4126, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4129, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4127, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4130, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -15415,10 +15415,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.length",
  "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.width", 1,\
- 5, 4316, 1024)
+ 5, 4319, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.height", 1,\
- 5, 4317, 1024)
+ 5, 4320, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.extra", 1,\
  7, 273, 1024)
@@ -15463,88 +15463,88 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.Form", \
 "", 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 1536)
+ 5, 4110, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 1536)
+ 5, 4111, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 1536)
+ 5, 4112, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4048, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[1]", 1, 5, 4051, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4049, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[2]", 1, 5, 4052, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4050, 1536)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation1.frame_b.r_0[3]", 1, 5, 4053, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.width", 1,\
- 5, 4316, 1536)
+ 5, 4319, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.height", 1,\
- 5, 4317, 1536)
+ 5, 4320, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation3.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation3.extra", 1, 7, 273, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 0)
+ 5, 1532, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 0)
+ 5, 1533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 0)
+ 5, 1534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 0)
+"body3D.body1.w_a[1]", 1, 5, 1433, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 0)
+"body3D.body1.w_a[2]", 1, 5, 1434, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 0)
+"body3D.body1.w_a[3]", 1, 5, 1435, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.f[2]", \
@@ -15553,56 +15553,56 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.t[1]", -1,\
- 5, 4356, 132)
+ 5, 4359, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 4)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 0)
+ 5, 3960, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 0)
+ 5, 3961, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 0)
+ 5, 3962, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3960, 0)
+ 5, 3963, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3961, 0)
+ 5, 3964, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3962, 0)
+ 5, 3965, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3975, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3978, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3976, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3979, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3977, 0)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3980, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[2]", \
@@ -15654,19 +15654,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.phi", "Relative rotati
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft1.revolute1.w", 1,\
- 5, 4372, 0)
+ 5, 4375, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft1.revolute1.der(w)", 1, 5, 4373, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute1.der(w)", 1, 5, 4376, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant", 1, 7, 275,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1, 5, 4371, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1, 5, 4374, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.e[1]", \
 "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
@@ -15725,49 +15725,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1844, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[1]", 1, 5, 1847, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1845, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[2]", 1, 5, 1848, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1846, 1024)
+ "chassis3D.fixedTranslation4.frame_b.r_0[3]", 1, 5, 1849, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -15838,22 +15838,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1536)
+ 5, 1532, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1536)
+ 5, 1533, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1536)
+ 5, 1534, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -15886,10 +15886,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1,\
- 5, 4371, 1024)
+ 5, 4374, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1,\
- 5, 4371, 1028)
+ 5, 4374, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant", 1,\
  7, 275, 1156)
@@ -15898,7 +15898,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.useSupp
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1,\
- 5, 4371, 1028)
+ 5, 4374, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant", -1,\
  7, 275, 1156)
@@ -15906,127 +15906,127 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.phi_sup
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1, 5, 4371, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute1.phi", 1, 5, 4374, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft1.revolute1.w", 1, 5, 4372, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute1.w", 1, 5, 4375, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  275, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute1.w", 1, 5, 4372, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute1.w", 1, 5, 4375, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft1.revolute1.constantTorque.tau_constant", 1,\
  7, 275, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 0)
+ 5, 4110, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 0)
+ 5, 4111, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 0)
+ 5, 4112, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 4110, 0)
+ 5, 4113, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 4111, 0)
+ 5, 4114, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 4112, 0)
+ 5, 4115, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4125, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4128, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4126, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4129, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4127, 0)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4130, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[1]", -1,\
- 5, 4131, 132)
+ 5, 4134, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[2]", -1,\
- 5, 4132, 132)
+ 5, 4135, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.f[3]", -1,\
- 5, 4133, 132)
+ 5, 4136, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute4.frame_b.t[1]", -1,\
- 5, 4439, 132)
+ 5, 4442, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.t[2]", -1,\
- 5, 4135, 132)
+ 5, 4138, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.t[3]", -1,\
- 5, 4301, 132)
+ 5, 4304, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.frame_b.f[2]", \
@@ -16078,19 +16078,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.phi", "Relative rotati
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft1.revolute4.w", 1,\
- 5, 4455, 0)
+ 5, 4458, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft1.revolute4.der(w)", 1, 5, 4456, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute4.der(w)", 1, 5, 4459, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau_constant", 1, 7, 277,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1, 5, 4454, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1, 5, 4457, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.e[1]", \
 "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
@@ -16149,49 +16149,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 1024)
+ 5, 4110, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 1024)
+ 5, 4111, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 1024)
+ 5, 4112, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 4110, 1024)
+ 5, 4113, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 4111, 1024)
+ 5, 4114, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 4112, 1024)
+ 5, 4115, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4125, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[1]", 1, 5, 4128, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4126, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[2]", 1, 5, 4129, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4127, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.w[3]", 1, 5, 4130, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -16262,22 +16262,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 4107, 1536)
+ 5, 4110, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 4108, 1536)
+ 5, 4111, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 4109, 1536)
+ 5, 4112, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -16310,10 +16310,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1,\
- 5, 4454, 1024)
+ 5, 4457, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1,\
- 5, 4454, 1028)
+ 5, 4457, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau_constant", 1,\
  7, 277, 1156)
@@ -16322,7 +16322,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.useSupp
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1,\
- 5, 4454, 1028)
+ 5, 4457, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau_constant", -1,\
  7, 277, 1156)
@@ -16330,28 +16330,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.phi_sup
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1, 5, 4454, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute4.phi", 1, 5, 4457, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft1.revolute4.w", 1, 5, 4455, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute4.w", 1, 5, 4458, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  277, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute4.w", 1, 5, 4455, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute4.w", 1, 5, 4458, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft1.revolute4.constantTorque.tau_constant", 1,\
  7, 277, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5204, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5207, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5205, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5208, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5206, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5209, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.R.T[1, 2]",\
@@ -16393,58 +16393,58 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.t[3]",
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[1]", -1,\
- 5, 4531, 132)
+ 5, 4534, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[2]", -1,\
- 5, 4532, 132)
+ 5, 4535, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[3]", -1,\
- 5, 4533, 132)
+ 5, 4536, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_b.t[2]",\
@@ -16503,49 +16503,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.specularCoeffici
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1024)
+ 5, 2895, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1024)
+ 5, 2896, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1024)
+ 5, 2897, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 1024)
+ 5, 2898, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 1024)
+ 5, 2899, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 1024)
+ 5, 2900, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5204, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5207, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5205, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5208, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5206, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5209, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -16571,10 +16571,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.length",
  "Length of visual object [m]", 0.15, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.width", 1,\
- 5, 4554, 1024)
+ 5, 4557, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.height", 1,\
- 5, 4555, 1024)
+ 5, 4558, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.extra", 1,\
  7, 278, 1024)
@@ -16619,79 +16619,79 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.Form", \
 "", 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 1536)
+ 5, 2898, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 1536)
+ 5, 2899, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 1536)
+ 5, 2900, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1536)
+ 5, 2895, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1536)
+ 5, 2896, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1536)
+ 5, 2897, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5204, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[1]", 1, 5, 5207, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5205, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[2]", 1, 5, 5208, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5206, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_b.r_0[3]", 1, 5, 5209, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.15, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.width", 1,\
- 5, 4554, 1536)
+ 5, 4557, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.height", 1,\
- 5, 4555, 1536)
+ 5, 4558, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation4.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation4.extra", 1, 7, 278, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 0)
+ 5, 4691, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 0)
+ 5, 4692, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 0)
+ 5, 4693, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 0)
+ 5, 4694, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 0)
+ 5, 4695, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 0)
+ 5, 4696, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.der(T[2, 1])",\
  "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
 0,512)
@@ -16730,13 +16730,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.der(T[3, 3],
 0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.f[2]", \
@@ -16751,52 +16751,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.revolute6.frame_a.f[1]", -1,\
- 5, 4598, 132)
+ 5, 4601, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.frame_b.f[3]", \
@@ -16847,19 +16847,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.phi", "Relative rotati
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft1.revolute6.w", 1,\
- 5, 4621, 0)
+ 5, 4624, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,528)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft1.revolute6.der(w)", 1, 5, 4622, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute6.der(w)", 1, 5, 4625, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau_constant", 1, 7, 280,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1, 5, 4620, 0)
+ "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1, 5, 4623, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.e[1]", \
 "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
@@ -16918,49 +16918,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 1024)
+ 5, 4691, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 1024)
+ 5, 4692, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 1024)
+ 5, 4693, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 1024)
+ 5, 4694, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 1024)
+ 5, 4695, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 1024)
+ 5, 4696, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 1024)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -17031,22 +17031,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 1536)
+ 5, 4691, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 1536)
+ 5, 4692, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 1536)
+ 5, 4693, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -17079,10 +17079,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1,\
- 5, 4620, 1024)
+ 5, 4623, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1,\
- 5, 4620, 1028)
+ 5, 4623, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau_constant", 1,\
  7, 280, 1156)
@@ -17091,7 +17091,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.useSupp
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1,\
- 5, 4620, 1028)
+ 5, 4623, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau_constant", -1,\
  7, 280, 1156)
@@ -17099,28 +17099,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.phi_sup
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1, 5, 4620, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute6.phi", 1, 5, 4623, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft1.revolute6.w", 1, 5, 4621, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute6.w", 1, 5, 4624, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  280, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.revolute6.w", 1, 5, 4621, 1024)
+"chassis3D.wheelSuspensionLeft1.revolute6.w", 1, 5, 4624, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.constantTorque.tau_constant", 1,\
  7, 280, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[1, 2]", \
@@ -17162,67 +17162,67 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 0)
+ 5, 4691, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 0)
+ 5, 4692, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 0)
+ 5, 4693, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 0)
+ 5, 4694, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 0)
+ 5, 4695, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 0)
+ 5, 4696, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.f[1]", -1,\
- 5, 4697, 132)
+ 5, 4700, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.f[2]", -1,\
- 5, 4698, 132)
+ 5, 4701, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.f[3]", -1,\
- 5, 4699, 132)
+ 5, 4702, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.frame_a.t[1]", -1,\
- 5, 4601, 132)
+ 5, 4604, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.frame_a.t[2]", -1,\
- 5, 4602, 132)
+ 5, 4605, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft1.revolute6.frame_a.t[3]", -1,\
- 5, 4603, 132)
+ 5, 4606, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.useAxisFlange", \
 "= true, if axis flange is enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,1539)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.animation", \
@@ -17273,61 +17273,61 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.s", "Relative distance
  0.49497474683058323, 0.0,0.0,0.0,0,592)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.der(s)", \
 "der(Relative distance between frame_a and frame_b) [m/s]", "chassis3D.wheelSuspensionLeft1.prismatic.v", 1,\
- 5, 4722, 0)
+ 5, 4725, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.v", "First derivative of s (relative velocity) [m/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.der(v)", \
 "der(First derivative of s (relative velocity)) [m/s2]", 0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.a", "Second derivative of s (relative acceleration) [m/s2]",\
- "chassis3D.wheelSuspensionLeft1.prismatic.der(v)", 1, 5, 4723, 0)
+ "chassis3D.wheelSuspensionLeft1.prismatic.der(v)", 1, 5, 4726, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.f", "Actuation force in direction of joint axis [N]",\
  "chassis3D.wheelSuspensionLeft1.prismatic.constantForce.f_constant", 1, 7, 282,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 1024)
+ 5, 4691, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 1024)
+ 5, 4692, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 1024)
+ 5, 4693, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 1024)
+ 5, 4694, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 1024)
+ 5, 4695, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 1024)
+ 5, 4696, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.box.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -17412,16 +17412,16 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.box.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", 0.0, 0.0,0.0,0.0,0,3584)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.box.size[1]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.prismatic.box.length", 1,\
- 5, 4733, 1536)
+ 5, 4736, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.box.size[2]", \
 "{length,width,height} of shape [m]", 0.05, 0.0,0.0,0.0,0,3585)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.box.size[3]", \
@@ -17443,10 +17443,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.internalAxis.f", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.internalAxis.s", \
 "External support position (= flange.s) [m]", "chassis3D.wheelSuspensionLeft1.prismatic.s", 1,\
- 5, 4721, 1024)
+ 5, 4724, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.internalAxis.flange.s", \
 "Absolute position of flange [m]", "chassis3D.wheelSuspensionLeft1.prismatic.s", 1,\
- 5, 4721, 1028)
+ 5, 4724, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.internalAxis.flange.f", \
 "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.prismatic.constantForce.f_constant", 1,\
  7, 282, 1156)
@@ -17455,10 +17455,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.prismatic.constantForce.useSuppo
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.constantForce.s", \
 "Distance between flange and support (= flange.s - support.s) [m]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.s", 1, 5, 4721, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.s", 1, 5, 4724, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.constantForce.flange.s",\
  "Absolute position of flange [m]", "chassis3D.wheelSuspensionLeft1.prismatic.s", 1,\
- 5, 4721, 1028)
+ 5, 4724, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.prismatic.constantForce.flange.f",\
  "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.prismatic.constantForce.f_constant", -1,\
  7, 282, 1156)
@@ -17472,13 +17472,13 @@ DeclareParameter("chassis3D.wheelSuspensionLeft1.prismatic.constantForce.f_const
 0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.frame_a.R.T[1, 2]", \
@@ -17520,49 +17520,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 0)
+ 5, 4691, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 0)
+ 5, 4692, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 0)
+ 5, 4693, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 0)
+ 5, 4694, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 0)
+ 5, 4695, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 0)
+ 5, 4696, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.frame_b.f[2]", \
@@ -17653,22 +17653,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.r_rel_0[3]", \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.e_rel_0[1]", \
 "Unit vector in direction from frame_a to frame_b, resolved in world frame [1]",\
- "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[1]", 1, 5, 4848, 0)
+ "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[1]", 1, 5, 4851, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.e_rel_0[2]", \
 "Unit vector in direction from frame_a to frame_b, resolved in world frame [1]",\
- "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[2]", 1, 5, 4849, 0)
+ "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[2]", 1, 5, 4852, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.e_rel_0[3]", \
 "Unit vector in direction from frame_a to frame_b, resolved in world frame [1]",\
- "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[3]", 1, 5, 4850, 0)
+ "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[3]", 1, 5, 4853, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.R.T[1, 2]",\
@@ -17698,13 +17698,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.R.w[3]"
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_a.f[1]", 1,\
- 5, 4777, 132)
+ 5, 4780, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_a.f[2]", 1,\
- 5, 4778, 132)
+ 5, 4781, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_a.f[3]", 1,\
- 5, 4779, 132)
+ 5, 4782, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.t[2]", \
@@ -17713,13 +17713,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.R.T[1, 2]",\
@@ -17749,13 +17749,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.R.w[3]"
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_b.f[1]", 1,\
- 5, 4783, 132)
+ 5, 4786, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_b.f[2]", 1,\
- 5, 4784, 132)
+ 5, 4787, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.spring.frame_b.f[3]", 1,\
- 5, 4785, 132)
+ 5, 4788, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.frame_b.t[2]", \
@@ -17773,19 +17773,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.fixedRotationAt
  false, 0.0,0.0,0.0,0,515)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.length", \
 "Distance between the origin of frame_a and the origin of frame_b [m]", \
-"chassis3D.wheelSuspensionLeft1.spring.length", 1, 5, 4810, 0)
+"chassis3D.wheelSuspensionLeft1.spring.length", 1, 5, 4813, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.s", \
 "(Guarded) distance between the origin of frame_a and the origin of frame_b (>= s_small)) [m]",\
- "chassis3D.wheelSuspensionLeft1.spring.s", 1, 5, 4811, 0)
+ "chassis3D.wheelSuspensionLeft1.spring.s", 1, 5, 4814, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.r_rel_0[1]", \
 "Position vector from frame_a to frame_b resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[1]", 1, 5, 4812, 0)
+"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[1]", 1, 5, 4815, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.r_rel_0[2]", \
 "Position vector from frame_a to frame_b resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[2]", 1, 5, 4813, 0)
+"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[2]", 1, 5, 4816, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.r_rel_0[3]", \
 "Position vector from frame_a to frame_b resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[3]", 1, 5, 4814, 0)
+"chassis3D.wheelSuspensionLeft1.spring.r_rel_0[3]", 1, 5, 4817, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[1]", \
 "Unit vector in direction from frame_a to frame_b, resolved in world frame [1]",\
  0.0, 0.0,0.0,0.0,0,512)
@@ -17797,15 +17797,15 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[3]", \
  0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.flange_b.s", \
 "Absolute position of flange [m]", "chassis3D.wheelSuspensionLeft1.spring.length", 1,\
- 5, 4810, 4)
+ 5, 4813, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.flange_b.f", \
 "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.spring.f", -1,\
- 5, 4809, 132)
+ 5, 4812, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.flange_a.s", \
 "Absolute position of flange [m]", 0, 0.0,0.0,0.0,0,521)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.flange_a.f", \
 "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.spring.f", 1,\
- 5, 4809, 132)
+ 5, 4812, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.animateLine", \
 "= true, if a line shape between frame_a and frame_b shall be visualized [:#(type=Boolean)]",\
  true, 0.0,0.0,0.0,0,515)
@@ -17842,10 +17842,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.massColor[2]", 
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.massColor[3]", \
 "Color of point mass [:#(type=Integer)]", 255, 0.0,255.0,0.0,0,517)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.fa", \
-"Force from flange_a [N]", "chassis3D.wheelSuspensionLeft1.spring.f", 1, 5, 4809,\
+"Force from flange_a [N]", "chassis3D.wheelSuspensionLeft1.spring.f", 1, 5, 4812,\
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.fb", \
-"Force from flange_b [N]", "chassis3D.wheelSuspensionLeft1.spring.f", -1, 5, 4809,\
+"Force from flange_b [N]", "chassis3D.wheelSuspensionLeft1.spring.f", -1, 5, 4812,\
  1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.r_CM_0[1]", \
 "Position vector from world frame to point mass, resolved in world frame [m]", \
@@ -17897,13 +17897,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.R.w[3
 0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -17915,13 +17915,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.r_sha
  0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.lengthDirection[1]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[1]", 1,\
- 5, 4848, 1024)
+ 5, 4851, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.lengthDirection[2]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[2]", 1,\
- 5, 4849, 1024)
+ 5, 4852, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.lengthDirection[3]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.e_rel_0[3]", 1,\
- 5, 4850, 1024)
+ 5, 4853, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.widthDirection[1]",\
  "Vector in width direction, resolved in object frame [1]", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.widthDirection[2]",\
@@ -17930,14 +17930,14 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.width
  "Vector in width direction, resolved in object frame [1]", 0.0, 0.0,0.0,0.0,0,2560)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.length",\
  "Length of visual object [m]", "chassis3D.wheelSuspensionLeft1.spring.length", 1,\
- 5, 4810, 1024)
+ 5, 4813, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.width",\
  "Width of visual object [m]", 0.05, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.height",\
  "Height of visual object [m]", 0.01, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.extra",\
  "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShapeExtra", 1,\
- 5, 4858, 1024)
+ 5, 4861, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.color[1]",\
  "Color of shape", 0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.color[2]",\
@@ -17979,34 +17979,34 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.Form"
  "", 9.871109999999999E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_x[1]", 1,\
- 5, 4903, 1536)
+ 5, 4906, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_x[2]", 1,\
- 5, 4904, 1536)
+ 5, 4907, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_x[3]", 1,\
- 5, 4905, 1536)
+ 5, 4908, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_y[1]", 1,\
- 5, 4906, 1536)
+ 5, 4909, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_y[2]", 1,\
- 5, 4907, 1536)
+ 5, 4910, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.e_y[3]", 1,\
- 5, 4908, 1536)
+ 5, 4911, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1536)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.size[1]",\
  "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.spring.length", 1,\
- 5, 4810, 1536)
+ 5, 4813, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.size[2]",\
  "{length,width,height} of shape [m]", 0.05, 0.0,0.0,0.0,0,3585)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.size[3]",\
@@ -18014,24 +18014,24 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.size[
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShape.Extra",\
- "", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShapeExtra", 1, 5, 4858,\
+ "", "chassis3D.wheelSuspensionLeft1.spring.lineForce.lineShapeExtra", 1, 5, 4861,\
  1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.spring.flange_a.s", \
 "Absolute position of flange [m]", 0.0, 0.0,0.0,0.0,0,521)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.spring.flange_a.f", \
 "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.spring.f", -1,\
- 5, 4809, 132)
+ 5, 4812, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.spring.flange_b.s", \
 "Absolute position of flange [m]", "chassis3D.wheelSuspensionLeft1.spring.length", 1,\
- 5, 4810, 4)
+ 5, 4813, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.spring.flange_b.f", \
 "Cut force directed into flange [N]", "chassis3D.wheelSuspensionLeft1.spring.f", 1,\
- 5, 4809, 132)
+ 5, 4812, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.spring.s_rel", \
 "Relative distance (= flange_b.s - flange_a.s) [m]", "chassis3D.wheelSuspensionLeft1.spring.length", 1,\
- 5, 4810, 0)
+ 5, 4813, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.spring.spring.f", "Force between flanges (positive in direction of flange axis R) [N]",\
- "chassis3D.wheelSuspensionLeft1.spring.f", 1, 5, 4809, 0)
+ "chassis3D.wheelSuspensionLeft1.spring.f", 1, 5, 4812, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.spring.c", \
 "Spring constant [N/m]", 1, 0.0,1E+100,0.0,0,513)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.spring.spring.s_rel0", \
@@ -18063,13 +18063,13 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.specularCoefficient", \
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 4)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.frame_a.R.T[1, 2]", \
@@ -18111,13 +18111,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.frame_b.R.T[1, 2]", \
@@ -18239,49 +18239,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.r0_b[3]", "[m]", 0.0, \
 0.0,0.0,0.0,0,2560)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 1024)
+ 5, 4691, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 1024)
+ 5, 4692, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 1024)
+ 5, 4693, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 1024)
+ 5, 4694, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 1024)
+ 5, 4695, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 1024)
+ 5, 4696, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)
@@ -18293,13 +18293,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.r_shape[3]", \
  0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.lengthDirection[1]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[1]", 1,\
- 5, 4980, 1024)
+ 5, 4983, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.lengthDirection[2]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[2]", 1,\
- 5, 4981, 1024)
+ 5, 4984, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.lengthDirection[3]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[3]", 1,\
- 5, 4982, 1024)
+ 5, 4985, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.widthDirection[1]",\
  "Vector in width direction, resolved in object frame [1]", 0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.widthDirection[2]",\
@@ -18335,12 +18335,12 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.n_z_aux[3]", \
 "[1]", 1.0, 0.0,0.0,0.0,0,1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.e_x[1]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.shape_a.n_z_aux[3]", 1,\
- 5, 5008, 512)
+ 5, 5011, 512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.e_x[2]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", 0, 0.0,0.0,0.0,0,1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.e_x[3]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.shape_a.n_z_aux[1]", -1,\
- 5, 5006, 512)
+ 5, 5009, 512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.e_y[1]", \
 "Unit vector orthogonal to lengthDirection in the plane of lengthDirection and widthDirection, resolved in object frame [1]",\
  0, 0.0,0.0,0.0,0,1536)
@@ -18366,16 +18366,16 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", 0.0, 0.0,0.0,0.0,0,3584)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.rvisobj[2]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.rvisobj[3]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
-"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1536)
+"chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_a.size[1]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.damper.shape_a.length", 1,\
- 5, 4997, 1536)
+ 5, 5000, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.size[2]", \
 "{length,width,height} of shape [m]", 0.05, 0.0,0.0,0.0,0,3585)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.size[3]", \
@@ -18386,67 +18386,67 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_a.Extra", "", 0.0, 
 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 1024)
+ 5, 4691, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 1024)
+ 5, 4692, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 1024)
+ 5, 4693, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 1024)
+ 5, 4694, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 1024)
+ 5, 4695, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 1024)
+ 5, 4696, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 1024)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5084, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[1]", 1, 5, 5087, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5085, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[2]", 1, 5, 5088, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5086, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_b.r_0[3]", 1, 5, 5089, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
- "chassis3D.wheelSuspensionLeft1.damper.r0_b[1]", 1, 5, 4988, 1024)
+ "chassis3D.wheelSuspensionLeft1.damper.r0_b[1]", 1, 5, 4991, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r_shape[2]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
- "chassis3D.wheelSuspensionLeft1.damper.r0_b[2]", 1, 5, 4989, 1024)
+ "chassis3D.wheelSuspensionLeft1.damper.r0_b[2]", 1, 5, 4992, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.r_shape[3]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
- "chassis3D.wheelSuspensionLeft1.damper.r0_b[3]", 1, 5, 4990, 1024)
+ "chassis3D.wheelSuspensionLeft1.damper.r0_b[3]", 1, 5, 4993, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.lengthDirection[1]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[1]", 1,\
- 5, 4980, 1024)
+ 5, 4983, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.lengthDirection[2]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[2]", 1,\
- 5, 4981, 1024)
+ 5, 4984, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.lengthDirection[3]",\
  "Vector in length direction, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.e_a[3]", 1,\
- 5, 4982, 1024)
+ 5, 4985, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.widthDirection[1]",\
  "Vector in width direction, resolved in object frame [1]", 0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.widthDirection[2]",\
@@ -18482,12 +18482,12 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.n_z_aux[3]", \
 "[1]", 1.0, 0.0,0.0,0.0,0,1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.e_x[1]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.shape_b.n_z_aux[3]", 1,\
- 5, 5038, 512)
+ 5, 5041, 512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.e_x[2]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", 0, 0.0,0.0,0.0,0,1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.e_x[3]", \
 "Unit vector in lengthDirection, resolved in object frame [1]", "chassis3D.wheelSuspensionLeft1.damper.shape_b.n_z_aux[1]", -1,\
- 5, 5036, 512)
+ 5, 5039, 512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.e_y[1]", \
 "Unit vector orthogonal to lengthDirection in the plane of lengthDirection and widthDirection, resolved in object frame [1]",\
  0, 0.0,0.0,0.0,0,1536)
@@ -18522,7 +18522,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.rvisobj[3]", \
 0.0, 0.0,0.0,0.0,0,3584)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.damper.shape_b.size[1]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.damper.shape_b.length", 1,\
- 5, 5027, 1536)
+ 5, 5030, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.size[2]", \
 "{length,width,height} of shape [m]", 0.03, 0.0,0.0,0.0,0,3585)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.damper.shape_b.size[3]", \
@@ -18626,40 +18626,40 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.der(r_0[3], 2)
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 4688, 0)
+ 5, 4691, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 4689, 0)
+ 5, 4692, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 4690, 0)
+ 5, 4693, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 4691, 0)
+ 5, 4694, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 4692, 0)
+ 5, 4695, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 4693, 0)
+ 5, 4696, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4694, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[1]", 1, 5, 4697, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4695, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[2]", 1, 5, 4698, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4696, 0)
+"chassis3D.wheelSuspensionLeft1.prismatic.frame_a.R.w[3]", 1, 5, 4699, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.frame_b.f[2]", \
@@ -18786,55 +18786,55 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.r_rel_a[3]", \
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.f_c[1]", \
 "Dummy or constraint forces in direction of ex_a, ey_a [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[2]", 1,\
- 5, 5079, 1024)
+ 5, 5082, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.f_c[2]", \
 "Dummy or constraint forces in direction of ex_a, ey_a [N]", "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.f[3]", 1,\
- 5, 5080, 1024)
+ 5, 5083, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1024)
+ 5, 1532, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1024)
+ 5, 1533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1024)
+ 5, 1534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[1]", 1, 5, 1430, 1024)
+"body3D.body1.w_a[1]", 1, 5, 1433, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[2]", 1, 5, 1431, 1024)
+"body3D.body1.w_a[2]", 1, 5, 1434, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"body3D.body1.w_a[3]", 1, 5, 1432, 1024)
+"body3D.body1.w_a[3]", 1, 5, 1435, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[1]", 1, 5, 5057, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[1]", 1, 5, 5060, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[2]", 1, 5, 5058, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[2]", 1, 5, 5061, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[3]", 1, 5, 5059, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute5.frame_a.r_0[3]", 1, 5, 5062, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -18905,22 +18905,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 1]", 1,\
- 5, 1529, 1536)
+ 5, 1532, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 2]", 1,\
- 5, 1530, 1536)
+ 5, 1533, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[2, 3]", 1,\
- 5, 1531, 1536)
+ 5, 1534, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute5.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -19035,49 +19035,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.der(r_0[3], 2)
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[1]", -1,\
- 5, 4531, 132)
+ 5, 4534, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[2]", -1,\
- 5, 4532, 132)
+ 5, 4535, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation4.frame_a.f[3]", -1,\
- 5, 4533, 132)
+ 5, 4536, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.frame_b.t[2]", \
@@ -19198,55 +19198,55 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.r_rel_a[3]", \
  0.0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.f_c[1]", \
 "Dummy or constraint forces in direction of ex_a, ey_a [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[2]", -1,\
- 5, 4354, 1024)
+ 5, 4357, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.f_c[2]", \
 "Dummy or constraint forces in direction of ex_a, ey_a [N]", "chassis3D.wheelSuspensionLeft1.revolute1.frame_b.f[3]", -1,\
- 5, 4355, 1024)
+ 5, 4358, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 1024)
+ 5, 3960, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 1024)
+ 5, 3961, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 1024)
+ 5, 3962, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 3960, 1024)
+ 5, 3963, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 3961, 1024)
+ 5, 3964, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 3962, 1024)
+ 5, 3965, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3975, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[1]", 1, 5, 3978, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3976, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[2]", 1, 5, 3979, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3977, 1024)
+"chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.w[3]", 1, 5, 3980, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[1]", 1, 5, 5177, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[1]", 1, 5, 5180, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[2]", 1, 5, 5178, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[2]", 1, 5, 5181, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[3]", 1, 5, 5179, 1024)
+ "chassis3D.wheelSuspensionLeft1.revolute2.frame_a.r_0[3]", 1, 5, 5182, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -19317,22 +19317,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1536)
+ 5, 1529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1536)
+ 5, 1530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1536)
+ 5, 1531, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 3957, 1536)
+ 5, 3960, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 3958, 1536)
+ 5, 3961, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft1.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 3959, 1536)
+ 5, 3962, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -19354,13 +19354,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.revolute2.cylinder.Extra", "", \
 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 4)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.R.T[1, 2]",\
@@ -19400,68 +19400,68 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.t[2]",
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", -1,\
- 5, 2920, 132)
+ 5, 2923, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4292, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[1]", 1, 5, 4295, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.r_0[2]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4293, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[2]", 1, 5, 4296, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.r_0[3]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4294, 4)
+ "chassis3D.wheelSuspensionLeft1.fixedTranslation3.frame_b.r_0[3]", 1, 5, 4297, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 0)
+ 5, 1529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 0)
+ 5, 1530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 0)
+ 5, 1531, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 0)
+ 5, 2895, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 0)
+ 5, 2896, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 0)
+ 5, 2897, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 0)
+ 5, 2898, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 0)
+ 5, 2899, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 0)
+ 5, 2900, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.w[1]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.w[2]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.R.w[3]",\
  "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 0)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.f[1]", -1,\
- 5, 5306, 132)
+ 5, 5309, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.f[2]", -1,\
- 5, 5307, 132)
+ 5, 5310, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_a.f[3]", -1,\
- 5, 5308, 132)
+ 5, 5311, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.t[1]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.t[2]",\
  "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.t[3]", 1,\
- 5, 2920, 132)
+ 5, 2923, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.animation", \
 "= true, if animation shall be enabled [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.r[1]", \
@@ -19514,49 +19514,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.specularCoeffici
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 1]", 1,\
- 5, 1526, 1024)
+ 5, 1529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 2]", 1,\
- 5, 1527, 1024)
+ 5, 1530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[1, 3]", 1,\
- 5, 1528, 1024)
+ 5, 1531, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1024)
+ 5, 2895, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1024)
+ 5, 2896, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1024)
+ 5, 2897, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 1024)
+ 5, 2898, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 1024)
+ 5, 2899, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 1024)
+ 5, 2900, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2910, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[1]", 1, 5, 2913, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2911, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[2]", 1, 5, 2914, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2912, 1024)
+"chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.w[3]", 1, 5, 2915, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 1024)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -19582,10 +19582,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.length",
  "Length of visual object [m]", 0.15, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.width", 1,\
- 5, 5327, 1024)
+ 5, 5330, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.height", 1,\
- 5, 5328, 1024)
+ 5, 5331, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.extra", 1,\
  7, 290, 1024)
@@ -19630,142 +19630,142 @@ DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.Form", \
 "", 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 1]", 1,\
- 5, 2895, 1536)
+ 5, 2898, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 2]", 1,\
- 5, 2896, 1536)
+ 5, 2899, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[3, 3]", 1,\
- 5, 2897, 1536)
+ 5, 2900, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 1]", 1,\
- 5, 2892, 1536)
+ 5, 2895, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 2]", 1,\
- 5, 2893, 1536)
+ 5, 2896, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D1.frame_chassis.R.T[2, 3]", 1,\
- 5, 2894, 1536)
+ 5, 2897, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3197, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[1]", 1, 5, 3200, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3198, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[2]", 1, 5, 3201, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3199, 1536)
+ "chassis3D.bodyShape1.body.frame_a.r_0[3]", 1, 5, 3202, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.15, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.width", 1,\
- 5, 5327, 1536)
+ 5, 5330, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft1.fixedTranslation5.height", 1,\
- 5, 5328, 1536)
+ 5, 5331, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft1.fixedTranslation5.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft1.fixedTranslation5.extra", 1, 7, 290, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3699, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1, 5, 3702, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3700, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1, 5, 3703, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3701, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1, 5, 3704, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1, 5, 3702, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1, 5, 3705, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1, 5, 3703, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1, 5, 3706, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1, 5, 3704, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1, 5, 3707, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 0)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[1]", -1, 5, 3723, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[1]", -1, 5, 3726, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[2]", -1, 5, 3724, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[2]", -1, 5, 3727, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[3]", -1, 5, 3725, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.f[3]", -1, 5, 3728, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[1]", -1, 5, 3726, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[1]", -1, 5, 3729, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", 1, 5, 3627, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.revolute.frame_b.t[2]", 1, 5, 3630, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[3]", -1, 5, 3727, 132)
+ "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.t[3]", -1, 5, 3730, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.r_0[1]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.r_0[2]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.r_0[3]", "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[1, 1]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[1, 2]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[1, 3]", "Transformation matrix from world frame to local frame",\
  "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[2, 1]", "Transformation matrix from world frame to local frame",\
- "chassis3D.revolute3.frame_b.R.T[2, 1]", 1, 5, 2525, 0)
+ "chassis3D.revolute3.frame_b.R.T[2, 1]", 1, 5, 2528, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[2, 2]", "Transformation matrix from world frame to local frame",\
- "chassis3D.revolute3.frame_b.R.T[2, 2]", 1, 5, 2526, 0)
+ "chassis3D.revolute3.frame_b.R.T[2, 2]", 1, 5, 2529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[2, 3]", "Transformation matrix from world frame to local frame",\
- "chassis3D.revolute3.frame_b.R.T[2, 3]", 1, 5, 2527, 0)
+ "chassis3D.revolute3.frame_b.R.T[2, 3]", 1, 5, 2530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[3, 1]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 1]", 1, 5, 1532, 0)
+ "body3D.frame.R.T[3, 1]", 1, 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[3, 2]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 2]", 1, 5, 1533, 0)
+ "body3D.frame.R.T[3, 2]", 1, 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.T[3, 3]", "Transformation matrix from world frame to local frame",\
- "body3D.frame.R.T[3, 3]", 1, 5, 1534, 0)
+ "body3D.frame.R.T[3, 3]", 1, 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.w[1]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 0)
+ "chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.w[2]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 0)
+ "chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.R.w[3]", "Absolute angular velocity of local frame, resolved in local frame [rad/s]",\
- "chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 0)
+ "chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.f[1]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[1]", -1, 5, 2546, 132)
+ "chassis3D.revolute3.frame_b.f[1]", -1, 5, 2549, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.f[2]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[2]", -1, 5, 2547, 132)
+ "chassis3D.revolute3.frame_b.f[2]", -1, 5, 2550, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.f[3]", "Cut-force resolved in connector frame [N]",\
- "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2548, 132)
+ "chassis3D.revolute3.frame_b.f[3]", -1, 5, 2551, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.t[1]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute3.frame_b.t[1]", -1, 5, 2549, 132)
+ "chassis3D.revolute3.frame_b.t[1]", -1, 5, 2552, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.t[2]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute3.frame_b.t[2]", -1, 5, 2550, 132)
+ "chassis3D.revolute3.frame_b.t[2]", -1, 5, 2553, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.frame1.t[3]", "Cut-torque resolved in connector frame [N.m]",\
- "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2551, 132)
+ "chassis3D.revolute3.frame_b.t[3]", -1, 5, 2554, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[1, 2]",\
@@ -19833,10 +19833,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[2]", -1,\
- 5, 5759, 132)
+ 5, 5762, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[3]", -1,\
- 5, 5760, 132)
+ 5, 5763, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant", 1,\
  7, 298, 132)
@@ -19846,57 +19846,57 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[1]", 1, 5, 6582, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[1]", 1, 5, 6585, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[2]", 1, 5, 6583, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[2]", 1, 5, 6586, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[3]", 1, 5, 6584, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_a.r_0[3]", 1, 5, 6587, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 5362, 0)
+ 5, 5365, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 5363, 0)
+ 5, 5366, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 5364, 0)
+ 5, 5367, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 5365, 0)
+ 5, 5368, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 5366, 0)
+ 5, 5369, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 5367, 0)
+ 5, 5370, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5380, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5383, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5381, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5384, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5382, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5385, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[2]", 1,\
- 5, 5759, 132)
+ 5, 5762, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[3]", 1,\
- 5, 5760, 132)
+ 5, 5763, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.frame_b.t[2]", \
@@ -19955,49 +19955,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.specularCoefficien
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 5362, 1024)
+ 5, 5365, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 5363, 1024)
+ 5, 5366, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 5364, 1024)
+ 5, 5367, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 5365, 1024)
+ 5, 5368, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 5366, 1024)
+ 5, 5369, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 5367, 1024)
+ 5, 5370, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5380, 1024)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5383, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5381, 1024)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5384, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5382, 1024)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5385, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -20023,10 +20023,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.length", \
 "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation.width", 1,\
- 5, 5404, 1024)
+ 5, 5407, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation.height", 1,\
- 5, 5405, 1024)
+ 5, 5408, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft.fixedTranslation.extra", 1,\
  7, 291, 1024)
@@ -20071,52 +20071,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.Form", "",
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 5362, 1536)
+ 5, 5365, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 5363, 1536)
+ 5, 5366, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 5364, 1536)
+ 5, 5367, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.size[1]", \
 "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation.width", 1,\
- 5, 5404, 1536)
+ 5, 5407, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation.height", 1,\
- 5, 5405, 1536)
+ 5, 5408, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation.shape.Extra", "", \
 "chassis3D.wheelSuspensionLeft.fixedTranslation.extra", 1, 7, 291, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.R.T[1, 2]",\
@@ -20146,7 +20146,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.R.w[3]"
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", -1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.f[3]", \
@@ -20186,56 +20186,56 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.der(r_0
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 0)
+ 5, 2528, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 0)
+ 5, 2529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 0)
+ 5, 2530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 0)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 0)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 0)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", 1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.f[2]", -1,\
- 5, 5448, 132)
+ 5, 5451, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.f[3]", -1,\
- 5, 5449, 132)
+ 5, 5452, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.t[3]", -1,\
- 5, 5452, 132)
+ 5, 5455, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.animation", \
 "= true, if animation shall be enabled [:#(type=Boolean)]", true, 0.0,0.0,0.0,0,515)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.r[1]", \
@@ -20288,49 +20288,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.specularCoefficie
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1024)
+ 5, 2528, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1024)
+ 5, 2529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1024)
+ 5, 2530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 1024)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 1024)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 1024)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -20356,10 +20356,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.length", 
 "Length of visual object [m]", 0.3, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.width", 1,\
- 5, 5478, 1024)
+ 5, 5481, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.height", 1,\
- 5, 5479, 1024)
+ 5, 5482, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft.fixedTranslation1.extra", 1,\
  7, 292, 1024)
@@ -20404,122 +20404,122 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.Form", ""
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1536)
+ 5, 1535, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1536)
+ 5, 1536, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1536)
+ 5, 1537, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1536)
+ 5, 2528, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1536)
+ 5, 2529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1536)
+ 5, 2530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1536)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.3, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.width", 1,\
- 5, 5478, 1536)
+ 5, 5481, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.height", 1,\
- 5, 5479, 1536)
+ 5, 5482, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation1.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft.fixedTranslation1.extra", 1, 7, 292, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 0)
+ 5, 2528, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 0)
+ 5, 2529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 0)
+ 5, 2530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 0)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 0)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 0)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", -1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.t[1]", -1,\
- 5, 5539, 132)
+ 5, 5542, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.t[2]", -1,\
- 5, 5463, 132)
+ 5, 5466, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_a.t[3]", 1,\
- 5, 5452, 132)
+ 5, 5455, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", \
@@ -20634,19 +20634,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.phi", "Relative rotatio
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft.revolute3.w", 1,\
- 5, 5555, 0)
+ 5, 5558, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,528)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft.revolute3.der(w)", 1, 5, 5556, 0)
+ "chassis3D.wheelSuspensionLeft.revolute3.der(w)", 1, 5, 5559, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant", 1, 7, 294,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute3.phi", 1, 5, 5554, 0)
+ "chassis3D.wheelSuspensionLeft.revolute3.phi", 1, 5, 5557, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -20702,49 +20702,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1024)
+ 5, 2528, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1024)
+ 5, 2529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1024)
+ 5, 2530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 1024)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 1024)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 1024)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -20815,22 +20815,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1536)
+ 5, 2528, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1536)
+ 5, 2529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1536)
+ 5, 2530, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -20863,10 +20863,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute3.phi", 1,\
- 5, 5554, 1024)
+ 5, 5557, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute3.phi", 1,\
- 5, 5554, 1028)
+ 5, 5557, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant", 1,\
  7, 294, 1156)
@@ -20875,7 +20875,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.useSuppo
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute3.phi", 1,\
- 5, 5554, 1028)
+ 5, 5557, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant", -1,\
  7, 294, 1156)
@@ -20883,28 +20883,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.phi_supp
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute3.phi", 1, 5, 5554, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute3.phi", 1, 5, 5557, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft.revolute3.w", 1, 5, 5555, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute3.w", 1, 5, 5558, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  294, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.w", 1, 5, 5555, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.w", 1, 5, 5558, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant", 1,\
  7, 294, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.R.T[1, 2]",\
@@ -20936,10 +20936,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.f[1]", 
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute5.frame_a.f[2]", 1,\
- 5, 6484, 132)
+ 5, 6487, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute5.frame_a.f[3]", 1,\
- 5, 6485, 132)
+ 5, 6488, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.t[2]", \
@@ -20948,57 +20948,57 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[1]", 1, 5, 6462, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[1]", 1, 5, 6465, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[2]", 1, 5, 6463, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[2]", 1, 5, 6466, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[3]", 1, 5, 6464, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_a.r_0[3]", 1, 5, 6467, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 0)
+ 5, 2528, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 0)
+ 5, 2529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 0)
+ 5, 2530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 0)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 0)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 0)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute5.frame_a.f[2]", -1,\
- 5, 6484, 132)
+ 5, 6487, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute5.frame_a.f[3]", -1,\
- 5, 6485, 132)
+ 5, 6488, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.frame_b.t[2]", \
@@ -21057,49 +21057,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.specularCoefficie
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1024)
+ 5, 2528, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1024)
+ 5, 2529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1024)
+ 5, 2530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 1024)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 1024)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 1024)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -21125,10 +21125,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.length", 
 "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation2.width", 1,\
- 5, 5653, 1024)
+ 5, 5656, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation2.height", 1,\
- 5, 5654, 1024)
+ 5, 5657, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft.fixedTranslation2.extra", 1,\
  7, 295, 1024)
@@ -21173,52 +21173,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.Form", ""
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1536)
+ 5, 1535, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1536)
+ 5, 1536, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1536)
+ 5, 1537, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1536)
+ 5, 2528, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1536)
+ 5, 2529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1536)
+ 5, 2530, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation2.width", 1,\
- 5, 5653, 1536)
+ 5, 5656, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation2.height", 1,\
- 5, 5654, 1536)
+ 5, 5657, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation2.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft.fixedTranslation2.extra", 1, 7, 295, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.R.T[1, 2]",\
@@ -21248,22 +21248,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.R.w[3]"
 0.0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", -1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[2]", -1,\
- 5, 5537, 132)
+ 5, 5540, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[3]", -1,\
- 5, 5538, 132)
+ 5, 5541, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.constantTorque.tau_constant", 1,\
  7, 294, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.t[2]", -1,\
- 5, 5540, 132)
+ 5, 5543, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.t[3]", -1,\
- 5, 5541, 132)
+ 5, 5544, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]",\
  "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
  0.0, 0.0,0.0,0.0,0,520)
@@ -21293,55 +21293,55 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.der(r_0
  0.0, 0.0,0.0,0.0,0,520)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 0)
+ 5, 5515, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 0)
+ 5, 5516, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 0)
+ 5, 5517, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 5515, 0)
+ 5, 5518, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 5516, 0)
+ 5, 5519, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 5517, 0)
+ 5, 5520, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5530, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5531, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5532, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", 1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[2]", 1,\
- 5, 5537, 132)
+ 5, 5540, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[3]", 1,\
- 5, 5538, 132)
+ 5, 5541, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute4.frame_b.t[1]", 1,\
- 5, 5844, 132)
+ 5, 5847, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.t[2]", 1,\
- 5, 5540, 132)
+ 5, 5543, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.animation", \
@@ -21396,49 +21396,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.specularCoefficie
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 1024)
+ 5, 5515, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 1024)
+ 5, 5516, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 1024)
+ 5, 5517, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 5515, 1024)
+ 5, 5518, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 5516, 1024)
+ 5, 5519, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 5517, 1024)
+ 5, 5520, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5530, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5531, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5532, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -21464,10 +21464,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.length", 
 "Length of visual object [m]", 0.35, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation3.width", 1,\
- 5, 5721, 1024)
+ 5, 5724, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation3.height", 1,\
- 5, 5722, 1024)
+ 5, 5725, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft.fixedTranslation3.extra", 1,\
  7, 296, 1024)
@@ -21512,88 +21512,88 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.Form", ""
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 1536)
+ 5, 5515, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 1536)
+ 5, 5516, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 1536)
+ 5, 5517, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5453, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[1]", 1, 5, 5456, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5454, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[2]", 1, 5, 5457, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5455, 1536)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation1.frame_b.r_0[3]", 1, 5, 5458, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.35, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation3.width", 1,\
- 5, 5721, 1536)
+ 5, 5724, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation3.height", 1,\
- 5, 5722, 1536)
+ 5, 5725, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation3.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft.fixedTranslation3.extra", 1, 7, 296, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 0)
+ 5, 2528, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 0)
+ 5, 2529, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 0)
+ 5, 2530, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 0)
+ 5, 1535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 0)
+ 5, 1536, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 0)
+ 5, 1537, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 0)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 0)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 0)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_a.f[2]", \
@@ -21602,56 +21602,56 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute1.frame_b.t[1]", -1,\
- 5, 5761, 132)
+ 5, 5764, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 4)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 1]", 1,\
- 5, 5362, 0)
+ 5, 5365, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 2]", 1,\
- 5, 5363, 0)
+ 5, 5366, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[2, 3]", 1,\
- 5, 5364, 0)
+ 5, 5367, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 1]", 1,\
- 5, 5365, 0)
+ 5, 5368, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 2]", 1,\
- 5, 5366, 0)
+ 5, 5369, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.T[3, 3]", 1,\
- 5, 5367, 0)
+ 5, 5370, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5380, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[1]", 1, 5, 5383, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5381, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[2]", 1, 5, 5384, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5382, 0)
+"chassis3D.wheelSuspensionLeft.fixedTranslation.frame_a.R.w[3]", 1, 5, 5385, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.frame_b.f[2]", \
@@ -21700,19 +21700,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.phi", "Relative rotatio
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft.revolute1.w", 1,\
- 5, 5777, 0)
+ 5, 5780, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft.revolute1.der(w)", 1, 5, 5778, 0)
+ "chassis3D.wheelSuspensionLeft.revolute1.der(w)", 1, 5, 5781, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant", 1, 7, 298,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute1.phi", 1, 5, 5776, 0)
+ "chassis3D.wheelSuspensionLeft.revolute1.phi", 1, 5, 5779, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -21768,49 +21768,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1024)
+ 5, 2528, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1024)
+ 5, 2529, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1024)
+ 5, 2530, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 1]", 1,\
- 5, 1532, 1024)
+ 5, 1535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 2]", 1,\
- 5, 1533, 1024)
+ 5, 1536, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "body3D.frame.R.T[3, 3]", 1,\
- 5, 1534, 1024)
+ 5, 1537, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2540, 1024)
+"chassis3D.revolute3.frame_b.R.w[1]", 1, 5, 2543, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2541, 1024)
+"chassis3D.revolute3.frame_b.R.w[2]", 1, 5, 2544, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2542, 1024)
+"chassis3D.revolute3.frame_b.R.w[3]", 1, 5, 2545, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2075, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[1]", 1, 5, 2078, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2076, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[2]", 1, 5, 2079, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2077, 1024)
+ "chassis3D.fixedTranslation7.frame_b.r_0[3]", 1, 5, 2080, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -21881,22 +21881,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 2525, 1536)
+ 5, 2528, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 2526, 1536)
+ 5, 2529, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 2527, 1536)
+ 5, 2530, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -21929,10 +21929,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute1.phi", 1,\
- 5, 5776, 1024)
+ 5, 5779, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute1.phi", 1,\
- 5, 5776, 1028)
+ 5, 5779, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant", 1,\
  7, 298, 1156)
@@ -21941,7 +21941,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.useSuppo
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute1.phi", 1,\
- 5, 5776, 1028)
+ 5, 5779, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant", -1,\
  7, 298, 1156)
@@ -21949,127 +21949,127 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.phi_supp
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute1.phi", 1, 5, 5776, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute1.phi", 1, 5, 5779, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft.revolute1.w", 1, 5, 5777, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute1.w", 1, 5, 5780, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  298, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute1.w", 1, 5, 5777, 1024)
+"chassis3D.wheelSuspensionLeft.revolute1.w", 1, 5, 5780, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft.revolute1.constantTorque.tau_constant", 1,\
  7, 298, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 0)
+ 5, 5515, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 0)
+ 5, 5516, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 0)
+ 5, 5517, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 5515, 0)
+ 5, 5518, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 5516, 0)
+ 5, 5519, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 5517, 0)
+ 5, 5520, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5530, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5533, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5531, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5534, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5532, 0)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5535, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[1]", -1,\
- 5, 5536, 132)
+ 5, 5539, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[2]", -1,\
- 5, 5537, 132)
+ 5, 5540, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.f[3]", -1,\
- 5, 5538, 132)
+ 5, 5541, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute4.frame_b.t[1]", -1,\
- 5, 5844, 132)
+ 5, 5847, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.t[2]", -1,\
- 5, 5540, 132)
+ 5, 5543, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.t[3]", -1,\
- 5, 5706, 132)
+ 5, 5709, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 0)
+ 5, 3705, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 0)
+ 5, 3706, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 0)
+ 5, 3707, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.frame_b.f[2]", \
@@ -22115,22 +22115,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.stateSelect", \
 "Priority to use joint angle phi and w=der(phi) as states [:#(type=StateSelect)]",\
  4, 1.0,5.0,0.0,0,517)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.phi", "Relative rotation angle from frame_a to frame_b [rad|deg]",\
- 0, 0.0,0.0,0.0,0,592)
+ 0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft.revolute4.w", 1,\
- 5, 5860, 0)
+ 5, 5863, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft.revolute4.der(w)", 1, 5, 5861, 0)
+ "chassis3D.wheelSuspensionLeft.revolute4.der(w)", 1, 5, 5864, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau_constant", 1, 7, 300,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute4.phi", 1, 5, 5859, 0)
+ "chassis3D.wheelSuspensionLeft.revolute4.phi", 1, 5, 5862, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -22186,49 +22186,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 1024)
+ 5, 5515, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 1024)
+ 5, 5516, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 1024)
+ 5, 5517, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 1]", 1,\
- 5, 5515, 1024)
+ 5, 5518, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 2]", 1,\
- 5, 5516, 1024)
+ 5, 5519, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[3, 3]", 1,\
- 5, 5517, 1024)
+ 5, 5520, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5530, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[1]", 1, 5, 5533, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5531, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[2]", 1, 5, 5534, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5532, 1024)
+"chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.w[3]", 1, 5, 5535, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -22299,22 +22299,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 1]", 1,\
- 5, 5512, 1536)
+ 5, 5515, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 2]", 1,\
- 5, 5513, 1536)
+ 5, 5516, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.revolute3.frame_b.R.T[2, 3]", 1,\
- 5, 5514, 1536)
+ 5, 5517, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -22347,10 +22347,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute4.phi", 1,\
- 5, 5859, 1024)
+ 5, 5862, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute4.phi", 1,\
- 5, 5859, 1028)
+ 5, 5862, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau_constant", 1,\
  7, 300, 1156)
@@ -22359,7 +22359,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.useSuppo
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute4.phi", 1,\
- 5, 5859, 1028)
+ 5, 5862, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau_constant", -1,\
  7, 300, 1156)
@@ -22367,28 +22367,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.phi_supp
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute4.phi", 1, 5, 5859, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute4.phi", 1, 5, 5862, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft.revolute4.w", 1, 5, 5860, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute4.w", 1, 5, 5863, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  300, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute4.w", 1, 5, 5860, 1024)
+"chassis3D.wheelSuspensionLeft.revolute4.w", 1, 5, 5863, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft.revolute4.constantTorque.tau_constant", 1,\
  7, 300, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6609, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6612, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6610, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6613, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6611, 4)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6614, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.R.T[1, 2]",\
@@ -22430,58 +22430,58 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.t[3]", 
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3817, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[1]", 1, 5, 3820, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3818, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[2]", 1, 5, 3821, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3819, 4)
+ "chassis3D.bodyShape4.body.frame_a.r_0[3]", 1, 5, 3822, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 0)
+ 5, 3705, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 0)
+ 5, 3706, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 0)
+ 5, 3707, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.f[1]", -1,\
- 5, 5936, 132)
+ 5, 5939, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.f[2]", -1,\
- 5, 5937, 132)
+ 5, 5940, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_a.f[3]", -1,\
- 5, 5938, 132)
+ 5, 5941, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.frame_b.t[2]", \
@@ -22540,49 +22540,49 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.specularCoefficie
 "world.defaultSpecularCoefficient", 1, 7, 10, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[1, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[1, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[1, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[2, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 1024)
+ 5, 3702, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[2, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 1024)
+ 5, 3703, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[2, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 1024)
+ 5, 3704, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[3, 1]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 1024)
+ 5, 3705, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[3, 2]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 1024)
+ 5, 3706, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.T[3, 3]",\
  "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 1024)
+ 5, 3707, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 1024)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6609, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6612, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6610, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6613, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6611, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6614, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.r_shape[1]",\
  "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0.0, 0.0,0.0,0.0,0,2561)
@@ -22608,10 +22608,10 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.length", 
 "Length of visual object [m]", 0.15, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.width", \
 "Width of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.width", 1,\
- 5, 5959, 1024)
+ 5, 5962, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.height", \
 "Height of visual object [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.height", 1,\
- 5, 5960, 1024)
+ 5, 5963, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.extra", \
 "Additional size data for some of the shape types", "chassis3D.wheelSuspensionLeft.fixedTranslation4.extra", 1,\
  7, 301, 1024)
@@ -22656,79 +22656,79 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.Form", ""
  9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rxvisobj[1]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 1536)
+ 5, 3705, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rxvisobj[2]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 1536)
+ 5, 3706, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rxvisobj[3]",\
  "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 1536)
+ 5, 3707, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.ryvisobj[1]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 1536)
+ 5, 3702, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.ryvisobj[2]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 1536)
+ 5, 3703, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.ryvisobj[3]",\
  "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 1536)
+ 5, 3704, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rvisobj[1]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6609, 1536)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[1]", 1, 5, 6612, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rvisobj[2]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6610, 1536)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[2]", 1, 5, 6613, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.rvisobj[3]",\
  "position vector from world frame to shape frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6611, 1536)
+ "chassis3D.wheelSuspensionLeft.revolute2.frame_b.r_0[3]", 1, 5, 6614, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.size[1]",\
  "{length,width,height} of shape [m]", 0.15, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.size[2]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.width", 1,\
- 5, 5959, 1536)
+ 5, 5962, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.size[3]", \
 "{length,width,height} of shape [m]", "chassis3D.wheelSuspensionLeft.fixedTranslation4.height", 1,\
- 5, 5960, 1536)
+ 5, 5963, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.Material",\
  "", 0.0, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.fixedTranslation4.shape.Extra", "",\
  "chassis3D.wheelSuspensionLeft.fixedTranslation4.extra", 1, 7, 301, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 6093, 0)
+ 5, 6096, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 6094, 0)
+ 5, 6097, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 6095, 0)
+ 5, 6098, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 6096, 0)
+ 5, 6099, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 6097, 0)
+ 5, 6100, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 6098, 0)
+ 5, 6101, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.der(T[2, 1])",\
  "der(Transformation matrix from world frame to local frame)", 0.0, 0.0,0.0,0.0,\
 0,512)
@@ -22767,13 +22767,13 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.der(T[3, 3], 
 0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6099, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6102, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6100, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6103, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_a.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6101, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6104, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_a.f[1]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_a.f[2]", \
@@ -22788,52 +22788,52 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 1]", 1,\
- 5, 3699, 0)
+ 5, 3702, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 2]", 1,\
- 5, 3700, 0)
+ 5, 3703, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[2, 3]", 1,\
- 5, 3701, 0)
+ 5, 3704, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 1]", 1,\
- 5, 3702, 0)
+ 5, 3705, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 2]", 1,\
- 5, 3703, 0)
+ 5, 3706, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.T[3, 3]", 1,\
- 5, 3704, 0)
+ 5, 3707, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3717, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[1]", 1, 5, 3720, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3718, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[2]", 1, 5, 3721, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3719, 0)
+"chassis3D.dryFrictionWheelJoint3D3.frame_chassis.R.w[3]", 1, 5, 3722, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.revolute6.frame_a.f[1]", -1,\
- 5, 6003, 132)
+ 5, 6006, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", 0.0, 0.0,0.0,0.0,0,776)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.frame_b.f[3]", \
@@ -22881,19 +22881,19 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.phi", "Relative rotatio
  0, 0.0,0.0,0.0,0,576)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.der(phi)", \
 "der(Relative rotation angle from frame_a to frame_b) [rad/s]", "chassis3D.wheelSuspensionLeft.revolute6.w", 1,\
- 5, 6026, 0)
+ 5, 6029, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.w", "First derivative of angle phi (relative angular velocity) [rad/s]",\
  0, 0.0,0.0,0.0,0,528)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.der(w)", \
 "der(First derivative of angle phi (relative angular velocity)) [rad/s2]", 0, \
 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.a", "Second derivative of angle phi (relative angular acceleration) [rad/s2]",\
- "chassis3D.wheelSuspensionLeft.revolute6.der(w)", 1, 5, 6027, 0)
+ "chassis3D.wheelSuspensionLeft.revolute6.der(w)", 1, 5, 6030, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.tau", "Driving torque in direction of axis of rotation [N.m]",\
  "chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau_constant", 1, 7, 303,\
  0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.angle", "= phi_offset + phi [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute6.phi", 1, 5, 6025, 0)
+ "chassis3D.wheelSuspensionLeft.revolute6.phi", 1, 5, 6028, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.e[1]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
  1.0, 0.0,0.0,0.0,0,2561)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.e[2]", "Unit vector in direction of rotation axis, resolved in frame_a (= same as in frame_b) [1]",\
@@ -22949,49 +22949,49 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.R_rel.w[3]", \
  0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 6093, 1024)
+ 5, 6096, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 6094, 1024)
+ 5, 6097, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 6095, 1024)
+ 5, 6098, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 6096, 1024)
+ 5, 6099, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 6097, 1024)
+ 5, 6100, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 6098, 1024)
+ 5, 6101, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6099, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6102, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6100, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6103, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6101, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6104, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 1024)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.cylinder.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  -0.05, 0.0,0.0,0.0,0,2561)
@@ -23062,22 +23062,22 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.cylinder.Form", "", \
 9.87103E+25, 0.0,0.0,0.0,0,3585)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.rxvisobj[1]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1536)
+ 5, 3579, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.rxvisobj[2]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1536)
+ 5, 3580, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.rxvisobj[3]", \
 "x-axis unit vector of shape, resolved in world frame [1]", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1536)
+ 5, 3581, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.ryvisobj[1]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 6093, 1536)
+ 5, 6096, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.ryvisobj[2]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 6094, 1536)
+ 5, 6097, 1536)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.cylinder.ryvisobj[3]", \
 "y-axis unit vector of shape, resolved in world frame [1]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 6095, 1536)
+ 5, 6098, 1536)
 DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.cylinder.rvisobj[1]", \
 "position vector from world frame to shape frame, resolved in world frame [m]", \
 0.0, 0.0,0.0,0.0,0,3584)
@@ -23110,10 +23110,10 @@ DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.internalAxis.tau", \
  1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.internalAxis.phi", \
 "External support angle (= flange.phi) [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute6.phi", 1,\
- 5, 6025, 1024)
+ 5, 6028, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.internalAxis.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute6.phi", 1,\
- 5, 6025, 1028)
+ 5, 6028, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.internalAxis.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau_constant", 1,\
  7, 303, 1156)
@@ -23122,7 +23122,7 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.useSuppo
  false, 0.0,0.0,0.0,0,1539)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.flange.phi",\
  "Absolute rotation angle of flange [rad|deg]", "chassis3D.wheelSuspensionLeft.revolute6.phi", 1,\
- 5, 6025, 1028)
+ 5, 6028, 1028)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.flange.tau",\
  "Cut torque in the flange [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau_constant", -1,\
  7, 303, 1156)
@@ -23130,28 +23130,28 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.phi_supp
  "Absolute angle of support flange [rad|deg]", 0, 0.0,0.0,0.0,0,2561)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.phi", \
 "Angle of flange with respect to support (= flange.phi - support.phi) [rad|deg]",\
- "chassis3D.wheelSuspensionLeft.revolute6.phi", 1, 5, 6025, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute6.phi", 1, 5, 6028, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.der(phi)",\
  "der(Angle of flange with respect to support (= flange.phi - support.phi)) [rad/s]",\
- "chassis3D.wheelSuspensionLeft.revolute6.w", 1, 5, 6026, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute6.w", 1, 5, 6029, 1024)
 DeclareParameter("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau_constant",\
  "Constant torque (if negative, torque is acting as load in positive direction of rotation) [N.m]",\
  303, 0, 0.0,0.0,0.0,0,2608)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.w", \
 "Angular velocity of flange with respect to support (= der(phi)) [rad/s]", \
-"chassis3D.wheelSuspensionLeft.revolute6.w", 1, 5, 6026, 1024)
+"chassis3D.wheelSuspensionLeft.revolute6.w", 1, 5, 6029, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau", \
 "Accelerating torque acting at flange (= -flange.tau) [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.constantTorque.tau_constant", 1,\
  7, 303, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_a.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[1]", 1, 5, 6489, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[1]", 1, 5, 6492, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_a.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[2]", 1, 5, 6490, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[2]", 1, 5, 6493, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_a.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[3]", 1, 5, 6491, 4)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[3]", 1, 5, 6494, 4)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", 0.0, 0.0,0.0,0.0,0,512)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[1, 2]", \
@@ -23193,67 +23193,67 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.frame_a.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", 0.0, 0.0,0.0,0.0,0,777)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.r_0[1]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5697, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[1]", 1, 5, 5700, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.r_0[2]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5698, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[2]", 1, 5, 5701, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.r_0[3]", \
 "Position vector from world frame to the connector frame origin, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5699, 4)
+ "chassis3D.wheelSuspensionLeft.fixedTranslation3.frame_b.r_0[3]", 1, 5, 5702, 4)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 0)
+ 5, 3579, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 0)
+ 5, 3580, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 0)
+ 5, 3581, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 6093, 0)
+ 5, 6096, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 6094, 0)
+ 5, 6097, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 6095, 0)
+ 5, 6098, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 6096, 0)
+ 5, 6099, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 6097, 0)
+ 5, 6100, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 6098, 0)
+ 5, 6101, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6099, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6102, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6100, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6103, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6101, 0)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6104, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.f[1]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.f[1]", -1,\
- 5, 6102, 132)
+ 5, 6105, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.f[2]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.f[2]", -1,\
- 5, 6103, 132)
+ 5, 6106, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.f[3]", \
 "Cut-force resolved in connector frame [N]", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.f[3]", -1,\
- 5, 6104, 132)
+ 5, 6107, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.t[1]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.frame_a.t[1]", -1,\
- 5, 6006, 132)
+ 5, 6009, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.t[2]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.frame_a.t[2]", -1,\
- 5, 6007, 132)
+ 5, 6010, 132)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.frame_b.t[3]", \
 "Cut-torque resolved in connector frame [N.m]", "chassis3D.wheelSuspensionLeft.revolute6.frame_a.t[3]", -1,\
- 5, 6008, 132)
+ 5, 6011, 132)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.useAxisFlange", \
 "= true, if axis flange is enabled [:#(type=Boolean)]", false, 0.0,0.0,0.0,0,1539)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.animation", \
@@ -23298,60 +23298,60 @@ DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.e[3]", "Unit vector in 
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.s", "Relative distance between frame_a and frame_b [m]",\
  0.49497474683058323, 0.0,0.0,0.0,0,592)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.der(s)", "der(Relative distance between frame_a and frame_b) [m/s]",\
- "chassis3D.wheelSuspensionLeft.prismatic.v", 1, 5, 6127, 0)
+ "chassis3D.wheelSuspensionLeft.prismatic.v", 1, 5, 6130, 0)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.v", "First derivative of s (relative velocity) [m/s]",\
  0, 0.0,0.0,0.0,0,576)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.der(v)", \
 "der(First derivative of s (relative velocity)) [m/s2]", 0, 0.0,0.0,0.0,0,512)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.a", "Second derivative of s (relative acceleration) [m/s2]",\
- "chassis3D.wheelSuspensionLeft.prismatic.der(v)", 1, 5, 6128, 0)
+ "chassis3D.wheelSuspensionLeft.prismatic.der(v)", 1, 5, 6131, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.f", "Actuation force in direction of joint axis [N]",\
  "chassis3D.wheelSuspensionLeft.prismatic.constantForce.f_constant", 1, 7, 305, 0)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[1, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 1]", 1,\
- 5, 3576, 1024)
+ 5, 3579, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[1, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 2]", 1,\
- 5, 3577, 1024)
+ 5, 3580, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[1, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.dryFrictionWheelJoint3D3.partialDryFrictionWheelJoint3D.frame_a.R.T[1, 3]", 1,\
- 5, 3578, 1024)
+ 5, 3581, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[2, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 1]", 1,\
- 5, 6093, 1024)
+ 5, 6096, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[2, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 2]", 1,\
- 5, 6094, 1024)
+ 5, 6097, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[2, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[2, 3]", 1,\
- 5, 6095, 1024)
+ 5, 6098, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[3, 1]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 1]", 1,\
- 5, 6096, 1024)
+ 5, 6099, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[3, 2]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 2]", 1,\
- 5, 6097, 1024)
+ 5, 6100, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.T[3, 3]", \
 "Transformation matrix from world frame to local frame", "chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.T[3, 3]", 1,\
- 5, 6098, 1024)
+ 5, 6101, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.w[1]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6099, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[1]", 1, 5, 6102, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.w[2]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6100, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[2]", 1, 5, 6103, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.R.w[3]", \
 "Absolute angular velocity of local frame, resolved in local frame [rad/s]", \
-"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6101, 1024)
+"chassis3D.wheelSuspensionLeft.prismatic.frame_a.R.w[3]", 1, 5, 6104, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.r[1]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[1]", 1, 5, 6489, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[1]", 1, 5, 6492, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.r[2]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[2]", 1, 5, 6490, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[2]", 1, 5, 6493, 1024)
 DeclareAlias2("chassis3D.wheelSuspensionLeft.prismatic.box.r[3]", \
 "Position vector from origin of world frame to origin of object frame, resolved in world frame [m]",\
- "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[3]", 1, 5, 6491, 1024)
+ "chassis3D.wheelSuspensionLeft.revolute5.frame_b.r_0[3]", 1, 5, 6494, 1024)
 DeclareVariable("chassis3D.wheelSuspensionLeft.prismatic.box.r_shape[1]", \
 "Position vector from origin of object frame to shape origin, resolved in object frame [m]",\
  0, 0.0,0.0,0.0,0,2561)

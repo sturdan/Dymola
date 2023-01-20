@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(12457,120)
+char initialName(12460,120)
 world.frame_b.r_0[1]
 world.frame_b.r_0[2]
 world.frame_b.r_0[3]
@@ -1548,6 +1548,9 @@ body3D.body1.I_33
 body3D.body1.I_21
 body3D.body1.I_31
 body3D.body1.I_32
+body3D.body1.r_0[1]
+body3D.body1.r_0[2]
+body3D.body1.r_0[3]
 body3D.body1.v_0[1]
 body3D.body1.v_0[2]
 body3D.body1.v_0[3]
@@ -12561,7 +12564,7 @@ stateSelect.set2.P[15, 103]
 stateSelect.set2.P[15, 104]
 stateSelect.set2.P[15, 105]
 
-double initialValue(12457,6)
+double initialValue(12460,6)
   0       0                       0                       0                
   6   260   # world.frame_b.r_0[1]
   0       0                       0                       0                
@@ -15395,11 +15398,11 @@ double initialValue(12457,6)
   0       3                       0                       0                
   6   258   # body3D.quadraticSpeedDependentForce.squaretimesSign.nout
   0       0                       0                       0                
-  6   292   # body3D.body1.frame_a.r_0[1]
+  6   260   # body3D.body1.frame_a.r_0[1]
   0       0                       0                       0                
-  6   292   # body3D.body1.frame_a.r_0[2]
-  0  6.9999999999999996E-01       0                       0                
-  6   292   # body3D.body1.frame_a.r_0[3]
+  6   260   # body3D.body1.frame_a.r_0[2]
+  0  2.9999999999999999E-01       0                       0                
+  6   260   # body3D.body1.frame_a.r_0[3]
   0       0                       0                       0                
   6   256   # body3D.body1.frame_a.R.T[1, 1]
   0       0                       0                       0                
@@ -15453,9 +15456,15 @@ double initialValue(12457,6)
  -1       0                 -9.9999999999999995E+59 1.0000000000000000E+100
   1   280   # body3D.body1.I_32
   0       0                       0                       0                
+  6   264   # body3D.body1.r_0[1]
+  0       0                       0                       0                
+  6   264   # body3D.body1.r_0[2]
+  0  2.9999999999999999E-01       0                       0                
+  6   264   # body3D.body1.r_0[3]
+  0       0                       0                       0                
   6   288   # body3D.body1.v_0[1]
   0       0                       0                       0                
-  6   288   # body3D.body1.v_0[2]
+  6   264   # body3D.body1.v_0[2]
   0       0                       0                       0                
   6   288   # body3D.body1.v_0[3]
   0       0                       0                       0                
@@ -15464,7 +15473,7 @@ double initialValue(12457,6)
   6   256   # body3D.body1.a_0[2]
   0       0                       0                       0                
   6   256   # body3D.body1.a_0[3]
-  0       1                       0                       0                
+  0       0                       0                       0                
   6   257   # body3D.body1.angles_fixed
  -1       0                       0                       0                
   1   280   # body3D.body1.angles_start[1]
@@ -24907,7 +24916,7 @@ double initialValue(12457,6)
   0       4                       1                       5                
   6   258   # chassis3D.wheelSuspensionLeft.revolute4.stateSelect
   0       0                       0                       0                
-  6   296   # chassis3D.wheelSuspensionLeft.revolute4.phi
+  6   288   # chassis3D.wheelSuspensionLeft.revolute4.phi
   0       0                       0                       0                
   6   288   # chassis3D.wheelSuspensionLeft.revolute4.w
   0       0                       0                       0                
@@ -37526,7 +37535,7 @@ double initialValue(12457,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(12457,163)
+char initialDescription(12460,163)
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
@@ -38972,6 +38981,9 @@ Mass of rigid body [kg]
 (2,1) element of inertia tensor [kg.m2]
 (3,1) element of inertia tensor [kg.m2]
 (3,2) element of inertia tensor [kg.m2]
+Position vector from origin of world frame to origin of frame_a [m]
+Position vector from origin of world frame to origin of frame_a [m]
+Position vector from origin of world frame to origin of frame_a [m]
 Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]
 Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]
 Absolute velocity of frame_a, resolved in world frame (= der(r_0)) [m/s]

@@ -6915,9 +6915,8 @@ end SteeringLimiter;
         I_11=284.25,
         I_22=284.25,
         I_33=1137,
-        r_0(start={0,0,0.7}),
-        angles_fixed=true,
-        angles_start={0,0,0}) annotation (Placement(transformation(
+        r_0(start={0,0,0.3}, fixed=true),
+        angles_fixed=false)   annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={6,52})));
@@ -7334,13 +7333,13 @@ a parameter blockSize, thus
             color={0,0,0}));
       connect(wheelSuspensionRight1.frame, dryFrictionWheelJoint3D2.frame_chassis)
         annotation (Line(points={{-20,-66},{-30,-66}}, color={0,0,0}));
-      connect(wheelSuspensionRight1.frame1, fixedTranslation2.frame_b)
-        annotation (Line(points={{-0.2,-69.8},{15.9,-69.8},{15.9,-70},{32,-70}},
-            color={0,0,0}));
       connect(wheelSuspensionRight.frame, dryFrictionWheelJoint3D.frame_chassis)
         annotation (Line(points={{-24,20},{-30,20}}, color={0,0,0}));
       connect(wheelSuspensionRight.frame1, revolute2.frame_b) annotation (Line(
             points={{-4.2,16.2},{-1.1,16.2},{-1.1,16},{2,16}}, color={0,0,0}));
+      connect(wheelSuspensionRight1.frame1, fixedTranslation2.frame_b)
+        annotation (Line(points={{-0.2,-69.8},{15.9,-69.8},{15.9,-70},{32,-70}},
+            color={0,0,0}));
       annotation (
         Icon(coordinateSystem(preserveAspectRatio = false)),
         Diagram(coordinateSystem(preserveAspectRatio = false)));
@@ -8041,8 +8040,8 @@ y_sat&nbsp;=&nbsp;1.2.
           points={{-28,-78},{-50,-78},{-50,-72}},
           color={95,95,95},
           thickness=0.5));
-      connect(fixedTranslation6.frame_a, fixedTranslation4.frame_b) annotation
-        (Line(
+      connect(fixedTranslation6.frame_a, fixedTranslation4.frame_b) annotation (
+         Line(
           points={{-50,-34},{-50,-52}},
           color={95,95,95},
           thickness=0.5));

@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Fri Jan 20 09:33:08 2023)
+(generated: Fri Jan 20 10:01:43 2023)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
@@ -28,129 +28,82 @@ ERROR: Failed to solve nonlinear system using Newton solver.
    * The options under the group Simulation/Setup/Debug/Nonlinear solver diagnostics
 
   The Jacobian is estimated to be singular.
-  1-norm of the residual = 6.28319
+  1-norm of the residual = 1.29152E-015
   The estimates indicate that the Jacobian is close to singular, suggesting that there is no solution.
+   - Especially since the norm of the last residual vector is small.
 
   Last value of the solution:
     chassis3D.wheelSuspensionRight1.prismatic.v = 0
     chassis3D.wheelSuspensionLeft1.prismatic.v = 0
-    chassis3D.wheelSuspensionRight1.revolute6.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute6.phi = 0
+    chassis3D.wheelSuspensionRight1.revolute6.phi = 5.55112E-017
+    chassis3D.wheelSuspensionLeft1.revolute4.phi = -2.77556E-017
+    chassis3D.wheelSuspensionLeft1.revolute6.phi = 5.55112E-017
+    chassis3D.wheelSuspensionLeft1.revolute3.phi = 1.11022E-016
     chassis3D.wheelSuspensionRight.prismatic.v = 0
+    chassis3D.wheelSuspensionRight.revolute1.phi = -1.94289E-016
+    chassis3D.wheelSuspensionRight.revolute4.phi = -2.77556E-016
+    chassis3D.wheelSuspensionRight.revolute6.phi = -3.60822E-016
+    chassis3D.wheelSuspensionRight.revolute3.phi = -1.66533E-016
     chassis3D.wheelSuspensionLeft.prismatic.v = 0
     chassis3D.wheelSuspensionLeft.revolute4.w = 0
-    chassis3D.wheelSuspensionLeft.revolute6.phi = 0
-    chassis3D.wheelSuspensionLeft.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute4.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute4.w = 0
-    body3D.body1.v_0[3] = 0
-    chassis3D.wheelSuspensionRight1.revolute1.w = 0
-    body3D.body1.v_0[2] = 0
+    chassis3D.revolute2.w = 0
+    chassis3D.wheelSuspensionLeft.revolute4.phi = 0
+    chassis3D.wheelSuspensionLeft.revolute6.phi = 8.32667E-017
+    chassis3D.wheelSuspensionLeft.revolute3.phi = 1.11022E-016
     chassis3D.bodyShape3.body.der(Q[4]) = 0
     chassis3D.bodyShape3.body.der(Q[3]) = 0
     chassis3D.bodyShape3.body.der(Q[2]) = 0
     chassis3D.bodyShape3.body.der(Q[1]) = 0
-    chassis3D.wheelSuspensionRight1.revolute3.w = 0
-    chassis3D.wheelSuspensionRight.revolute3.phi = 0
-    body3D.body1.frame_a.r_0[2] = 0
-    chassis3D.revolute2.phi = 0
-    chassis3D.wheelSuspensionRight.revolute1.phi = 0
-    chassis3D.wheelSuspensionRight.revolute4.phi = 0
-    chassis3D.wheelSuspensionRight.revolute6.phi = 0
-    chassis3D.wheelSuspensionRight.revolute1.w = 0
-    body3D.body1.frame_a.r_0[3] = 0.7
-    chassis3D.wheelSuspensionRight1.revolute1.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute1.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute1.w = 0
-    body3D.body1.v_0[1] = 0
-    chassis3D.revolute2.w = 0
     chassis3D.bodyShape3.body.Q[4] = 1
-    chassis3D.dryFrictionWheelJoint3D2.revolute.phi = 0
-    chassis3D.bodyShape3.body.Q[1] = 0
-    chassis3D.bodyShape3.body.Q[3] = 0
-    chassis3D.bodyShape3.body.Q[2] = 0
-    chassis3D.wheelSuspensionRight1.revolute4.phi = 0
-    chassis3D.wheelSuspensionRight1.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft.revolute1.phi = 0
+    chassis3D.bodyShape3.body.Q[3] = 1.05556E-008
+    chassis3D.bodyShape3.body.Q[1] = 1.40815E-009
+    chassis3D.bodyShape3.body.Q[2] = 3.51104E-009
+    chassis3D.wheelSuspensionRight1.revolute4.phi = 8.32667E-017
+    chassis3D.dryFrictionWheelJoint3D2.revolute.phi = -2.54799E-008
+    body3D.body1.v_0[1] = 0
     chassis3D.wheelSuspensionLeft.revolute1.w = 0
-    body3D.body1.frame_a.r_0[1] = 0
+    chassis3D.wheelSuspensionLeft.revolute1.phi = 8.32667E-017
+    chassis3D.revolute2.phi = -12.5
+    chassis3D.wheelSuspensionRight.revolute1.w = 0
+    chassis3D.wheelSuspensionLeft1.revolute1.phi = 1.11022E-016
+    chassis3D.wheelSuspensionLeft1.revolute1.w = 0
+    chassis3D.wheelSuspensionRight1.revolute1.w = 0
+    chassis3D.wheelSuspensionRight1.revolute1.phi = -5.55112E-017
+    chassis3D.wheelSuspensionRight1.revolute3.phi = -8.32667E-017
+    chassis3D.wheelSuspensionRight1.revolute3.w = 0
+    chassis3D.wheelSuspensionLeft1.revolute4.w = 0
+    body3D.body1.v_0[3] = 0
   Last value of the residual:
-    { -1.22461E-016, 3.14159, -3.14159, 0, 0,
-      0, 0, 6.66134E-016, -0, 0,
-      5.09845E-033, -0, 4.16334E-017, -0, -0,
-      -0, -0, -0, 0, 5.09845E-033,
-      -0, 4.16334E-017, -0, -0, -0,
-      -0, -0, 1.11022E-016, -0, 6.93889E-017,
-      -0, -0, -0, -0, -0,
-      1.11022E-016, -0, 6.93889E-017, -0, -0,
-      -0, -0, -0 }
+    { 0, 0, 0, 0, 5.40421E-016,
+      -0, 0, 1.11022E-016, -0, 5.55112E-017,
+      -0, -4.84398E-024, -0, -5.55111E-017, -0,
+      0, 3.63325E-026, -0, 5.55112E-017, -0,
+      1.47264E-017, -0, -5.55111E-017, -0, 3.63325E-026,
+      -0, 5.55112E-017, -0, 1.47264E-017, -0,
+      5.55112E-017, -0, 1.56336E-025, -0, 5.55112E-017,
+      -0, -2.22045E-016, -0, 7.84223E-024, -0 }
  
 Trying to solve non-linear system using global homotopy-method.
+... "HybrdiCar3D.mat" creating (simulation result file)
 
-ERROR: Failed to solve nonlinear system using Newton solver.
-  During initialization at time: 0
-  Tag: initialization.nonlinear[1]
-
-  For debugging help refer to the first error message of this type.
-
-  The Jacobian is estimated to be singular.
-  1-norm of the residual = 0.628319
-  The estimates indicate that the Jacobian is close to singular, suggesting that there is no solution.
-
-  Last value of the solution:
-    chassis3D.wheelSuspensionRight1.prismatic.v = 0
-    chassis3D.wheelSuspensionLeft1.prismatic.v = 0
-    chassis3D.wheelSuspensionRight1.revolute6.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute6.phi = 0
-    chassis3D.wheelSuspensionRight.prismatic.v = 0
-    chassis3D.wheelSuspensionLeft.prismatic.v = 0
-    chassis3D.wheelSuspensionLeft.revolute4.w = 0
-    chassis3D.wheelSuspensionLeft.revolute6.phi = 0
-    chassis3D.wheelSuspensionLeft.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute4.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute4.w = 0
-    body3D.body1.v_0[3] = 0
-    chassis3D.wheelSuspensionRight1.revolute1.w = 0
-    body3D.body1.v_0[2] = 0
-    chassis3D.bodyShape3.body.der(Q[4]) = 0
-    chassis3D.bodyShape3.body.der(Q[3]) = 0
-    chassis3D.bodyShape3.body.der(Q[2]) = 0
-    chassis3D.bodyShape3.body.der(Q[1]) = 0
-    chassis3D.wheelSuspensionRight1.revolute3.w = 0
-    chassis3D.wheelSuspensionRight.revolute3.phi = 0
-    body3D.body1.frame_a.r_0[2] = 0
-    chassis3D.revolute2.phi = 0
-    chassis3D.wheelSuspensionRight.revolute1.phi = 0
-    chassis3D.wheelSuspensionRight.revolute4.phi = 0
-    chassis3D.wheelSuspensionRight.revolute6.phi = 0
-    chassis3D.wheelSuspensionRight.revolute1.w = 0
-    body3D.body1.frame_a.r_0[3] = 0.7
-    chassis3D.wheelSuspensionRight1.revolute1.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute1.phi = 0
-    chassis3D.wheelSuspensionLeft1.revolute1.w = 0
-    body3D.body1.v_0[1] = 0
-    chassis3D.revolute2.w = 0
-    chassis3D.bodyShape3.body.Q[4] = 1
-    chassis3D.dryFrictionWheelJoint3D2.revolute.phi = 0
-    chassis3D.bodyShape3.body.Q[1] = 0
-    chassis3D.bodyShape3.body.Q[3] = 0
-    chassis3D.bodyShape3.body.Q[2] = 0
-    chassis3D.wheelSuspensionRight1.revolute4.phi = 0
-    chassis3D.wheelSuspensionRight1.revolute3.phi = 0
-    chassis3D.wheelSuspensionLeft.revolute1.phi = 0
-    chassis3D.wheelSuspensionLeft.revolute1.w = 0
-    body3D.body1.frame_a.r_0[1] = 0
-  Last value of the residual:
-    { -1.22461E-017, 0.314159, -0.314159, 0, 0,
-      0, 0, 6.66134E-016, 0, 0,
-      -9.99201E-017, 0, 2.28983E-017, 0, 0,
-      0, 0, 0, 0, -9.99201E-017,
-      0, 2.28983E-017, 0, 0, 0,
-      0, 0, 1.11022E-016, 0, 3.19189E-017,
-      0, -1.22363E-032, 0, -9.99201E-017, 0,
-      1.11022E-016, 0, 3.19189E-017, 0, -1.22363E-032,
-      0, -9.99201E-017, 0 }
- 
-Error: Integrator failed to start model.
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Integration terminated successfully at T = 5
+   CPU-time for integration                : 188 seconds
+   CPU-time for one grid interval          : 377 milliseconds
+   CPU-time for initialization             : 5.39 seconds
+   Number of result points                 : 712
+   Number of grid points                   : 501
+   Number of accepted steps                : 2788
+   Number of f-evaluations (dynamics)      : 5853
+   Number of crossing function evaluations : 3486
+   Number of Jacobian-evaluations          : 1401
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 17
+   Number of step events                   : 141
+   Minimum integration stepsize            : 8.77e-009
+   Maximum integration stepsize            : 0.024
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)
