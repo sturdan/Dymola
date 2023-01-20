@@ -6916,7 +6916,8 @@ end SteeringLimiter;
         I_22=284.25,
         I_33=1137,
         r_0(start={0,0,0.7}),
-        angles_fixed=false)   annotation (Placement(transformation(
+        angles_fixed=true,
+        angles_start={0,0,0}) annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={6,52})));
@@ -7122,16 +7123,16 @@ a parameter blockSize, thus
             origin={82,-40})));
       Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation4(r={
             0,trackWidth/2,0})
-        annotation (Placement(transformation(extent={{52,-36},{32,-16}})));
+        annotation (Placement(transformation(extent={{52,-40},{32,-20}})));
       Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation2(r={
             0,-trackWidth/2,0})
-        annotation (Placement(transformation(extent={{52,-76},{32,-56}})));
+        annotation (Placement(transformation(extent={{52,-80},{32,-60}})));
       Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation3(r={
             0,-trackWidth/2,0})
-        annotation (Placement(transformation(extent={{52,10},{32,30}})));
+        annotation (Placement(transformation(extent={{54,6},{34,26}})));
       Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation7(r={
             0,trackWidth/2,0})
-        annotation (Placement(transformation(extent={{52,50},{32,70}})));
+        annotation (Placement(transformation(extent={{52,46},{32,66}})));
       Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation(r={
             wheelBase/2,0,0}) annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
@@ -7154,9 +7155,9 @@ a parameter blockSize, thus
             rotation=180,
             origin={-74,20})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute2(useAxisFlange=true)
-        annotation (Placement(transformation(extent={{20,10},{0,30}})));
+        annotation (Placement(transformation(extent={{22,6},{2,26}})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(useAxisFlange=true)
-        annotation (Placement(transformation(extent={{20,50},{0,70}})));
+        annotation (Placement(transformation(extent={{20,46},{0,66}})));
       DryFrictionWheelJoint3D dryFrictionWheelJoint3D(
         radius=0.31,
         vAdhesion=0.01,
@@ -7241,14 +7242,14 @@ a parameter blockSize, thus
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={-74,60})));
-      WheelSuspensionRight wheelSuspension1
-        annotation (Placement(transformation(extent={{-26,14},{-6,34}})));
-      WheelSuspensionRight wheelSuspension3
-        annotation (Placement(transformation(extent={{-12,-68},{8,-48}})));
+      WheelSuspensionRight wheelSuspensionRight
+        annotation (Placement(transformation(extent={{-22,14},{-2,34}})));
+      WheelSuspensionRight wheelSuspensionRight1
+        annotation (Placement(transformation(extent={{-10,-72},{10,-52}})));
+      WheelSuspensionRight wheelSuspensionRight2
+        annotation (Placement(transformation(extent={{-14,-32},{6,-12}})));
       WheelSuspensionLeft wheelSuspensionLeft
-        annotation (Placement(transformation(extent={{-24,52},{-4,72}})));
-      WheelSuspensionLeft wheelSuspensionLeft1
-        annotation (Placement(transformation(extent={{-12,-34},{8,-14}})));
+        annotation (Placement(transformation(extent={{-24,54},{-4,74}})));
     equation
       connect(HR, HR) annotation (
         Line(points={{-100,-84},{-100,-84}},      color = {0, 0, 0}));
@@ -7258,25 +7259,25 @@ a parameter blockSize, thus
               {82,16}},                   color={0,0,0}));
       connect(fixedTranslation3.frame_a, fixedTranslation.frame_b) annotation (
           Line(
-          points={{52,20},{60,20},{60,44},{82,44},{82,36}},
+          points={{54,16},{60,16},{60,44},{82,44},{82,36}},
           color={95,95,95},
           thickness=0.5));
       connect(fixedTranslation7.frame_a, fixedTranslation.frame_b) annotation (
           Line(
-          points={{52,60},{60,60},{60,44},{82,44},{82,36}},
+          points={{52,56},{60,56},{60,44},{82,44},{82,36}},
           color={95,95,95},
           thickness=0.5));
       connect(revolute2.frame_a, fixedTranslation3.frame_b) annotation (Line(
-          points={{20,20},{32,20}},
+          points={{22,16},{34,16}},
           color={95,95,95},
           thickness=0.5));
       connect(revolute3.frame_a, fixedTranslation7.frame_b) annotation (Line(
-          points={{20,60},{32,60}},
+          points={{20,56},{32,56}},
           color={95,95,95},
           thickness=0.5));
-      connect(revolute2.axis, Steering) annotation (Line(points={{10,30},{10,38},
+      connect(revolute2.axis, Steering) annotation (Line(points={{12,26},{12,38},
               {70,38},{70,102}}, color={0,0,0}));
-      connect(revolute3.axis, Steering) annotation (Line(points={{10,70},{10,86},
+      connect(revolute3.axis, Steering) annotation (Line(points={{10,66},{10,86},
               {70,86},{70,102}}, color={0,0,0}));
       connect(bodyShape3.frame_a, dryFrictionWheelJoint3D2.frame_wheel)
         annotation (Line(
@@ -7294,12 +7295,12 @@ a parameter blockSize, thus
           thickness=0.5));
       connect(fixedTranslation2.frame_a, fixedTranslation6.frame_b) annotation (
          Line(
-          points={{52,-66},{60,-66},{60,-54},{82,-54},{82,-50},{82,-50}},
+          points={{52,-70},{60,-70},{60,-54},{82,-54},{82,-50}},
           color={95,95,95},
           thickness=0.5));
       connect(fixedTranslation4.frame_a, fixedTranslation6.frame_b) annotation (
          Line(
-          points={{52,-26},{60,-26},{60,-54},{82,-54},{82,-50}},
+          points={{52,-30},{60,-30},{60,-54},{82,-54},{82,-50}},
           color={95,95,95},
           thickness=0.5));
       connect(VR, dryFrictionWheelJoint3D.flange)
@@ -7316,34 +7317,34 @@ a parameter blockSize, thus
           thickness=0.5));
       connect(VL, dryFrictionWheelJoint3D3.flange)
         annotation (Line(points={{-100,40},{-37,40},{-37,50}}, color={0,0,0}));
-      connect(dryFrictionWheelJoint3D.frame_chassis, wheelSuspension1.frame)
+      connect(wheelSuspensionRight.frame1, revolute2.frame_b) annotation (Line(
+            points={{-2.2,16.2},{-2.1,16.2},{-2.1,16},{2,16}}, color={0,0,0}));
+      connect(dryFrictionWheelJoint3D.frame_chassis, wheelSuspensionRight.frame)
         annotation (Line(
-          points={{-30,20},{-28,20},{-28,20},{-26,20}},
+          points={{-30,20},{-22,20}},
           color={95,95,95},
           thickness=0.5));
-      connect(wheelSuspension1.frame1, revolute2.frame_b) annotation (Line(
-            points={{-6.2,16.2},{-3.6,16.2},{-3.6,20},{0,20}}, color={0,0,0}));
-      connect(wheelSuspension3.frame, dryFrictionWheelJoint3D2.frame_chassis)
-        annotation (Line(points={{-12,-62},{-22,-62},{-22,-66},{-30,-66}},
-            color={0,0,0}));
-      connect(wheelSuspension3.frame1, fixedTranslation2.frame_b) annotation (
-          Line(points={{7.8,-65.8},{19.4,-65.8},{19.4,-66},{32,-66}}, color={0,
-              0,0}));
-      connect(dryFrictionWheelJoint3D3.frame_chassis, wheelSuspensionLeft.frame)
+      connect(wheelSuspensionRight1.frame1, fixedTranslation2.frame_b)
+        annotation (Line(points={{9.8,-69.8},{32,-69.8},{32,-70}}, color={0,0,0}));
+      connect(wheelSuspensionRight1.frame, dryFrictionWheelJoint3D2.frame_chassis)
+        annotation (Line(points={{-10,-66},{-30,-66}}, color={0,0,0}));
+      connect(dryFrictionWheelJoint3D1.frame_chassis, wheelSuspensionRight2.frame)
         annotation (Line(
-          points={{-30,60},{-28,60},{-28,58},{-24,58}},
+          points={{-30,-26},{-14,-26}},
+          color={95,95,95},
+          thickness=0.5));
+      connect(fixedTranslation4.frame_b, wheelSuspensionRight2.frame1)
+        annotation (Line(
+          points={{32,-30},{20,-30},{20,-29.8},{5.8,-29.8}},
           color={95,95,95},
           thickness=0.5));
       connect(wheelSuspensionLeft.frame1, revolute3.frame_b) annotation (Line(
-            points={{-4.2,54.2},{-4.2,58.1},{0,58.1},{0,60}}, color={0,0,0}));
-      connect(dryFrictionWheelJoint3D1.frame_chassis, wheelSuspensionLeft1.frame)
+            points={{-4.2,56.2},{-2.1,56.2},{-2.1,56},{0,56}}, color={0,0,0}));
+      connect(dryFrictionWheelJoint3D3.frame_chassis, wheelSuspensionLeft.frame)
         annotation (Line(
-          points={{-30,-26},{-22,-26},{-22,-28},{-12,-28}},
+          points={{-30,60},{-24,60}},
           color={95,95,95},
           thickness=0.5));
-      connect(wheelSuspensionLeft1.frame1, fixedTranslation4.frame_b)
-        annotation (Line(points={{7.8,-31.8},{20.9,-31.8},{20.9,-26},{32,-26}},
-            color={0,0,0}));
       annotation (
         Icon(coordinateSystem(preserveAspectRatio = false)),
         Diagram(coordinateSystem(preserveAspectRatio = false)));
@@ -7926,8 +7927,8 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={-24,-8})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation4(r={0,0.15,
-            0})        annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation4(r={0,0,
+            0.15})     annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={-50,-62})));
@@ -7939,7 +7940,7 @@ y_sat&nbsp;=&nbsp;1.2.
             rotation=270,
             origin={-50,8})));
       Modelica.Mechanics.MultiBody.Joints.Prismatic prismatic(
-        n(displayUnit="1") = {0,1,0},
+        n(displayUnit="1") = {0,-1,-1} "y axis",
         s(start=0.494974747, fixed=true),
         v(start=0),
         a(start=0)) annotation (Placement(transformation(
@@ -7968,8 +7969,8 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={-18,-78})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation5(r={0,-0.15,
-            0})        annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation5(r={0,0,-0.15})
+                       annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=270,
             origin={-50,-18})));
@@ -8075,7 +8076,7 @@ y_sat&nbsp;=&nbsp;1.2.
         annotation (Placement(transformation(extent={{-106,-46},{-94,-34}})));
       Modelica.Mechanics.MultiBody.Interfaces.Frame frame1
         annotation (Placement(transformation(extent={{92,-84},{104,-72}})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation(r={0,-0.35,
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation(r={0,0.35,
             0})        annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
@@ -8086,7 +8087,7 @@ y_sat&nbsp;=&nbsp;1.2.
             rotation=90,
             origin={72,-26})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute3(n(displayUnit="1")=
-             {1,0,0}, phi(start=3.1415926535898, fixed=false))
+             {1,0,0}, phi(start=3.1415926535898))
                                     annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
@@ -8096,38 +8097,36 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={72,16})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation3(r={0,-0.35,
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation3(r={0,0.35,
             0})        annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={12,-8})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute1(n(displayUnit="1")=
-             {1,0,0}, phi(start=3.1415926535898, fixed=false))
-                                                  annotation (Placement(
+             {1,0,0}, phi(start=0, fixed=true))   annotation (Placement(
             transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={48,-78})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute4(n(displayUnit="1")=
-             {1,0,0}, phi(start=4.7123889803847, fixed=false)) annotation (
+             {1,0,0}, phi(start=4.7123889803847))              annotation (
           Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={-24,-8})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation4(r={0,0.15,
-            0})        annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation4(r={0,0,
+            0.15})     annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
             rotation=90,
             origin={-50,-62})));
       Modelica.Mechanics.MultiBody.Joints.Revolute revolute6(n(displayUnit="1")=
-             {1,0,0}, phi(start=2.3561944901923, fixed=false))
-                                                   annotation (Placement(
+             {1,0,0}, phi(start=2.3561944901923))  annotation (Placement(
             transformation(
             extent={{-10,-10},{10,10}},
             rotation=270,
             origin={-50,8})));
       Modelica.Mechanics.MultiBody.Joints.Prismatic prismatic(
-        n(displayUnit="1") = {0,1,0},
+        n(displayUnit="1") = {0,1,-1},
         s(start=0.494974747, fixed=true),
         v(start=0),
         a(start=0)) annotation (Placement(transformation(
@@ -8156,16 +8155,11 @@ y_sat&nbsp;=&nbsp;1.2.
             extent={{-10,-10},{10,10}},
             rotation=180,
             origin={-18,-78})));
-      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation5(r={0,-0.15,
-            0})        annotation (Placement(transformation(
+      Modelica.Mechanics.MultiBody.Parts.FixedTranslation fixedTranslation5(r={0,0,
+            0.15})     annotation (Placement(transformation(
             extent={{-10,-10},{10,10}},
-            rotation=270,
-            origin={-50,-18})));
-      Modelica.Mechanics.MultiBody.Parts.FixedRotation fixedRotation(angle=270)
-        annotation (Placement(transformation(
-            extent={{-10,-10},{10,10}},
-            rotation=180,
-            origin={-70,-40})));
+            rotation=90,
+            origin={-50,-22})));
     equation
       connect(fixedTranslation1.frame_a, frame1) annotation (Line(
           points={{72,-36},{72,-78},{98,-78}},
@@ -8196,25 +8190,12 @@ y_sat&nbsp;=&nbsp;1.2.
           points={{40,42},{18,42}},
           color={95,95,95},
           thickness=0.5));
-      connect(fixedTranslation5.frame_b, fixedTranslation4.frame_b) annotation (
-         Line(
-          points={{-50,-28},{-50,-52}},
-          color={95,95,95},
-          thickness=0.5));
-      connect(revolute4.frame_b, fixedTranslation5.frame_a) annotation (Line(
-          points={{-34,-8},{-50,-8}},
-          color={95,95,95},
-          thickness=0.5));
       connect(damper.frame_a, prismatic.frame_a) annotation (Line(
           points={{18,18},{28,18},{28,42},{18,42}},
           color={95,95,95},
           thickness=0.5));
       connect(spring.frame_a, prismatic.frame_a) annotation (Line(
           points={{18,64},{28,64},{28,42},{18,42}},
-          color={95,95,95},
-          thickness=0.5));
-      connect(revolute6.frame_b, fixedTranslation5.frame_a) annotation (Line(
-          points={{-50,-2},{-50,-8}},
           color={95,95,95},
           thickness=0.5));
       connect(revolute6.frame_a, prismatic.frame_b) annotation (Line(
@@ -8229,13 +8210,6 @@ y_sat&nbsp;=&nbsp;1.2.
           points={{-2,64},{-10,64},{-10,42},{-2,42}},
           color={95,95,95},
           thickness=0.5));
-      connect(fixedRotation.frame_a, fixedTranslation4.frame_b) annotation (
-          Line(
-          points={{-60,-40},{-50,-40},{-50,-52}},
-          color={95,95,95},
-          thickness=0.5));
-      connect(frame, fixedRotation.frame_b)
-        annotation (Line(points={{-100,-40},{-80,-40}}, color={0,0,0}));
       connect(frame, frame) annotation (Line(points={{-100,-40},{-104,-40},{
               -104,-38},{-100,-38},{-100,-40}}, color={0,0,0}));
       connect(fixedTranslation.frame_a, revolute1.frame_b) annotation (Line(
@@ -8254,6 +8228,21 @@ y_sat&nbsp;=&nbsp;1.2.
           points={{-28,-78},{-50,-78},{-50,-72}},
           color={95,95,95},
           thickness=0.5));
+      connect(fixedTranslation5.frame_a, fixedTranslation4.frame_b) annotation
+        (Line(
+          points={{-50,-32},{-50,-52}},
+          color={95,95,95},
+          thickness=0.5));
+      connect(fixedTranslation5.frame_b, revolute6.frame_b) annotation (Line(
+          points={{-50,-12},{-50,-2}},
+          color={95,95,95},
+          thickness=0.5));
+      connect(revolute4.frame_b, fixedTranslation5.frame_b) annotation (Line(
+          points={{-34,-8},{-50,-8},{-50,-12}},
+          color={95,95,95},
+          thickness=0.5));
+      connect(frame, fixedTranslation4.frame_b)
+        annotation (Line(points={{-100,-40},{-50,-40},{-50,-52}}));
       annotation (Icon(coordinateSystem(preserveAspectRatio=false)), Diagram(
             coordinateSystem(preserveAspectRatio=false)));
     end WheelSuspensionLeft;
@@ -8314,7 +8303,8 @@ y_sat&nbsp;=&nbsp;1.2.
           extent={{-10,-10},{10,10}},
           rotation=180,
           origin={-50,-14})));
-    HybridCar3D.WheelSuspensionLeft wheelSuspensionLeft
+    HybridCar3D.WheelSuspensionLeft wheelSuspensionLeft(revolute1(phi(fixed=
+              false, start=0)))
       annotation (Placement(transformation(extent={{0,-24},{20,-4}})));
   equation
     connect(wheelSuspensionLeft.frame, bodyShape1.frame_a) annotation (Line(
