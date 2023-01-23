@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Mon Jan 23 12:35:46 2023)
+(generated: Mon Jan 23 15:36:55 2023)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
@@ -9,22 +9,22 @@ dymosim started
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
-Integration terminated successfully at T = 5
-   CPU-time for integration                : 41.6 seconds
-   CPU-time for one grid interval          : 83.2 milliseconds
-   CPU-time for initialization             : 0.025 seconds
-   Number of result points                 : 538
+Integration terminated successfully at T = 100
+   CPU-time for integration                : 1.23e+03 seconds
+   CPU-time for one grid interval          : 2.46e+03 milliseconds
+   CPU-time for initialization             : 0.007 seconds
+   Number of result points                 : 3669
    Number of grid points                   : 501
-   Number of accepted steps                : 608
-   Number of f-evaluations (dynamics)      : 1212
-   Number of crossing function evaluations : 1205
-   Number of Jacobian-evaluations          : 274
-   Number of model time events             : 0
+   Number of accepted steps                : 32690
+   Number of f-evaluations (dynamics)      : 106445
+   Number of crossing function evaluations : 34556
+   Number of Jacobian-evaluations          : 45020
+   Number of model time events             : 12
    Number of input time events             : 0
-   Number of state events                  : 12
-   Number of step events                   : 27
-   Minimum integration stepsize            : 3.73e-007
-   Maximum integration stepsize            : 0.164
+   Number of state events                  : 18
+   Number of step events                   : 1906
+   Minimum integration stepsize            : 1.75e-09
+   Maximum integration stepsize            : 10.2
    Maximum integration order               : 5
 Calling terminal section
 ... "dsfinal.txt" creating (final states)
