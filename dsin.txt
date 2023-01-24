@@ -9,7 +9,7 @@ Modelica experiment file
 double experiment(7,1)
        0                   # StartTime    Time at which integration starts
                            #              (and linearization and trimming time)
-     100                   # StopTime     Time at which integration stops
+      20                   # StopTime     Time at which integration stops
        0                   # Increment    Communication step size, if > 0
      500                   # nInterval    Number of communication intervals, if > 0
   1.0000000000000000E-04   # Tolerance    Relative precision of signals for
@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(11702,120)
+char initialName(11752,120)
 world.frame_b.r_0[1]
 world.frame_b.r_0[2]
 world.frame_b.r_0[3]
@@ -1113,7 +1113,7 @@ electricDrive.torque.phi_support
 electricDrive.flange_a.tau
 electricDrive.inertia.J
 electricDrive.inertia.stateSelect
-electricDrive.inertia.phi
+electricDrive.inertia.w
 electricDrive.inertia.der(w)
 electricDrive.firstOrder.k
 electricDrive.firstOrder.T
@@ -1134,12 +1134,14 @@ combustionEngineDrive.torque.phi_support
 combustionEngineDrive.inertia.J
 combustionEngineDrive.inertia.stateSelect
 combustionEngineDrive.inertia.w
+combustionEngineDrive.inertia.der(w)
 combustionEngineDrive.firstOrder.k
 combustionEngineDrive.firstOrder.T
 combustionEngineDrive.firstOrder.initType
 combustionEngineDrive.firstOrder.y_start
 combustionEngineDrive.firstOrder.y
 combustionEngineDrive.firstOrder.der(y)
+combustionEngineDrive.u
 combustionEngineDrive.flange_a.tau
 combustionEngineDrive.variableLimiter.strict
 combustionEngineDrive.variableLimiter.homotopyType
@@ -1148,7 +1150,6 @@ combustionEngineDrive.variableLimiter.limitsAtInit
 combustionEngineDrive.variableLimiter.limit1
 combustionEngineDrive.variableLimiter.limit2
 combustionEngineDrive.combiTable1D.n
-combustionEngineDrive.combiTable1D.u[1]
 combustionEngineDrive.combiTable1D.tableOnFile
 combustionEngineDrive.combiTable1D.verboseRead
 combustionEngineDrive.combiTable1D.columns[1]
@@ -1161,7 +1162,7 @@ combustionEngineDrive.combiTable1D.tableID.id
 combustionEngineDrive.speedSensor.flange.tau
 combustionEngineDrive.realExpression.y
 combustionEngineDrive.gain.k
-gain.k
+combustionEngineDrive.y
 driveTrain2D.idealGear.useSupport
 driveTrain2D.idealGear.flange_b.tau
 driveTrain2D.idealGear.phi_support
@@ -10038,6 +10039,25 @@ chassis3D.wheelSuspensionRight.fixedTranslation6.shape.e_y[3]
 chassis3D.wheelSuspensionRight.fixedTranslation6.shape.Form
 chassis3D.wheelSuspensionRight.fixedTranslation6.shape.size[1]
 chassis3D.wheelSuspensionRight.fixedTranslation6.shape.Material
+differential.flange_a.phi
+differential.flange_a.tau
+differential.flange_b.der(phi)
+differential.flange_b1.phi
+differential.flange_b1.der(phi)
+fixed.phi0
+hybridStrategy.gain.k
+hybridStrategy.gain.y
+hybridStrategy.limiter.uMax
+hybridStrategy.limiter.uMin
+hybridStrategy.limiter.strict
+hybridStrategy.limiter.homotopyType
+hybridStrategy.limiter.limitsAtInit
+hybridStrategy.limiter.y
+hybridStrategy.add.u1
+hybridStrategy.add.y
+hybridStrategy.add.k1
+hybridStrategy.add.k2
+hybridStrategy.realExpression.y
 chassis3D.revolute2.support.tau
 chassis3D.revolute3.support.tau
 chassis3D.dryFrictionWheelJoint3D.revolute.support.tau
@@ -10391,6 +10411,8 @@ stateSelect.set2.P[1, 98]
 stateSelect.set2.P[1, 99]
 stateSelect.set2.P[1, 100]
 stateSelect.set2.P[1, 101]
+stateSelect.set2.P[1, 102]
+stateSelect.set2.P[1, 103]
 stateSelect.set2.P[2, 1]
 stateSelect.set2.P[2, 2]
 stateSelect.set2.P[2, 3]
@@ -10492,6 +10514,8 @@ stateSelect.set2.P[2, 98]
 stateSelect.set2.P[2, 99]
 stateSelect.set2.P[2, 100]
 stateSelect.set2.P[2, 101]
+stateSelect.set2.P[2, 102]
+stateSelect.set2.P[2, 103]
 stateSelect.set2.P[3, 1]
 stateSelect.set2.P[3, 2]
 stateSelect.set2.P[3, 3]
@@ -10593,6 +10617,8 @@ stateSelect.set2.P[3, 98]
 stateSelect.set2.P[3, 99]
 stateSelect.set2.P[3, 100]
 stateSelect.set2.P[3, 101]
+stateSelect.set2.P[3, 102]
+stateSelect.set2.P[3, 103]
 stateSelect.set2.P[4, 1]
 stateSelect.set2.P[4, 2]
 stateSelect.set2.P[4, 3]
@@ -10694,6 +10720,8 @@ stateSelect.set2.P[4, 98]
 stateSelect.set2.P[4, 99]
 stateSelect.set2.P[4, 100]
 stateSelect.set2.P[4, 101]
+stateSelect.set2.P[4, 102]
+stateSelect.set2.P[4, 103]
 stateSelect.set2.P[5, 1]
 stateSelect.set2.P[5, 2]
 stateSelect.set2.P[5, 3]
@@ -10795,6 +10823,8 @@ stateSelect.set2.P[5, 98]
 stateSelect.set2.P[5, 99]
 stateSelect.set2.P[5, 100]
 stateSelect.set2.P[5, 101]
+stateSelect.set2.P[5, 102]
+stateSelect.set2.P[5, 103]
 stateSelect.set2.P[6, 1]
 stateSelect.set2.P[6, 2]
 stateSelect.set2.P[6, 3]
@@ -10896,6 +10926,8 @@ stateSelect.set2.P[6, 98]
 stateSelect.set2.P[6, 99]
 stateSelect.set2.P[6, 100]
 stateSelect.set2.P[6, 101]
+stateSelect.set2.P[6, 102]
+stateSelect.set2.P[6, 103]
 stateSelect.set2.P[7, 1]
 stateSelect.set2.P[7, 2]
 stateSelect.set2.P[7, 3]
@@ -10997,6 +11029,8 @@ stateSelect.set2.P[7, 98]
 stateSelect.set2.P[7, 99]
 stateSelect.set2.P[7, 100]
 stateSelect.set2.P[7, 101]
+stateSelect.set2.P[7, 102]
+stateSelect.set2.P[7, 103]
 stateSelect.set2.P[8, 1]
 stateSelect.set2.P[8, 2]
 stateSelect.set2.P[8, 3]
@@ -11098,6 +11132,8 @@ stateSelect.set2.P[8, 98]
 stateSelect.set2.P[8, 99]
 stateSelect.set2.P[8, 100]
 stateSelect.set2.P[8, 101]
+stateSelect.set2.P[8, 102]
+stateSelect.set2.P[8, 103]
 stateSelect.set2.P[9, 1]
 stateSelect.set2.P[9, 2]
 stateSelect.set2.P[9, 3]
@@ -11199,6 +11235,8 @@ stateSelect.set2.P[9, 98]
 stateSelect.set2.P[9, 99]
 stateSelect.set2.P[9, 100]
 stateSelect.set2.P[9, 101]
+stateSelect.set2.P[9, 102]
+stateSelect.set2.P[9, 103]
 stateSelect.set2.P[10, 1]
 stateSelect.set2.P[10, 2]
 stateSelect.set2.P[10, 3]
@@ -11300,6 +11338,8 @@ stateSelect.set2.P[10, 98]
 stateSelect.set2.P[10, 99]
 stateSelect.set2.P[10, 100]
 stateSelect.set2.P[10, 101]
+stateSelect.set2.P[10, 102]
+stateSelect.set2.P[10, 103]
 stateSelect.set2.P[11, 1]
 stateSelect.set2.P[11, 2]
 stateSelect.set2.P[11, 3]
@@ -11401,6 +11441,8 @@ stateSelect.set2.P[11, 98]
 stateSelect.set2.P[11, 99]
 stateSelect.set2.P[11, 100]
 stateSelect.set2.P[11, 101]
+stateSelect.set2.P[11, 102]
+stateSelect.set2.P[11, 103]
 stateSelect.set2.P[12, 1]
 stateSelect.set2.P[12, 2]
 stateSelect.set2.P[12, 3]
@@ -11502,6 +11544,8 @@ stateSelect.set2.P[12, 98]
 stateSelect.set2.P[12, 99]
 stateSelect.set2.P[12, 100]
 stateSelect.set2.P[12, 101]
+stateSelect.set2.P[12, 102]
+stateSelect.set2.P[12, 103]
 stateSelect.set2.P[13, 1]
 stateSelect.set2.P[13, 2]
 stateSelect.set2.P[13, 3]
@@ -11603,6 +11647,8 @@ stateSelect.set2.P[13, 98]
 stateSelect.set2.P[13, 99]
 stateSelect.set2.P[13, 100]
 stateSelect.set2.P[13, 101]
+stateSelect.set2.P[13, 102]
+stateSelect.set2.P[13, 103]
 stateSelect.set2.P[14, 1]
 stateSelect.set2.P[14, 2]
 stateSelect.set2.P[14, 3]
@@ -11704,6 +11750,8 @@ stateSelect.set2.P[14, 98]
 stateSelect.set2.P[14, 99]
 stateSelect.set2.P[14, 100]
 stateSelect.set2.P[14, 101]
+stateSelect.set2.P[14, 102]
+stateSelect.set2.P[14, 103]
 stateSelect.set2.P[15, 1]
 stateSelect.set2.P[15, 2]
 stateSelect.set2.P[15, 3]
@@ -11805,8 +11853,10 @@ stateSelect.set2.P[15, 98]
 stateSelect.set2.P[15, 99]
 stateSelect.set2.P[15, 100]
 stateSelect.set2.P[15, 101]
+stateSelect.set2.P[15, 102]
+stateSelect.set2.P[15, 103]
 
-double initialValue(11702,6)
+double initialValue(11752,6)
   0       0                       0                       0                
   6   260   # world.frame_b.r_0[1]
   0       0                       0                       0                
@@ -13828,7 +13878,7 @@ double initialValue(11702,6)
   0       3                       1                       5                
   6   770   # electricDrive.inertia.stateSelect
   0       0                       0                       0                
-  6   256   # electricDrive.inertia.phi
+  6   256   # electricDrive.inertia.w
   0       0                       0                       0                
   6   256   # electricDrive.inertia.der(w)
  -1       1                       0                       0                
@@ -13869,6 +13919,8 @@ double initialValue(11702,6)
   6   770   # combustionEngineDrive.inertia.stateSelect
   0       0                       0                       0                
   6   256   # combustionEngineDrive.inertia.w
+  0       0                       0                       0                
+  6   256   # combustionEngineDrive.inertia.der(w)
  -1       1                       0                       0                
   1   280   # combustionEngineDrive.firstOrder.k
  -1  1.0000000000000001E-01       0                       0                
@@ -13881,6 +13933,8 @@ double initialValue(11702,6)
   2   272   # combustionEngineDrive.firstOrder.y
   0       0                       0                       0                
   3   256   # combustionEngineDrive.firstOrder.der(y)
+  0       0                       0                       0                
+  6   256   # combustionEngineDrive.u
   0       0                       0                       0                
   6   388   # combustionEngineDrive.flange_a.tau
   0       0                       0                       0                
@@ -13897,8 +13951,6 @@ double initialValue(11702,6)
   6   256   # combustionEngineDrive.variableLimiter.limit2
   0       1                       0                       0                
   6   258   # combustionEngineDrive.combiTable1D.n
-  0       0                       0                       0                
-  6   256   # combustionEngineDrive.combiTable1D.u[1]
   0       1                       0                       0                
   6   257   # combustionEngineDrive.combiTable1D.tableOnFile
  -1       1                       0                       0                
@@ -13923,8 +13975,8 @@ double initialValue(11702,6)
   6   256   # combustionEngineDrive.realExpression.y
  -1  9.5541401273885338E+00       0                       0                
   1   280   # combustionEngineDrive.gain.k
- -1  5.0000000000000000E-01       0                       0                
-  1   280   # gain.k
+  0       0                       0                       0                
+  6   256   # combustionEngineDrive.y
   0       0                       0                       0                
   6   769   # driveTrain2D.idealGear.useSupport
   0       0                       0                       0                
@@ -31678,6 +31730,44 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6  1792   # chassis3D.wheelSuspensionRight.fixedTranslation6.shape.Material
   0       0                       0                       0                
+  6   260   # differential.flange_a.phi
+  0       0                       0                       0                
+  6   388   # differential.flange_a.tau
+  0       0                       0                       0                
+  6   260   # differential.flange_b.der(phi)
+ -1       0                       0                       0                
+  2   284   # differential.flange_b1.phi
+  0       0                       0                       0                
+  3   260   # differential.flange_b1.der(phi)
+ -1       0                       0                       0                
+  1   280   # fixed.phi0
+ -1  4.0000000000000002E-04       0                       0                
+  1   280   # hybridStrategy.gain.k
+  0       0                       0                       0                
+  6   256   # hybridStrategy.gain.y
+ -1       1                       0                       0                
+  1   280   # hybridStrategy.limiter.uMax
+  0       0                       0                       0                
+  6   256   # hybridStrategy.limiter.uMin
+  0       0                       0                       0                
+  6   257   # hybridStrategy.limiter.strict
+  0       2                       1                       4                
+  6   258   # hybridStrategy.limiter.homotopyType
+  0       1                       0                       0                
+  6   257   # hybridStrategy.limiter.limitsAtInit
+  0       0                       0                       0                
+  6   256   # hybridStrategy.limiter.y
+  0       1                       0                       0                
+  6   256   # hybridStrategy.add.u1
+  0       0                       0                       0                
+  6   256   # hybridStrategy.add.y
+ -1       1                       0                       0                
+  1   280   # hybridStrategy.add.k1
+ -1      -1                       0                       0                
+  1   280   # hybridStrategy.add.k2
+  0       1                       0                       0                
+  6   256   # hybridStrategy.realExpression.y
+  0       0                       0                       0                
   6   388   # chassis3D.revolute2.support.tau
   0       0                       0                       0                
   6   388   # chassis3D.revolute3.support.tau
@@ -32384,6 +32474,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[1, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[1, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[1, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[2, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[2, 2]
@@ -32585,6 +32679,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[2, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[2, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[2, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[2, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[3, 1]
   0       0                       0                       0                
@@ -32788,6 +32886,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[3, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[3, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[3, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[4, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[4, 2]
@@ -32989,6 +33091,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[4, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[4, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[4, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[4, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[5, 1]
   0       0                       0                       0                
@@ -33192,6 +33298,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[5, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[5, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[5, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[6, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[6, 2]
@@ -33393,6 +33503,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[6, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[6, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[6, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[6, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[7, 1]
   0       0                       0                       0                
@@ -33596,6 +33710,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[7, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[7, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[7, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[8, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[8, 2]
@@ -33797,6 +33915,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[8, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[8, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[8, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[8, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[9, 1]
   0       0                       0                       0                
@@ -34000,6 +34122,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[9, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[9, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[9, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[10, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[10, 2]
@@ -34201,6 +34327,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[10, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[10, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[10, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[10, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[11, 1]
   0       0                       0                       0                
@@ -34404,6 +34534,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[11, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[11, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[11, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[12, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[12, 2]
@@ -34605,6 +34739,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[12, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[12, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[12, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[12, 103]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[13, 1]
   0       0                       0                       0                
@@ -34808,6 +34946,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[13, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[13, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[13, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[14, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[14, 2]
@@ -35010,6 +35152,10 @@ double initialValue(11702,6)
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[14, 101]
   0       0                       0                       0                
+  6   256   # stateSelect.set2.P[14, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[14, 103]
+  0       0                       0                       0                
   6   256   # stateSelect.set2.P[15, 1]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[15, 2]
@@ -35211,6 +35357,10 @@ double initialValue(11702,6)
   6   256   # stateSelect.set2.P[15, 100]
   0       0                       0                       0                
   6   256   # stateSelect.set2.P[15, 101]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[15, 102]
+  0       0                       0                       0                
+  6   256   # stateSelect.set2.P[15, 103]
 
 
 # Matrix with 6 columns defining the initial value calculation
@@ -35261,7 +35411,7 @@ double initialValue(11702,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(11702,163)
+char initialDescription(11752,163)
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
 Position vector from world frame to the connector frame origin, resolved in world frame [m]
@@ -36272,7 +36422,7 @@ Absolute angle of support flange [rad|deg]
 Cut torque in the flange [N.m]
 Moment of inertia [kg.m2]
 Priority to use phi and w as states [:#(type=StateSelect)]
-Absolute rotation angle of component [rad|deg]
+Absolute angular velocity of component (= der(phi)) [rad/s]
 der(Absolute angular velocity of component (= der(phi))) [rad/s2]
 Gain [1]
 Time Constant [s]
@@ -36293,12 +36443,14 @@ Absolute angle of support flange [rad|deg]
 Moment of inertia [kg.m2]
 Priority to use phi and w as states [:#(type=StateSelect)]
 Absolute angular velocity of component (= der(phi)) [rad/s]
+der(Absolute angular velocity of component (= der(phi))) [rad/s2]
 Gain [1]
 Time Constant [s]
 Type of initialization (1: no init, 2: steady state, 3/4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
 Initial or guess value of output (= state)
 Connector of Real output signal
 der(Connector of Real output signal)
+
 Cut torque in the flange [N.m]
 = true, if strict limits with noEvent(..) [:#(type=Boolean)]
 Simplified model for homotopy-based initialization [:#(type=Modelica.Blocks.Types.VariableLimiterHomotopy)]
@@ -36307,7 +36459,6 @@ Has no longer an effect and is only kept for backwards compatibility (the implem
 Connector of Real input signal used as maximum of input u
 Connector of Real input signal used as minimum of input u
 Number of inputs (= number of outputs) [:#(type=Integer)]
-Connector of Real input signals
 = true, if table is defined on file or in function usertab [:#(type=Boolean)]
 = true, if info message that file is loading is to be printed [:#(type=Boolean)]
 Columns of table to be interpolated [:#(type=Integer)]
@@ -36320,7 +36471,7 @@ Maximum abscissa value defined in table
 Cut torque in the flange [N.m]
 Value of Real output
 Gain value multiplied with input signal [1]
-Gain value multiplied with input signal [1]
+
 = true, if support flange enabled, otherwise implicitly grounded [:#(type=Boolean)]
 Cut torque in the flange [N.m]
 Absolute angle of support flange [rad|deg]
@@ -45197,12 +45348,61 @@ Unit vector orthogonal to lengthDirection in the plane of lengthDirection and wi
 
 {length,width,height} of shape [m]
 
+Absolute rotation angle of flange [rad|deg]
+Cut torque in the flange [N.m]
+der(Absolute rotation angle of flange) [rad/s]
+Absolute rotation angle of flange [rad|deg]
+der(Absolute rotation angle of flange) [rad/s]
+Fixed offset angle of housing [rad|deg]
+Gain value multiplied with input signal [1]
+Output signal connector
+Upper limits of input signals
+Lower limits of input signals
+= true, if strict limits with noEvent(..) [:#(type=Boolean)]
+Simplified model for homotopy-based initialization [:#(type=Modelica.Blocks.Types.LimiterHomotopy)]
+Has no longer an effect and is only kept for backwards compatibility (the implementation uses now the homotopy operator) [:#(type=Boolean)]
+Connector of Real output signal
+Connector of Real input signal 1
+Connector of Real output signal
+Gain of input signal 1
+Gain of input signal 2
+Value of Real output
 Cut torque in the flange [N.m]
 Cut torque in the flange [N.m]
 Cut torque in the flange [N.m]
 Cut torque in the flange [N.m]
 Cut torque in the flange [N.m]
 Cut torque in the flange [N.m]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
