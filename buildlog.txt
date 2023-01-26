@@ -2,9 +2,6 @@
 Compiling and linking the model (Visual C++). 
  
 dsmodel.c
-dsmodelext1.c
-dsmodelext2.c
-Code wird generiert...
    Bibliothek "dymosim.lib" und Objekt "dymosim.exp" werden erstellt.
 libds.lib(dsres.obj) : warning LNK4217: Lokal definiertes Symbol "___iob_func" wurde in _ds_res_int_poll-Funktion importiert.
 libds.lib(amat.obj) : warning LNK4049: Lokal definiertes Symbol "___iob_func" wurde importiert.
